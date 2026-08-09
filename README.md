@@ -57,9 +57,9 @@ python3 run_report.py --no-capture
 
 工作流使用 GitHub 自动提供的 `GITHUB_TOKEN`，不需要保存个人访问令牌。定时任务属于 GitHub 仓库，而不是本地 Git；单纯复制到电脑不会在电脑上自动定时运行。Fork 或复制到另一个 GitHub 仓库后，GitHub 出于安全原因可能要求仓库所有者首次启用 Actions，并需要为新仓库单独启用 Pages。
 
-## 使用 Codex 在朋友电脑上定时生成
+## 使用 Codex 在电脑上定时生成
 
-不使用 GitHub Actions 也可以自动生成日报。朋友可以把仓库克隆到自己的电脑，再让 Codex 桌面端的定时任务每天在本地项目中执行生成脚本。
+不使用 GitHub Actions 也可以自动生成日报，可以把仓库克隆到自己的电脑，再让 Codex 桌面端的定时任务每天在本地项目中执行生成脚本。
 
 ### 1. 克隆并完成首次运行
 
