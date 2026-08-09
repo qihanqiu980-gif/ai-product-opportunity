@@ -57,6 +57,68 @@ python3 run_report.py --no-capture
 
 工作流使用 GitHub 自动提供的 `GITHUB_TOKEN`，不需要保存个人访问令牌。定时任务属于 GitHub 仓库，而不是本地 Git；单纯复制到电脑不会在电脑上自动定时运行。Fork 或复制到另一个 GitHub 仓库后，GitHub 出于安全原因可能要求仓库所有者首次启用 Actions，并需要为新仓库单独启用 Pages。
 
+## 使用 Codex 在朋友电脑上定时生成
+
+不使用 GitHub Actions 也可以自动生成日报。朋友可以把仓库克隆到自己的电脑，再让 Codex 桌面端的定时任务每天在本地项目中执行生成脚本。
+
+### 1. 克隆并完成首次运行
+
+```bash
+git clone https://github.com/qihanqiu980-gif/ai-product-opportunity.git
+cd ai-product-opportunity
+npm ci
+npx playwright install chromium
+python3 run_report.py
+```
+
+首次运行成功后，把 `ai-product-opportunity` 文件夹添加为 Codex 项目。
+
+### 2. 创建 Codex 定时任务
+
+在 Codex 中创建每天北京时间 08:15 运行的项目定时任务，建议选择直接在本地项目中运行。可以使用下面的任务说明：
+
+```text
+在当前 AI 产品机会日报项目中执行每日更新：
+
+1. 执行 git pull --ff-only 获取远程更新。
+2. 执行 npm ci，确保截图依赖与锁文件一致。
+3. 执行 python3 run_report.py。
+4. 确认当天 HTML、JSON、PNG、采集快照以及 latest 文件生成成功。
+5. 如果配置了可写的远程仓库并且存在文件变化，执行 git add -A，创建当日日报提交并推送到 main；没有变化时不要创建空提交。
+6. 如果采集、质量检查、提交或推送失败，保留错误信息并通知用户，不要覆盖已有的成功日报。
+```
+
+正式定时运行前，先在普通 Codex 任务中测试一次这段说明，确认网络、文件写入和 Git 推送权限正常。Codex 定时任务会使用当前默认沙箱权限；如果权限不允许访问网络、修改项目文件或执行 Git 推送，相关步骤会失败。
+
+根据 [OpenAI 官方 Codex 定时任务文档](https://learn.chatgpt.com/codex/automations)，操作本地项目时必须满足：
+
+- 朋友的电脑保持开机且没有进入会阻止任务运行的休眠状态。
+- Codex/ChatGPT 桌面应用保持运行。
+- 本地项目目录仍然存在，并且网络连接可用。
+- 如果需要自动推送，Git 必须已经登录有写入权限的 GitHub 账号。
+
+### 3. 选择是否推送到远程仓库
+
+如果只需要在朋友电脑上生成日报，不需要修改 Git 远程地址，生成结果会保存在本地项目目录中。但朋友直接克隆本仓库后，默认 `origin` 指向 `qihanqiu980-gif/ai-product-opportunity`；没有该仓库写入权限时，自动推送会失败。
+
+如果朋友希望推送到自己的 GitHub 仓库，应先在自己的账号下创建一个空仓库，然后执行：
+
+```bash
+git remote set-url origin https://github.com/FRIEND_USERNAME/ai-product-opportunity.git
+git push -u origin main
+```
+
+把 `FRIEND_USERNAME` 替换为朋友的 GitHub 用户名。若还要提供公开网页，需要在朋友的新仓库中单独启用 GitHub Pages：`main` 分支、`/(root)` 目录。
+
+### 两种自动化方式的区别
+
+| 方式 | 执行位置 | 电脑需要开机 | 适合场景 |
+| --- | --- | --- | --- |
+| GitHub Actions | GitHub 云端运行器 | 不需要 | 长期稳定地生成、提交并发布公开日报 |
+| Codex 定时任务 | 朋友的本地电脑 | 需要，桌面应用也需运行 | 本地保存，或使用朋友电脑上的 Git 凭据推送 |
+
+`git clone` 只负责复制项目文件；真正的自动运行仍需要一次性创建 Codex 定时任务。设置完成后，后续每日生成不需要人工执行命令。
+
 ## 指定日期与历史回放
 
 ```bash
