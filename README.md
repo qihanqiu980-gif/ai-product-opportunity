@@ -21,6 +21,42 @@ python3 run_report.py
 
 可选设置 `GITHUB_TOKEN` 提升 GitHub API 限额；Product Hunt 公开 Feed 不需要令牌，但不提供票数和精确日榜排名，这一缺口会显示在报告中。
 
+### 全新环境首次运行
+
+克隆仓库后，先安装截图依赖，再执行日报编排器：
+
+```bash
+git clone https://github.com/qihanqiu980-gif/ai-product-opportunity.git
+cd ai-product-opportunity
+npm ci
+npx playwright install chromium
+python3 run_report.py
+```
+
+以后手动生成当天日报只需要：
+
+```bash
+python3 run_report.py
+```
+
+如果只需要 JSON 和 HTML、不需要 PNG 封面，可以运行：
+
+```bash
+python3 run_report.py --no-capture
+```
+
+## GitHub Actions 每日自动生成
+
+仓库内置 `.github/workflows/daily-report.yml`：
+
+- 每天北京时间 08:15 自动实时采集。
+- 自动生成当天 JSON、HTML、PNG、原始快照并更新 `index.html`、`latest.html`、`latest.png`。
+- 截图阶段会检查最小字号、横向溢出、封面尺寸和控制台错误；检查失败时不会提交错误产物。
+- 成功后由 `github-actions[bot]` 自动提交并推送到 `main`，随后 GitHub Pages 自动发布。
+- 也可以在 GitHub 仓库的 `Actions` 页面手动运行 `Generate daily AI opportunity report`。
+
+工作流使用 GitHub 自动提供的 `GITHUB_TOKEN`，不需要保存个人访问令牌。定时任务属于 GitHub 仓库，而不是本地 Git；单纯复制到电脑不会在电脑上自动定时运行。Fork 或复制到另一个 GitHub 仓库后，GitHub 出于安全原因可能要求仓库所有者首次启用 Actions，并需要为新仓库单独启用 Pages。
+
 ## 指定日期与历史回放
 
 ```bash

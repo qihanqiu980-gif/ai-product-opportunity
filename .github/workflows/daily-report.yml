@@ -1,0 +1,62 @@
+name: Generate daily AI opportunity report
+
+on:
+  schedule:
+    # GitHub Actions 使用 UTC；00:15 UTC = 北京时间 08:15。
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ai-opportunity-report
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install screenshot dependencies
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Collect, render, and verify today's report
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: Asia/Shanghai
+        run: python3 run_report.py
+
+      - name: Commit generated report
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+            exit 0
+          fi
+          report_date="$(date +%F)"
+          git commit -m "chore: generate AI opportunity report ${report_date}"
+          git push origin HEAD:main

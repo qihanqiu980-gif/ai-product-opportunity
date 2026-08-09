@@ -1,0 +1,12 @@
+{
+  "name": "ai-product-opportunity",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI 产品机会日报的自动截图运行环境",
+  "scripts": {
+    "capture": "node capture-report.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
