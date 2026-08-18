@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-08-18",
+    "weekday": "星期二",
+    "edition": "LIVE · 20260818",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-18 09:52 CST",
+    "capturedAt": "2026-08-18T09:52:39+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 ai-memory。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        },
+        {
+          "label": "prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "3 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        },
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        },
+        {
+          "label": "prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "3",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "10/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "MoneyPrinterTurbo 是当前增长最明显的公开信号。",
+      "evidence": "+1,189 stars / today",
+      "sources": [
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        },
+        {
+          "label": "prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "label": "strix",
+          "url": "https://github.com/usestrix/strix"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Blender Agent Bridge · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Blender Agent Bridge",
+          "url": "https://www.producthunt.com/products/blender-agent-bridge"
+        },
+        {
+          "label": "TinyFish",
+          "url": "https://www.producthunt.com/products/tinyfish-2"
+        },
+        {
+          "label": "Omni by xpander",
+          "url": "https://www.producthunt.com/products/omni-by-xpander"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 prime-agent · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 88,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,189 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Blender Agent Bridge · PH 发布 1 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 prime-agent · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "ai-memory",
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "label": "llmfit",
+        "url": "https://github.com/AlexsJones/llmfit"
+      },
+      {
+        "label": "prime-agent",
+        "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+      },
+      {
+        "label": "strix",
+        "url": "https://github.com/usestrix/strix"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "ai-memory",
+      "owner": "akitaonrails",
+      "category": "Agent 技能与工具",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "delta": "GitHub Daily Trending #4，近周期新增 207 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+207 stars / today",
+      "heat": 90,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 88,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+207 stars / today",
+          "score": 99,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 207,
+          "snapshotStarDelta": null,
+          "totalStars": 2105
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-18T01:24:51Z",
+          "latestRelease": {
+            "name": "v1.28.0",
+            "tag": "v1.28.0",
+            "publishedAt": "2026-08-17T02:52:48Z",
+            "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v1.28.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-21T23:23:51Z",
+        "pushedAt": "2026-08-18T01:24:51Z",
+        "totalStars": 2105,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "llmfit",
+      "owner": "AlexsJones",
+      "category": "Agent 技能与工具",
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "delta": "GitHub Daily Trending #6，近周期新增 198 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+198 stars / today",
+      "heat": 87,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 183,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+198 stars / today",
+          "score": 94,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 198,
+          "snapshotStarDelta": null,
+          "totalStars": 32318
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-17T07:35:58Z",
+          "latestRelease": {
+            "name": "v1.1.10",
+            "tag": "v1.1.10",
+            "publishedAt": "2026-08-17T07:12:24Z",
+            "url": "https://github.com/AlexsJones/llmfit/releases/tag/v1.1.10"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-15T16:11:31Z",
+        "pushedAt": "2026-08-17T07:35:58Z",
+        "totalStars": 32318,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "category": "模型与推理",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,189 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,189 stars / today",
+      "heat": 86,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 890,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,189 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1189,
+          "snapshotStarDelta": null,
+          "totalStars": 106168
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 6 天有 Release",
+          "score": 68,
+          "material": true,
+          "pushedAt": "2026-08-17T11:12:12Z",
+          "latestRelease": {
+            "name": "v1.3.4",
+            "tag": "v1.3.4",
+            "publishedAt": "2026-08-12T02:51:41Z",
+            "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-03-11T02:57:34Z",
+        "pushedAt": "2026-08-17T11:12:12Z",
+        "totalStars": 106168,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "prime-agent",
+      "owner": "PrimeIntellect-ai",
+      "category": "Agent 技能与工具",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "delta": "GitHub Weekly Trending #5",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+4,328 stars / this week",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 102 天",
+          "score": 24,
+          "ageDays": 102,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+4,328 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 5,
+          "starsSince": 4328,
+          "snapshotStarDelta": 348,
+          "totalStars": 16939
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-18T01:30:37Z",
+          "latestRelease": {
+            "name": "v0.7.3",
+            "tag": "v0.7.3",
+            "publishedAt": "2026-08-17T22:38:17Z",
+            "url": "https://github.com/PrimeIntellect-ai/prime-agent/releases/tag/v0.7.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-08T01:42:41Z",
+        "pushedAt": "2026-08-18T01:30:37Z",
+        "totalStars": 16939,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "strix",
+      "owner": "usestrix",
+      "category": "Agent 技能与工具",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "delta": "GitHub Daily Trending #2，近周期新增 598 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+598 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/usestrix/strix",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 377,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+598 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 598,
+          "snapshotStarDelta": null,
+          "totalStars": 54245
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-08-17T20:55:28Z",
+          "latestRelease": {
+            "name": "v1.5.3",
+            "tag": "v1.5.3",
+            "publishedAt": "2026-08-10T18:35:38Z",
+            "url": "https://github.com/usestrix/strix/releases/tag/v1.5.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-08-05T21:28:30Z",
+        "pushedAt": "2026-08-17T20:55:28Z",
+        "totalStars": 54245,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "career-ops",
+      "owner": "santifer",
+      "category": "Agent 技能与工具",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "delta": "GitHub Daily Trending #7，近周期新增 218 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+218 stars / today",
+      "heat": 81,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/santifer/career-ops",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 135,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+218 stars / today",
+          "score": 93,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 218,
+          "snapshotStarDelta": null,
+          "totalStars": 64710
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-08-17T22:24:43Z",
+          "latestRelease": {
+            "name": "career-ops: v1.26.0",
+            "tag": "career-ops-v1.26.0",
+            "publishedAt": "2026-08-10T22:06:56Z",
+            "url": "https://github.com/santifer/career-ops/releases/tag/career-ops-v1.26.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-04T18:21:18Z",
+        "pushedAt": "2026-08-17T22:24:43Z",
+        "totalStars": 64710,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Omni by xpander",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Stop babysitting your AI agents",
+      "signal": "公开 Feed 于 2026-08-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/omni-by-xpander",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-14T11:14:45-07:00",
+          "updatedAt": "2026-08-17T18:52:06-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-14T11:14:45-07:00",
+        "updatedAt": "2026-08-17T18:52:06-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Blender Agent Bridge",
+      "maker": "CallMeJones",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Open-source MCP bridge for Blender AI workflows",
+      "signal": "公开 Feed 于 2026-08-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 71,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/blender-agent-bridge",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-16T13:15:04-07:00",
+          "updatedAt": "2026-08-17T18:48:29-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-16T13:15:04-07:00",
+        "updatedAt": "2026-08-17T18:48:29-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "TinyFish",
+      "maker": "Pooja Gurung",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The web operating layer for AI agents",
+      "signal": "公开 Feed 于 2026-08-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/tinyfish-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-16T20:42:32-07:00",
+          "updatedAt": "2026-08-17T18:13:48-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-16T20:42:32-07:00",
+        "updatedAt": "2026-08-17T18:13:48-07:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "Bulbthings",
+      "maker": "Leslie Depond",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The AI platform to track and manage your physical assets",
+      "signal": "公开 Feed 于 2026-08-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 55,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/bulbthings",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 131,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 10 位",
+          "score": 51,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-04-09T08:52:45-07:00",
+          "updatedAt": "2026-08-17T17:14:39-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-04-09T08:52:45-07:00",
+        "updatedAt": "2026-08-17T17:14:39-07:00",
+        "feedRank": 10
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "ai-memory",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v1.28.0"
+    },
+    {
+      "name": "llmfit",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/AlexsJones/llmfit/releases/tag/v1.1.10"
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "change": "近 6 天有 Release",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.4"
+    },
+    {
+      "name": "prime-agent",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent/releases/tag/v0.7.3"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        },
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Blender Agent Bridge",
+          "url": "https://www.producthunt.com/products/blender-agent-bridge"
+        },
+        {
+          "label": "TinyFish",
+          "url": "https://www.producthunt.com/products/tinyfish-2"
+        },
+        {
+          "label": "Omni by xpander",
+          "url": "https://www.producthunt.com/products/omni-by-xpander"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "prime-agent",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "llmfit",
+          "url": "https://github.com/AlexsJones/llmfit"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "ai-memory",
+      "source": "GitHub",
+      "why": "+207 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "rank": 2,
+      "name": "llmfit",
+      "source": "GitHub",
+      "why": "+198 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/AlexsJones/llmfit"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 ai-memory 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "linkLabel": "打开 ai-memory"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 10,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-18T09:52:39+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 10 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-18/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
