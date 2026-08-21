@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-08-21",
+    "weekday": "星期五",
+    "edition": "LIVE · 20260821",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-21 09:58 CST",
+    "capturedAt": "2026-08-21T09:58:42+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 career-ops。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "munder-difflin",
+          "url": "https://github.com/chaitanyagiri/munder-difflin"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "munder-difflin",
+          "url": "https://github.com/chaitanyagiri/munder-difflin"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "munder-difflin",
+          "url": "https://github.com/chaitanyagiri/munder-difflin"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "13/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "career-ops 是当前增长最明显的公开信号。",
+      "evidence": "+816 stars / today",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：MeetStream AI · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "MeetStream AI",
+          "url": "https://www.producthunt.com/products/meetstream-ai"
+        },
+        {
+          "label": "Grok 4.6",
+          "url": "https://www.producthunt.com/products/grok-4-6-7"
+        },
+        {
+          "label": "Berd",
+          "url": "https://www.producthunt.com/products/berd"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 career-ops · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "caveman",
+          "url": "https://github.com/JuliusBrussee/caveman"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 83,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+816 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：MeetStream AI · PH 发布 2 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 career-ops · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "career-ops",
+        "url": "https://github.com/santifer/career-ops"
+      },
+      {
+        "label": "ai-memory",
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "label": "munder-difflin",
+        "url": "https://github.com/chaitanyagiri/munder-difflin"
+      },
+      {
+        "label": "OpenViking",
+        "url": "https://github.com/volcengine/OpenViking"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "career-ops",
+      "owner": "santifer",
+      "category": "Agent 技能与工具",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "delta": "GitHub Daily Trending #6，近周期新增 816 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+816 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/santifer/career-ops",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 138 天",
+          "score": 24,
+          "ageDays": 138,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+816 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 816,
+          "snapshotStarDelta": 904,
+          "totalStars": 66726
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-21T01:57:36Z",
+          "latestRelease": {
+            "name": "career-ops: v1.28.0",
+            "tag": "career-ops-v1.28.0",
+            "publishedAt": "2026-08-20T16:52:50Z",
+            "url": "https://github.com/santifer/career-ops/releases/tag/career-ops-v1.28.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-04T18:21:18Z",
+        "pushedAt": "2026-08-21T01:57:36Z",
+        "totalStars": 66726,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ai-memory",
+      "owner": "akitaonrails",
+      "category": "Agent 技能与工具",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "delta": "GitHub Daily Trending #7，近周期新增 332 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+332 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 91 天",
+          "score": 24,
+          "ageDays": 91,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+332 stars / today",
+          "score": 96,
+          "rankDaily": 7,
+          "rankWeekly": 15,
+          "starsSince": 332,
+          "snapshotStarDelta": null,
+          "totalStars": 3642
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-20T00:46:22Z",
+          "latestRelease": {
+            "name": "v1.29.0",
+            "tag": "v1.29.0",
+            "publishedAt": "2026-08-19T21:27:54Z",
+            "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v1.29.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-21T23:23:51Z",
+        "pushedAt": "2026-08-20T00:46:22Z",
+        "totalStars": 3642,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "munder-difflin",
+      "owner": "chaitanyagiri",
+      "category": "Agent 技能与工具",
+      "description": "local multi-agent harness",
+      "delta": "GitHub Daily Trending #10，近周期新增 507 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+507 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 82 天",
+          "score": 24,
+          "ageDays": 82,
+          "firstSeenAt": "2026-08-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+507 stars / today",
+          "score": 94,
+          "rankDaily": 10,
+          "rankWeekly": null,
+          "starsSince": 507,
+          "snapshotStarDelta": 429,
+          "totalStars": 3141
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-08-21T00:28:16Z",
+          "latestRelease": {
+            "name": "v0.4.4",
+            "tag": "v0.4.4",
+            "publishedAt": "2026-08-18T02:38:24Z",
+            "url": "https://github.com/chaitanyagiri/munder-difflin/releases/tag/v0.4.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-31T15:25:05Z",
+        "pushedAt": "2026-08-21T00:28:16Z",
+        "totalStars": 3141,
+        "language": "TypeScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "OpenViking",
+      "owner": "volcengine",
+      "category": "Agent 技能与工具",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "delta": "GitHub Daily Trending #13，近周期新增 950 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+950 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 228 天",
+          "score": 24,
+          "ageDays": 228,
+          "firstSeenAt": "2026-08-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+950 stars / today",
+          "score": 93,
+          "rankDaily": 13,
+          "rankWeekly": 2,
+          "starsSince": 950,
+          "snapshotStarDelta": 815,
+          "totalStars": 31058
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-08-20T16:28:26Z",
+          "latestRelease": {
+            "name": "v0.4.15",
+            "tag": "v0.4.15",
+            "publishedAt": "2026-08-18T09:49:54Z",
+            "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.15"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-05T07:11:17Z",
+        "pushedAt": "2026-08-20T16:28:26Z",
+        "totalStars": 31058,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "caveman",
+      "owner": "JuliusBrussee",
+      "category": "Agent 技能与工具",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "delta": "GitHub Daily Trending #14，近周期新增 258 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+258 stars / today",
+      "heat": 78,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 139,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+258 stars / today",
+          "score": 79,
+          "rankDaily": 14,
+          "rankWeekly": null,
+          "starsSince": 258,
+          "snapshotStarDelta": null,
+          "totalStars": 99662
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-20T11:18:26Z",
+          "latestRelease": {
+            "name": "v2.2.0",
+            "tag": "v2.2.0",
+            "publishedAt": "2026-08-20T11:20:50Z",
+            "url": "https://github.com/JuliusBrussee/caveman/releases/tag/v2.2.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-04T10:03:00Z",
+        "pushedAt": "2026-08-20T11:18:26Z",
+        "totalStars": 99662,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #2，近周期新增 2,192 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,192 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 199 天",
+          "score": 24,
+          "ageDays": 199,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,192 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 2192,
+          "snapshotStarDelta": 2770,
+          "totalStars": 226659
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-20T10:35:33Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-08-20T10:35:33Z",
+        "totalStars": 226659,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Checksum AI",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your coding agent’s testing buddy",
+      "signal": "公开 Feed 于 2026-08-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/checksum-ai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 11 天",
+          "score": 54,
+          "ageDays": 11,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-10T07:43:32-07:00",
+          "updatedAt": "2026-08-20T18:32:40-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-10T07:43:32-07:00",
+        "updatedAt": "2026-08-20T18:32:40-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "MeetStream AI",
+      "maker": "Kevin William David",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Unified API & Infra for AI Meeting Agents",
+      "signal": "公开 Feed 于 2026-08-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/meetstream-ai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-18T23:15:44-07:00",
+          "updatedAt": "2026-08-20T18:52:15-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-18T23:15:44-07:00",
+        "updatedAt": "2026-08-20T18:52:15-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Grok 4.6",
+      "maker": "KP",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Frontier Intelligence for Long-Running Agents",
+      "signal": "公开 Feed 于 2026-08-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/grok-4-6-7",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-19T07:26:08-07:00",
+          "updatedAt": "2026-08-20T18:54:29-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-19T07:26:08-07:00",
+        "updatedAt": "2026-08-20T18:54:29-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Berd",
+      "maker": "Chris Messina",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Weird, playful desktop app for building with AI agents",
+      "signal": "公开 Feed 于 2026-08-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/berd",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-18T16:41:53-07:00",
+          "updatedAt": "2026-08-20T18:20:32-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-18T16:41:53-07:00",
+        "updatedAt": "2026-08-20T18:20:32-07:00",
+        "feedRank": 6
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "career-ops",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/santifer/career-ops/releases/tag/career-ops-v1.28.0"
+    },
+    {
+      "name": "ai-memory",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v1.29.0"
+    },
+    {
+      "name": "munder-difflin",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/chaitanyagiri/munder-difflin/releases/tag/v0.4.4"
+    },
+    {
+      "name": "OpenViking",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.15"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "munder-difflin",
+          "url": "https://github.com/chaitanyagiri/munder-difflin"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "MeetStream AI",
+          "url": "https://www.producthunt.com/products/meetstream-ai"
+        },
+        {
+          "label": "Grok 4.6",
+          "url": "https://www.producthunt.com/products/grok-4-6-7"
+        },
+        {
+          "label": "Berd",
+          "url": "https://www.producthunt.com/products/berd"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "caveman",
+          "url": "https://github.com/JuliusBrussee/caveman"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "career-ops",
+      "source": "GitHub",
+      "why": "+816 stars / today；成熟项目 · 138 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "rank": 2,
+      "name": "ai-memory",
+      "source": "GitHub",
+      "why": "+332 stars / today；成熟项目 · 91 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 career-ops 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/santifer/career-ops",
+      "linkLabel": "打开 career-ops"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 13,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-21T09:58:42+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 13 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-21/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
