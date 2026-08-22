@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-08-22",
+    "weekday": "星期六",
+    "edition": "LIVE · 20260822",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-22 09:51 CST",
+    "capturedAt": "2026-08-22T09:51:21+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 posthog。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "14/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "posthog 是当前增长最明显的公开信号。",
+      "evidence": "+335 stars / today",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Antigravity IDE Extensions · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Antigravity IDE Extensions",
+          "url": "https://www.producthunt.com/products/google-antigravity"
+        },
+        {
+          "label": "Flunkey",
+          "url": "https://www.producthunt.com/products/flunkey"
+        },
+        {
+          "label": "fx (by Vercel)",
+          "url": "https://www.producthunt.com/products/fx-by-vercel"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 posthog · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+335 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Antigravity IDE Extensions · PH 发布 1 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 posthog · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "posthog",
+        "url": "https://github.com/PostHog/posthog"
+      },
+      {
+        "label": "career-ops",
+        "url": "https://github.com/santifer/career-ops"
+      },
+      {
+        "label": "OpenViking",
+        "url": "https://github.com/volcengine/OpenViking"
+      },
+      {
+        "label": "semantica",
+        "url": "https://github.com/semantica-agi/semantica"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "posthog",
+      "owner": "PostHog",
+      "category": "Agent 技能与工具",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "delta": "GitHub Daily Trending #5，近周期新增 335 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+335 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/PostHog/posthog",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 2402 天",
+          "score": 24,
+          "ageDays": 2402,
+          "firstSeenAt": "2026-08-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+335 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 335,
+          "snapshotStarDelta": 283,
+          "totalStars": 38302
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-22T01:35:12Z",
+          "latestRelease": {
+            "name": "v0.60.372",
+            "tag": "desktop-v0.60.372",
+            "publishedAt": "2026-08-21T17:41:59Z",
+            "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.60.372"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2020-01-23T22:46:58Z",
+        "pushedAt": "2026-08-22T01:35:12Z",
+        "totalStars": 38302,
+        "language": "Python",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "career-ops",
+      "owner": "santifer",
+      "category": "Agent 技能与工具",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "delta": "GitHub Daily Trending #8，近周期新增 921 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+921 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/santifer/career-ops",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 139 天",
+          "score": 24,
+          "ageDays": 139,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+921 stars / today",
+          "score": 100,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 921,
+          "snapshotStarDelta": 743,
+          "totalStars": 67469
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-21T23:29:22Z",
+          "latestRelease": {
+            "name": "career-ops: v1.28.0",
+            "tag": "career-ops-v1.28.0",
+            "publishedAt": "2026-08-20T16:52:50Z",
+            "url": "https://github.com/santifer/career-ops/releases/tag/career-ops-v1.28.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-04T18:21:18Z",
+        "pushedAt": "2026-08-21T23:29:22Z",
+        "totalStars": 67469,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OpenViking",
+      "owner": "volcengine",
+      "category": "Agent 技能与工具",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "delta": "GitHub Weekly Trending #4",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,033 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 229 天",
+          "score": 24,
+          "ageDays": 229,
+          "firstSeenAt": "2026-08-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,033 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 4,
+          "starsSince": 3033,
+          "snapshotStarDelta": 623,
+          "totalStars": 31681
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-22T01:37:44Z",
+          "latestRelease": {
+            "name": "v0.4.16",
+            "tag": "v0.4.16",
+            "publishedAt": "2026-08-21T07:04:17Z",
+            "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.16"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-05T07:11:17Z",
+        "pushedAt": "2026-08-22T01:37:44Z",
+        "totalStars": 31681,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "semantica",
+      "owner": "semantica-agi",
+      "category": "Agent 技能与工具",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "delta": "GitHub Weekly Trending #9",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+2,755 stars / this week",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/semantica-agi/semantica",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 423 天",
+          "score": 24,
+          "ageDays": 423,
+          "firstSeenAt": "2026-08-11",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,755 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 9,
+          "starsSince": 2755,
+          "snapshotStarDelta": 244,
+          "totalStars": 10086
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-08-21T14:08:25Z",
+          "latestRelease": {
+            "name": "v0.6.6",
+            "tag": "v0.6.6",
+            "publishedAt": "2026-08-20T08:11:13Z",
+            "url": "https://github.com/semantica-agi/semantica/releases/tag/v0.6.6"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-06-25T10:41:00Z",
+        "pushedAt": "2026-08-21T14:08:25Z",
+        "totalStars": 10086,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "category": "模型与推理",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,201 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,201 stars / today",
+      "heat": 79,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 894 天",
+          "score": 24,
+          "ageDays": 894,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,201 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 7,
+          "starsSince": 1201,
+          "snapshotStarDelta": 943,
+          "totalStars": 113958
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-08-22T00:58:57Z",
+          "latestRelease": {
+            "name": "v1.3.4",
+            "tag": "v1.3.4",
+            "publishedAt": "2026-08-12T02:51:41Z",
+            "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-03-11T02:57:34Z",
+        "pushedAt": "2026-08-22T00:58:57Z",
+        "totalStars": 113958,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #1，近周期新增 3,362 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+3,362 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 200 天",
+          "score": 24,
+          "ageDays": 200,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,362 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 3362,
+          "snapshotStarDelta": 2921,
+          "totalStars": 229580
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-21T10:56:48Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-08-21T10:56:48Z",
+        "totalStars": 229580,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "fx (by Vercel)",
+      "maker": "Justin Jincaid",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Vercel's tiny, open-source coding agent",
+      "signal": "公开 Feed 于 2026-08-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/fx-by-vercel",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-20T01:24:52-07:00",
+          "updatedAt": "2026-08-21T18:40:12-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-20T01:24:52-07:00",
+        "updatedAt": "2026-08-21T18:40:12-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Antigravity IDE Extensions",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Antigravity agents now live inside your existing editor",
+      "signal": "公开 Feed 于 2026-08-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/google-antigravity",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-20T23:58:44-07:00",
+          "updatedAt": "2026-08-21T18:35:52-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-20T23:58:44-07:00",
+        "updatedAt": "2026-08-21T18:35:52-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Local",
+      "maker": "Lukas Wesemann",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Zero (!) friction local AI for your Mac",
+      "signal": "公开 Feed 于 2026-08-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/local-7",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-19T18:43:17-07:00",
+          "updatedAt": "2026-08-21T18:36:49-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-19T18:43:17-07:00",
+        "updatedAt": "2026-08-21T18:36:49-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Flunkey",
+      "maker": "Rohan Sharvesh",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Voice-first AI layer for Windows (beta)",
+      "signal": "公开 Feed 于 2026-08-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/flunkey",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-20T11:50:24-07:00",
+          "updatedAt": "2026-08-21T18:46:19-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-20T11:50:24-07:00",
+        "updatedAt": "2026-08-21T18:46:19-07:00",
+        "feedRank": 8
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "posthog",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.60.372"
+    },
+    {
+      "name": "career-ops",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/santifer/career-ops/releases/tag/career-ops-v1.28.0"
+    },
+    {
+      "name": "OpenViking",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.16"
+    },
+    {
+      "name": "semantica",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/semantica-agi/semantica/releases/tag/v0.6.6"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Antigravity IDE Extensions",
+          "url": "https://www.producthunt.com/products/google-antigravity"
+        },
+        {
+          "label": "Flunkey",
+          "url": "https://www.producthunt.com/products/flunkey"
+        },
+        {
+          "label": "fx (by Vercel)",
+          "url": "https://www.producthunt.com/products/fx-by-vercel"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "posthog",
+          "url": "https://github.com/PostHog/posthog"
+        },
+        {
+          "label": "career-ops",
+          "url": "https://github.com/santifer/career-ops"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "posthog",
+      "source": "GitHub",
+      "why": "+335 stars / today；成熟项目 · 2402 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "rank": 2,
+      "name": "career-ops",
+      "source": "GitHub",
+      "why": "+921 stars / today；成熟项目 · 139 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/santifer/career-ops"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 posthog 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/PostHog/posthog",
+      "linkLabel": "打开 posthog"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 14,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-22T09:51:21+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 14 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-22/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
