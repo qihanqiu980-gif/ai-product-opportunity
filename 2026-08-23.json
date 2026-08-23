@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-08-23",
+    "weekday": "星期日",
+    "edition": "LIVE · 20260823",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-23 10:01 CST",
+    "capturedAt": "2026-08-23T10:01:04+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 codex。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "15/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "codex 是当前增长最明显的公开信号。",
+      "evidence": "+1,544 stars / today",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Port Radar for macOS · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Port Radar for macOS",
+          "url": "https://www.producthunt.com/products/port-radar-for-macos"
+        },
+        {
+          "label": "Zero",
+          "url": "https://www.producthunt.com/products/zero-15"
+        },
+        {
+          "label": "Maccess",
+          "url": "https://www.producthunt.com/products/maccess"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 claude-code · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 86,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,544 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Port Radar for macOS · PH 发布 1 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 claude-code · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "codex",
+        "url": "https://github.com/openai/codex"
+      },
+      {
+        "label": "OpenViking",
+        "url": "https://github.com/volcengine/OpenViking"
+      },
+      {
+        "label": "n8n",
+        "url": "https://github.com/n8n-io/n8n"
+      },
+      {
+        "label": "claude-code",
+        "url": "https://github.com/anthropics/claude-code"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "codex",
+      "owner": "openai",
+      "category": "Agent 技能与工具",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,544 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,544 stars / today",
+      "heat": 90,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/openai/codex",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 497,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,544 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1544,
+          "snapshotStarDelta": null,
+          "totalStars": 113504
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-08-23T01:31:37Z",
+          "latestRelease": {
+            "name": "0.149.0",
+            "tag": "rust-v0.149.0",
+            "publishedAt": "2026-08-20T21:04:55Z",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-13T05:37:54Z",
+        "pushedAt": "2026-08-23T01:31:37Z",
+        "totalStars": 113504,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "OpenViking",
+      "owner": "volcengine",
+      "category": "Agent 技能与工具",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,447 stars / this week",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 230 天",
+          "score": 24,
+          "ageDays": 230,
+          "firstSeenAt": "2026-08-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,447 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 3447,
+          "snapshotStarDelta": 401,
+          "totalStars": 32082
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-08-22T09:44:23Z",
+          "latestRelease": {
+            "name": "v0.4.16",
+            "tag": "v0.4.16",
+            "publishedAt": "2026-08-21T07:04:17Z",
+            "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.16"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-05T07:11:17Z",
+        "pushedAt": "2026-08-22T09:44:23Z",
+        "totalStars": 32082,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "n8n",
+      "owner": "n8n-io",
+      "category": "Agent 技能与工具",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "delta": "GitHub Daily Trending #7，近周期新增 149 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+149 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/n8n-io/n8n",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 2619,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+149 stars / today",
+          "score": 89,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 149,
+          "snapshotStarDelta": null,
+          "totalStars": 201838
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-08-22T21:44:14Z",
+          "latestRelease": {
+            "name": "n8n@2.35.7",
+            "tag": "n8n@2.35.7",
+            "publishedAt": "2026-08-21T10:23:33Z",
+            "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2019-06-22T09:24:21Z",
+        "pushedAt": "2026-08-22T21:44:14Z",
+        "totalStars": 201838,
+        "language": "TypeScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "claude-code",
+      "owner": "anthropics",
+      "category": "Agent 技能与工具",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "delta": "GitHub Daily Trending #8，近周期新增 127 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+127 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anthropics/claude-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 546,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+127 stars / today",
+          "score": 85,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 127,
+          "snapshotStarDelta": null,
+          "totalStars": 142555
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-23T00:52:16Z",
+          "latestRelease": {
+            "name": "v2.1.241",
+            "tag": "v2.1.241",
+            "publishedAt": "2026-08-23T00:52:16Z",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-02-22T17:41:21Z",
+        "pushedAt": "2026-08-23T00:52:16Z",
+        "totalStars": 142555,
+        "language": "Python",
+        "license": null
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #2，近周期新增 2,683 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,683 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 201 天",
+          "score": 24,
+          "ageDays": 201,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,683 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 2683,
+          "snapshotStarDelta": 2568,
+          "totalStars": 232148
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-21T10:56:48Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-08-21T10:56:48Z",
+        "totalStars": 232148,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ECC",
+      "owner": "affaan-m",
+      "category": "Agent 技能与工具",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "delta": "GitHub Daily Trending #3，近周期新增 411 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+411 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 217 天",
+          "score": 24,
+          "ageDays": 217,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+411 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 411,
+          "snapshotStarDelta": 382,
+          "totalStars": 242189
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-21T03:02:03Z",
+          "latestRelease": {
+            "name": "ECC 2.1.0: Plan Canvas, Kimi Harness, and Self-Hosted Compute",
+            "tag": "v2.1.0",
+            "publishedAt": "2026-07-27T18:10:46Z",
+            "url": "https://github.com/affaan-m/ECC/releases/tag/v2.1.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-18T00:51:51Z",
+        "pushedAt": "2026-08-21T03:02:03Z",
+        "totalStars": 242189,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Zero",
+      "maker": "Justin Jincaid",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Vercel's programming language built for AI agents",
+      "signal": "公开 Feed 于 2026-08-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/zero-15",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-20T02:01:53-07:00",
+          "updatedAt": "2026-08-22T18:50:03-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-20T02:01:53-07:00",
+        "updatedAt": "2026-08-22T18:50:03-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "SubtitleGenerator",
+      "maker": "Yana Li",
+      "category": "浏览器 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "From video to publish-ready AI subtitles—all in one browser",
+      "signal": "公开 Feed 于 2026-08-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://www.producthunt.com/products/subtitlegenerator",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 8 天",
+          "score": 57,
+          "ageDays": 8,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-15T00:15:03-07:00",
+          "updatedAt": "2026-08-22T18:47:31-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-15T00:15:03-07:00",
+        "updatedAt": "2026-08-22T18:47:31-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Maccess",
+      "maker": "Muhammad Ahmad",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your Mac, in your pocket — trackpad, screen, and AI",
+      "signal": "公开 Feed 于 2026-08-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 67,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/maccess",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 5 天",
+          "score": 67,
+          "ageDays": 5,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-17T23:01:22-07:00",
+          "updatedAt": "2026-08-22T18:48:06-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-17T23:01:22-07:00",
+        "updatedAt": "2026-08-22T18:48:06-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Port Radar for macOS",
+      "maker": "Sebastian Solano",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "An AI port manager for your Mac.",
+      "signal": "公开 Feed 于 2026-08-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/port-radar-for-macos",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-21T13:35:10-07:00",
+          "updatedAt": "2026-08-22T18:14:00-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-21T13:35:10-07:00",
+        "updatedAt": "2026-08-22T18:14:00-07:00",
+        "feedRank": 6
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "codex",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0"
+    },
+    {
+      "name": "OpenViking",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/volcengine/OpenViking/releases/tag/v0.4.16"
+    },
+    {
+      "name": "n8n",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.7"
+    },
+    {
+      "name": "claude-code",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Port Radar for macOS",
+          "url": "https://www.producthunt.com/products/port-radar-for-macos"
+        },
+        {
+          "label": "Zero",
+          "url": "https://www.producthunt.com/products/zero-15"
+        },
+        {
+          "label": "Maccess",
+          "url": "https://www.producthunt.com/products/maccess"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "OpenViking",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "codex",
+      "source": "GitHub",
+      "why": "+1,544 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "rank": 2,
+      "name": "OpenViking",
+      "source": "GitHub",
+      "why": "+3,447 stars / this week；成熟项目 · 230 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/volcengine/OpenViking"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 codex 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/openai/codex",
+      "linkLabel": "打开 codex"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 15,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-23T10:01:04+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 15 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-23/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
