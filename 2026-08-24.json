@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "date": "2026-08-24",
+    "weekday": "星期一",
+    "edition": "LIVE · 20260824",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-24 09:59 CST",
+    "capturedAt": "2026-08-24T09:59:09+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 codex。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "3 个信号属于近 14 天新建或发布，2 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "3",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "2",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "16/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "codex 是当前增长最明显的公开信号。",
+      "evidence": "+2,715 stars / today",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Port Radar for macOS · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "Port Radar for macOS",
+          "url": "https://www.producthunt.com/products/port-radar-for-macos"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "Construct Computer",
+          "url": "https://www.producthunt.com/products/construct-computer"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 2 个实质更新；最高信号为 codex · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "Tab Notes",
+          "url": "https://www.producthunt.com/products/tab-notes"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 81,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+2,715 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Port Radar for macOS · PH 发布 2 天。",
+      "变化信号：确认 2 个实质更新；最高信号为 codex · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "codex",
+        "url": "https://github.com/openai/codex"
+      },
+      {
+        "label": "awesome-gpt-image-2",
+        "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+      },
+      {
+        "label": "skills",
+        "url": "https://github.com/mattpocock/skills"
+      },
+      {
+        "label": "ruflo",
+        "url": "https://github.com/ruvnet/ruflo"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "codex",
+      "owner": "openai",
+      "category": "Agent 技能与工具",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "delta": "GitHub Daily Trending #1，近周期新增 2,715 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,715 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/openai/codex",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 498 天",
+          "score": 24,
+          "ageDays": 498,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,715 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 2715,
+          "snapshotStarDelta": 1854,
+          "totalStars": 115358
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-24T01:53:14Z",
+          "latestRelease": {
+            "name": "0.149.1",
+            "tag": "rust-v0.149.1",
+            "publishedAt": "2026-08-24T00:28:28Z",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-13T05:37:54Z",
+        "pushedAt": "2026-08-24T01:53:14Z",
+        "totalStars": 115358,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "category": "Agent 技能与工具",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "delta": "GitHub Daily Trending #2，近周期新增 401 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+401 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 121,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+401 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 401,
+          "snapshotStarDelta": null,
+          "totalStars": 12861
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-23T07:17:20Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-25T09:19:13Z",
+        "pushedAt": "2026-08-23T07:17:20Z",
+        "totalStars": 12861,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #3，近周期新增 2,447 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,447 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 202 天",
+          "score": 24,
+          "ageDays": 202,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,447 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 2447,
+          "snapshotStarDelta": 1791,
+          "totalStars": 233939
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-21T10:56:48Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-08-21T10:56:48Z",
+        "totalStars": 233939,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ruflo",
+      "owner": "ruvnet",
+      "category": "Agent 技能与工具",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "delta": "GitHub Daily Trending #11，近周期新增 131 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+131 stars / today",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 447 天",
+          "score": 24,
+          "ageDays": 447,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+131 stars / today",
+          "score": 79,
+          "rankDaily": 11,
+          "rankWeekly": null,
+          "starsSince": 131,
+          "snapshotStarDelta": null,
+          "totalStars": 69097
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-22T16:40:30Z",
+          "latestRelease": {
+            "name": "v3.38.19 — supersedes broken v3.38.17/v3.38.18 (Windows CI, dead agentdb exports, memory driver doctor check, MCP HTTP transport)",
+            "tag": "v3.38.19",
+            "publishedAt": "2026-08-22T16:39:08Z",
+            "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.19"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-06-02T21:24:20Z",
+        "pushedAt": "2026-08-22T16:40:30Z",
+        "totalStars": 69097,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "category": "内容生成",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "delta": "GitHub Weekly Trending #2",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+11,167 stars / this week",
+      "heat": 72,
+      "opportunity": "把生成能力嵌入已有创作流程，并用素材管理和协作降低切换成本。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "首发时间未知",
+          "score": 30,
+          "ageDays": null,
+          "firstSeenAt": "2026-08-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+11,167 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 2,
+          "starsSince": 11167,
+          "snapshotStarDelta": 673,
+          "totalStars": 115345
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "未确认重大更新",
+          "score": 24,
+          "material": false,
+          "pushedAt": null,
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": null,
+        "pushedAt": null,
+        "totalStars": 115345,
+        "language": "Python",
+        "license": null
+      }
+    },
+    {
+      "name": "OpenViking",
+      "owner": "volcengine",
+      "category": "Agent 技能与工具",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "delta": "GitHub Weekly Trending #6",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,799 stars / this week",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/volcengine/OpenViking",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "首发时间未知",
+          "score": 30,
+          "ageDays": null,
+          "firstSeenAt": "2026-08-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,799 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 6,
+          "starsSince": 3799,
+          "snapshotStarDelta": 430,
+          "totalStars": 32512
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "未确认重大更新",
+          "score": 24,
+          "material": false,
+          "pushedAt": null,
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": null,
+        "pushedAt": null,
+        "totalStars": 32512,
+        "language": "Python",
+        "license": null
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Tab Notes",
+      "maker": "VINEETH TR",
+      "category": "浏览器 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Turn your browser new tab into a distraction-free notepad",
+      "signal": "公开 Feed 于 2026-08-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://www.producthunt.com/products/tab-notes",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 8 天",
+          "score": 57,
+          "ageDays": 8,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-16T03:41:15-07:00",
+          "updatedAt": "2026-08-23T16:12:34-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-16T03:41:15-07:00",
+        "updatedAt": "2026-08-23T16:12:34-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "FetchSandbox MCP",
+      "maker": "Raj Nagulapalle",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The MCP that proves your AI's integration fixes work",
+      "signal": "公开 Feed 于 2026-08-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 57,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/fetchsandbox",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-14T14:18:26-07:00",
+          "updatedAt": "2026-08-23T18:31:51-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-14T14:18:26-07:00",
+        "updatedAt": "2026-08-23T18:31:51-07:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "Construct Computer",
+      "maker": "fmerian",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your AI coworker gets a computer. You get your day back.",
+      "signal": "公开 Feed 于 2026-08-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 56,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/construct-computer",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 53,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-07-01T22:08:02-07:00",
+          "updatedAt": "2026-08-23T18:55:12-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-07-01T22:08:02-07:00",
+        "updatedAt": "2026-08-23T18:55:12-07:00",
+        "feedRank": 9
+      }
+    },
+    {
+      "name": "Port Radar for macOS",
+      "maker": "Sebastian Solano",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "An AI port manager for your Mac.",
+      "signal": "公开 Feed 于 2026-08-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 53,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/port-radar-for-macos",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 16 位",
+          "score": 33,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-21T13:35:10-07:00",
+          "updatedAt": "2026-08-23T13:54:54-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-21T13:35:10-07:00",
+        "updatedAt": "2026-08-23T13:54:54-07:00",
+        "feedRank": 16
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "codex",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1"
+    },
+    {
+      "name": "ruflo",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.19"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "skills",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Port Radar for macOS",
+          "url": "https://www.producthunt.com/products/port-radar-for-macos"
+        },
+        {
+          "label": "awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        },
+        {
+          "label": "Construct Computer",
+          "url": "https://www.producthunt.com/products/construct-computer"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "Tab Notes",
+          "url": "https://www.producthunt.com/products/tab-notes"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "codex",
+      "source": "GitHub",
+      "why": "+2,715 stars / today；成熟项目 · 498 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "rank": 2,
+      "name": "awesome-gpt-image-2",
+      "source": "GitHub",
+      "why": "+401 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 codex 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/openai/codex",
+      "linkLabel": "打开 codex"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 16,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-24T09:59:09+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 16 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-24/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
