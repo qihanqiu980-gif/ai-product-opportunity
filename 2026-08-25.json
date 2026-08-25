@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-08-25",
+    "weekday": "星期二",
+    "edition": "LIVE · 20260825",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-25 09:53 CST",
+    "capturedAt": "2026-08-25T09:53:50+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 ai-job-search。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "17/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "ai-job-search 是当前增长最明显的公开信号。",
+      "evidence": "+434 stars / today",
+      "sources": [
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Antigravity Remote Control · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Antigravity Remote Control",
+          "url": "https://www.producthunt.com/products/google-antigravity"
+        },
+        {
+          "label": "Cortex by SKYNETLAB",
+          "url": "https://www.producthunt.com/products/cortex-by-skynetlab"
+        },
+        {
+          "label": "Trama",
+          "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 codex · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "freellmapi",
+          "url": "https://github.com/tashfeenahmed/freellmapi"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+434 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Antigravity Remote Control · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 codex · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "ai-job-search",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "label": "codex",
+        "url": "https://github.com/openai/codex"
+      },
+      {
+        "label": "hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "label": "maka",
+        "url": "https://github.com/apache/maka"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "ai-job-search",
+      "owner": "MadsLorentzen",
+      "category": "Agent 技能与工具",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "delta": "GitHub Daily Trending #3，近周期新增 434 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+434 stars / today",
+      "heat": 87,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 160,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+434 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 434,
+          "snapshotStarDelta": null,
+          "totalStars": 34119
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-08-23T07:27:06Z",
+          "latestRelease": {
+            "name": "v1.6.0 - Portals that fail loudly, CVs that keep their text",
+            "tag": "v1.6.0",
+            "publishedAt": "2026-08-19T19:49:20Z",
+            "url": "https://github.com/MadsLorentzen/ai-job-search/releases/tag/v1.6.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-18T14:33:04Z",
+        "pushedAt": "2026-08-23T07:27:06Z",
+        "totalStars": 34119,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "codex",
+      "owner": "openai",
+      "category": "Agent 技能与工具",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "delta": "GitHub Daily Trending #2，近周期新增 1,994 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,994 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/openai/codex",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 499 天",
+          "score": 24,
+          "ageDays": 499,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,994 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 1994,
+          "snapshotStarDelta": 1769,
+          "totalStars": 117127
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-25T01:29:37Z",
+          "latestRelease": {
+            "name": "0.149.1",
+            "tag": "rust-v0.149.1",
+            "publishedAt": "2026-08-24T00:28:28Z",
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-13T05:37:54Z",
+        "pushedAt": "2026-08-25T01:29:37Z",
+        "totalStars": 117127,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "hermes-agent",
+      "owner": "NousResearch",
+      "category": "Agent 技能与工具",
+      "description": "The agent that grows with you",
+      "delta": "GitHub Daily Trending #6，近周期新增 896 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+896 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 398 天",
+          "score": 24,
+          "ageDays": 398,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+896 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 896,
+          "snapshotStarDelta": 811,
+          "totalStars": 235839
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-08-25T01:52:14Z",
+          "latestRelease": {
+            "name": "Hermes Agent v0.20.5 (v2026.8.19)",
+            "tag": "v2026.8.19",
+            "publishedAt": "2026-08-21T12:16:39Z",
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.19"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T22:22:28Z",
+        "pushedAt": "2026-08-25T01:52:14Z",
+        "totalStars": 235839,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "maka",
+      "owner": "apache",
+      "category": "Agent 技能与工具",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "delta": "GitHub Daily Trending #9，近周期新增 411 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+411 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/apache/maka",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 90 天",
+          "score": 24,
+          "ageDays": 90,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+411 stars / today",
+          "score": 94,
+          "rankDaily": 9,
+          "rankWeekly": 11,
+          "starsSince": 411,
+          "snapshotStarDelta": 559,
+          "totalStars": 2930
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-08-25T01:47:16Z",
+          "latestRelease": {
+            "name": "Maka 0.1.11",
+            "tag": "v0.1.11",
+            "publishedAt": "2026-08-18T14:22:55Z",
+            "url": "https://github.com/apache/maka/releases/tag/v0.1.11"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-27T15:46:05Z",
+        "pushedAt": "2026-08-25T01:47:16Z",
+        "totalStars": 2930,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "category": "Agent 技能与工具",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "delta": "GitHub Daily Trending #17，近周期新增 2,449 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,449 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 122 天",
+          "score": 24,
+          "ageDays": 122,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,449 stars / today",
+          "score": 99,
+          "rankDaily": 17,
+          "rankWeekly": null,
+          "starsSince": 2449,
+          "snapshotStarDelta": 2767,
+          "totalStars": 15628
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-24T10:55:30Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-25T09:19:13Z",
+        "pushedAt": "2026-08-24T10:55:30Z",
+        "totalStars": 15628,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "freellmapi",
+      "owner": "tashfeenahmed",
+      "category": "模型与推理",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "delta": "GitHub Daily Trending #15，近周期新增 174 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+174 stars / today",
+      "heat": 75,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 126,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+174 stars / today",
+          "score": 75,
+          "rankDaily": 15,
+          "rankWeekly": null,
+          "starsSince": 174,
+          "snapshotStarDelta": null,
+          "totalStars": 19807
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-24T21:10:36Z",
+          "latestRelease": {
+            "name": "v0.8.7",
+            "tag": "v0.8.7",
+            "publishedAt": "2026-08-24T10:50:28Z",
+            "url": "https://github.com/tashfeenahmed/freellmapi/releases/tag/v0.8.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-21T13:38:59Z",
+        "pushedAt": "2026-08-24T21:10:36Z",
+        "totalStars": 19807,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Offloop",
+      "maker": "Aleksandar Blazhev",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "A shared workspace where people and AI agents get work done",
+      "signal": "公开 Feed 于 2026-08-24 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/offloop",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-22T08:50:38-07:00",
+          "updatedAt": "2026-08-24T18:51:30-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-22T08:50:38-07:00",
+        "updatedAt": "2026-08-24T18:51:30-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Cortex by SKYNETLAB",
+      "maker": "Filippo Pilotta",
+      "category": "知识与记忆",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The memory layer that decides what's worth remembering",
+      "signal": "公开 Feed 于 2026-08-24 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-23T04:18:32-07:00",
+          "updatedAt": "2026-08-24T18:46:21-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-23T04:18:32-07:00",
+        "updatedAt": "2026-08-24T18:46:21-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Antigravity Remote Control",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Drive Antigravity agents from any browser",
+      "signal": "公开 Feed 于 2026-08-24 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 62,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/google-antigravity",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 11 位",
+          "score": 48,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-23T22:00:08-07:00",
+          "updatedAt": "2026-08-24T18:46:21-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-23T22:00:08-07:00",
+        "updatedAt": "2026-08-24T18:46:21-07:00",
+        "feedRank": 11
+      }
+    },
+    {
+      "name": "Trama",
+      "maker": "ErnandesCavalheiro",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Create macOS native automations using plain language",
+      "signal": "公开 Feed 于 2026-08-24 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 59,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 12 位",
+          "score": 45,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-22T12:15:06-07:00",
+          "updatedAt": "2026-08-24T18:43:04-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-22T12:15:06-07:00",
+        "updatedAt": "2026-08-24T18:43:04-07:00",
+        "feedRank": 12
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "ai-job-search",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/MadsLorentzen/ai-job-search/releases/tag/v1.6.0"
+    },
+    {
+      "name": "codex",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1"
+    },
+    {
+      "name": "hermes-agent",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.19"
+    },
+    {
+      "name": "maka",
+      "change": "近 7 天有 Release",
+      "url": "https://github.com/apache/maka/releases/tag/v0.1.11"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Antigravity Remote Control",
+          "url": "https://www.producthunt.com/products/google-antigravity"
+        },
+        {
+          "label": "Cortex by SKYNETLAB",
+          "url": "https://www.producthunt.com/products/cortex-by-skynetlab"
+        },
+        {
+          "label": "Trama",
+          "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "codex",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "label": "freellmapi",
+          "url": "https://github.com/tashfeenahmed/freellmapi"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "ai-job-search",
+      "source": "GitHub",
+      "why": "+434 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "rank": 2,
+      "name": "codex",
+      "source": "GitHub",
+      "why": "+1,994 stars / today；成熟项目 · 499 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/openai/codex"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 ai-job-search 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "linkLabel": "打开 ai-job-search"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 17,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-25T09:53:50+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 17 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-25/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
