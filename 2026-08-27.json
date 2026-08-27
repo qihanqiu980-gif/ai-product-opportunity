@@ -1,0 +1,830 @@
+{
+  "meta": {
+    "date": "2026-08-27",
+    "weekday": "星期四",
+    "edition": "LIVE · 20260827",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-27 17:51 CST",
+    "capturedAt": "2026-08-27T17:51:50+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 claude-obsidian。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，3 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "3",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "19/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "claude-obsidian 是当前增长最明显的公开信号。",
+      "evidence": "+810 stars / today",
+      "sources": [
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 92,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Pluto · PH 发布 0 天。",
+      "sources": [
+        {
+          "label": "Pluto",
+          "url": "https://www.producthunt.com/products/pluto-11"
+        },
+        {
+          "label": "GitNexus (Akon Labs)",
+          "url": "https://www.producthunt.com/products/gitnexus-akon-labs"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 3 个实质更新；最高信号为 Pluto · 今日发布。",
+      "sources": [
+        {
+          "label": "Pluto",
+          "url": "https://www.producthunt.com/products/pluto-11"
+        },
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 83,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+810 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Pluto · PH 发布 0 天。",
+      "变化信号：确认 3 个实质更新；最高信号为 Pluto · 今日发布。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "claude-obsidian",
+        "url": "https://github.com/AgriciDaniel/claude-obsidian"
+      },
+      {
+        "label": "archify",
+        "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "label": "ai-job-search",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+      },
+      {
+        "label": "awesome-gpt-image-2",
+        "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "claude-obsidian",
+      "owner": "AgriciDaniel",
+      "category": "Agent 技能与工具",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "delta": "GitHub Daily Trending #6，近周期新增 810 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+810 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 142 天",
+          "score": 24,
+          "ageDays": 142,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+810 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 810,
+          "snapshotStarDelta": 906,
+          "totalStars": 13668
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-08-26T11:43:21Z",
+          "latestRelease": {
+            "name": "Claude Obsidian v2.1.1 - Legacy Migration Safety",
+            "tag": "v2.1.1",
+            "publishedAt": "2026-08-25T23:32:08Z",
+            "url": "https://github.com/AgriciDaniel/claude-obsidian/releases/tag/v2.1.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-07T08:59:37Z",
+        "pushedAt": "2026-08-26T11:43:21Z",
+        "totalStars": 13668,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "archify",
+      "owner": "tt-a1i",
+      "category": "Agent 技能与工具",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,035 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,035 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/tt-a1i/archify",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 134,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,035 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1035,
+          "snapshotStarDelta": null,
+          "totalStars": 20368
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-08-27T06:49:25Z",
+          "latestRelease": {
+            "name": "v2.15.0",
+            "tag": "v2.15.0",
+            "publishedAt": "2026-08-17T15:50:19Z",
+            "url": "https://github.com/tt-a1i/archify/releases/tag/v2.15.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-15T05:27:37Z",
+        "pushedAt": "2026-08-27T06:49:25Z",
+        "totalStars": 20368,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ai-job-search",
+      "owner": "MadsLorentzen",
+      "category": "Agent 技能与工具",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "delta": "GitHub Daily Trending #5，近周期新增 1,300 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,300 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 162 天",
+          "score": 24,
+          "ageDays": 162,
+          "firstSeenAt": "2026-08-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,300 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 1300,
+          "snapshotStarDelta": 1576,
+          "totalStars": 36923
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-08-26T18:07:41Z",
+          "latestRelease": {
+            "name": "v1.6.0 - Portals that fail loudly, CVs that keep their text",
+            "tag": "v1.6.0",
+            "publishedAt": "2026-08-19T19:49:20Z",
+            "url": "https://github.com/MadsLorentzen/ai-job-search/releases/tag/v1.6.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-18T14:33:04Z",
+        "pushedAt": "2026-08-26T18:07:41Z",
+        "totalStars": 36923,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "awesome-gpt-image-2",
+      "owner": "freestylefly",
+      "category": "Agent 技能与工具",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "delta": "GitHub Daily Trending #2，近周期新增 4,050 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+4,050 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 124 天",
+          "score": 24,
+          "ageDays": 124,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+4,050 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": 5,
+          "starsSince": 4050,
+          "snapshotStarDelta": 4229,
+          "totalStars": 22358
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-26T08:54:32Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-25T09:19:13Z",
+        "pushedAt": "2026-08-26T08:54:32Z",
+        "totalStars": 22358,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "openhuman",
+      "owner": "tinyhumansai",
+      "category": "Agent 技能与工具",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "delta": "GitHub Daily Trending #9，近周期新增 525 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+525 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 189 天",
+          "score": 24,
+          "ageDays": 189,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+525 stars / today",
+          "score": 96,
+          "rankDaily": 9,
+          "rankWeekly": null,
+          "starsSince": 525,
+          "snapshotStarDelta": 612,
+          "totalStars": 38410
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-08-27T06:30:11Z",
+          "latestRelease": {
+            "name": "OpenHuman v0.63.12",
+            "tag": "v0.63.12",
+            "publishedAt": "2026-08-07T11:11:37Z",
+            "url": "https://github.com/tinyhumansai/openhuman/releases/tag/v0.63.12"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-18T20:01:27Z",
+        "pushedAt": "2026-08-27T06:30:11Z",
+        "totalStars": 38410,
+        "language": "Rust",
+        "license": "GPL-3.0"
+      }
+    },
+    {
+      "name": "maka",
+      "owner": "apache",
+      "category": "Agent 技能与工具",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "delta": "GitHub Weekly Trending #6",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+2,217 stars / this week",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/apache/maka",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "首发时间未知",
+          "score": 30,
+          "ageDays": null,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,217 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 6,
+          "starsSince": 2217,
+          "snapshotStarDelta": 322,
+          "totalStars": 3688
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "未确认重大更新",
+          "score": 24,
+          "material": false,
+          "pushedAt": null,
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": null,
+        "pushedAt": null,
+        "totalStars": 3688,
+        "language": "TypeScript",
+        "license": null
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Skydive",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Build cloud agents that work across your tools",
+      "signal": "公开 Feed 于 2026-08-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/skydive",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 23 天",
+          "score": 42,
+          "ageDays": 23,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-03T16:53:27-07:00",
+          "updatedAt": "2026-08-27T02:51:46-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-03T16:53:27-07:00",
+        "updatedAt": "2026-08-27T02:51:46-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Pluto",
+      "maker": "Sahil Seth",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your professional profile is now an AI agent",
+      "signal": "公开 Feed 于 2026-08-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/pluto-11",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 0 天",
+          "score": 92,
+          "ageDays": 0,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日发布",
+          "score": 92,
+          "material": true,
+          "publishedAt": "2026-08-26T21:30:47-07:00",
+          "updatedAt": "2026-08-27T02:51:00-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-26T21:30:47-07:00",
+        "updatedAt": "2026-08-27T02:51:00-07:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "GitNexus (Akon Labs)",
+      "maker": "Garry Tan",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The Open Source Kernel for Coding Agents",
+      "signal": "公开 Feed 于 2026-08-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/gitnexus-akon-labs",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 10 位",
+          "score": 51,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-26T00:30:19-07:00",
+          "updatedAt": "2026-08-27T02:50:59-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-26T00:30:19-07:00",
+        "updatedAt": "2026-08-27T02:50:59-07:00",
+        "feedRank": 10
+      }
+    },
+    {
+      "name": "Lenz",
+      "maker": "Kosta Jordanov",
+      "category": "模型与推理",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Independent, multi-model fact-checking API for AI workflows",
+      "signal": "公开 Feed 于 2026-08-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 53,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://www.producthunt.com/products/lenz-2",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 148,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 11 位",
+          "score": 48,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-04-01T05:53:22-07:00",
+          "updatedAt": "2026-08-27T02:50:57-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-04-01T05:53:22-07:00",
+        "updatedAt": "2026-08-27T02:50:57-07:00",
+        "feedRank": 11
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "claude-obsidian",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian/releases/tag/v2.1.1"
+    },
+    {
+      "name": "ai-job-search",
+      "change": "近 7 天有 Release",
+      "url": "https://github.com/MadsLorentzen/ai-job-search/releases/tag/v1.6.0"
+    },
+    {
+      "name": "Pluto",
+      "change": "今日发布",
+      "url": "https://www.producthunt.com/products/pluto-11"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Pluto",
+          "url": "https://www.producthunt.com/products/pluto-11"
+        },
+        {
+          "label": "GitNexus (Akon Labs)",
+          "url": "https://www.producthunt.com/products/gitnexus-akon-labs"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "Pluto",
+          "url": "https://www.producthunt.com/products/pluto-11"
+        },
+        {
+          "label": "claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian"
+        },
+        {
+          "label": "ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "claude-obsidian",
+      "source": "GitHub",
+      "why": "+810 stars / today；成熟项目 · 142 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian"
+    },
+    {
+      "rank": 2,
+      "name": "archify",
+      "source": "GitHub",
+      "why": "+1,035 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/tt-a1i/archify"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 claude-obsidian 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "linkLabel": "打开 claude-obsidian"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 19,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-27T17:51:50+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 19 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-27/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
