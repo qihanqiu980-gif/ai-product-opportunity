@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "date": "2026-08-30",
+    "weekday": "星期日",
+    "edition": "LIVE · 20260830",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-08-30 13:26 CST",
+    "capturedAt": "2026-08-30T13:26:34+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 OpenMAIC。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，2 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "2",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "22/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "OpenMAIC 是当前增长最明显的公开信号。",
+      "evidence": "+907 stars / today",
+      "sources": [
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：God’s Eye View · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "God’s Eye View",
+          "url": "https://www.producthunt.com/products/god-s-eye-view"
+        },
+        {
+          "label": "Hy4 preview",
+          "url": "https://www.producthunt.com/products/hunyuan-a13b"
+        },
+        {
+          "label": "Staats",
+          "url": "https://www.producthunt.com/products/staats-3"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 2 个实质更新；最高信号为 scientific-agent-skills · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+907 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：God’s Eye View · PH 发布 1 天。",
+      "变化信号：确认 2 个实质更新；最高信号为 scientific-agent-skills · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "OpenMAIC",
+        "url": "https://github.com/THU-MAIC/OpenMAIC"
+      },
+      {
+        "label": "scientific-agent-skills",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      },
+      {
+        "label": "archify",
+        "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "label": "OpenMontage",
+        "url": "https://github.com/calesthio/OpenMontage"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "OpenMAIC",
+      "owner": "THU-MAIC",
+      "category": "Agent 技能与工具",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "delta": "GitHub Daily Trending #5，近周期新增 907 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+907 stars / today",
+      "heat": 89,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 172,
+          "firstSeenAt": "2026-08-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+907 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 907,
+          "snapshotStarDelta": null,
+          "totalStars": 22513
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-08-30T01:35:14Z",
+          "latestRelease": {
+            "name": "OpenMAIC v1.0.0 — Build courses with an agent",
+            "tag": "v1.0.0",
+            "publishedAt": "2026-08-27T13:13:53Z",
+            "url": "https://github.com/THU-MAIC/OpenMAIC/releases/tag/v1.0.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-11T10:13:16Z",
+        "pushedAt": "2026-08-30T01:35:14Z",
+        "totalStars": 22513,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "scientific-agent-skills",
+      "owner": "K-Dense-AI",
+      "category": "Agent 技能与工具",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,587 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,587 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 314 天",
+          "score": 24,
+          "ageDays": 314,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,587 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 18,
+          "starsSince": 1587,
+          "snapshotStarDelta": 1112,
+          "totalStars": 38086
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-08-29T22:55:14Z",
+          "latestRelease": {
+            "name": "v2.65.0",
+            "tag": "v2.65.0",
+            "publishedAt": "2026-08-29T22:55:14Z",
+            "url": "https://github.com/K-Dense-AI/scientific-agent-skills/releases/tag/v2.65.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-19T20:54:15Z",
+        "pushedAt": "2026-08-29T22:55:14Z",
+        "totalStars": 38086,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "archify",
+      "owner": "tt-a1i",
+      "category": "Agent 技能与工具",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "delta": "GitHub Daily Trending #1，近周期新增 3,902 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+3,902 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/tt-a1i/archify",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 137 天",
+          "score": 24,
+          "ageDays": 137,
+          "firstSeenAt": "2026-08-27",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,902 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 4,
+          "starsSince": 3902,
+          "snapshotStarDelta": 3209,
+          "totalStars": 31663
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-08-30T05:24:26Z",
+          "latestRelease": {
+            "name": "v2.15.0",
+            "tag": "v2.15.0",
+            "publishedAt": "2026-08-17T15:50:19Z",
+            "url": "https://github.com/tt-a1i/archify/releases/tag/v2.15.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-15T05:27:37Z",
+        "pushedAt": "2026-08-30T05:24:26Z",
+        "totalStars": 31663,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "gods-eye-view",
+      "owner": "bilawalsidhu",
+      "category": "浏览器 Agent",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "delta": "GitHub Daily Trending #2，近周期新增 1,855 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,855 stars / today",
+      "heat": 76,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 68 天",
+          "score": 24,
+          "ageDays": 68,
+          "firstSeenAt": "2026-08-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,855 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 1855,
+          "snapshotStarDelta": 1390,
+          "totalStars": 12850
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-28T00:46:30Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-22T23:37:22Z",
+        "pushedAt": "2026-08-28T00:46:30Z",
+        "totalStars": 12850,
+        "language": "JavaScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "OpenMontage",
+      "owner": "calesthio",
+      "category": "Agent 技能与工具",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "delta": "GitHub Daily Trending #10，近周期新增 806 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+806 stars / today",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 154 天",
+          "score": 24,
+          "ageDays": 154,
+          "firstSeenAt": "2026-08-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+806 stars / today",
+          "score": 98,
+          "rankDaily": 10,
+          "rankWeekly": null,
+          "starsSince": 806,
+          "snapshotStarDelta": 714,
+          "totalStars": 54208
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-08-22T18:22:24Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-29T15:23:22Z",
+        "pushedAt": "2026-08-22T18:22:24Z",
+        "totalStars": 54208,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "go-modern-guidelines",
+      "owner": "JetBrains",
+      "category": "Agent 技能与工具",
+      "description": "Help AI coding agents write modern Go",
+      "delta": "GitHub Daily Trending #8，近周期新增 303 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+303 stars / today",
+      "heat": 74,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 279 天",
+          "score": 24,
+          "ageDays": 279,
+          "firstSeenAt": "2026-08-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+303 stars / today",
+          "score": 93,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 303,
+          "snapshotStarDelta": 242,
+          "totalStars": 2910
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-08-29T18:39:57Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-11-24T12:46:31Z",
+        "pushedAt": "2026-08-29T18:39:57Z",
+        "totalStars": 2910,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "God’s Eye View",
+      "maker": "Chris Messina",
+      "category": "浏览器 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Spy satellite simulator in your browser but the data is real",
+      "signal": "公开 Feed 于 2026-08-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://www.producthunt.com/products/god-s-eye-view",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-29",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-28T12:49:22-07:00",
+          "updatedAt": "2026-08-29T21:02:44-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-28T12:49:22-07:00",
+        "updatedAt": "2026-08-29T21:02:44-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Staats",
+      "maker": "Myster Violets",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Ask your coding agent how your site is doing",
+      "signal": "公开 Feed 于 2026-08-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 58,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/staats-3",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-08-29",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 13 位",
+          "score": 42,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-28T00:12:12-07:00",
+          "updatedAt": "2026-08-29T21:07:06-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-28T00:12:12-07:00",
+        "updatedAt": "2026-08-29T21:07:06-07:00",
+        "feedRank": 13
+      }
+    },
+    {
+      "name": "Hy4 preview",
+      "maker": "Zac Zuo",
+      "category": "模型与推理",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Tencent’s 770B open model for long-horizon work",
+      "signal": "公开 Feed 于 2026-08-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 55,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://www.producthunt.com/products/hunyuan-a13b",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-08-29",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 16 位",
+          "score": 33,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-28T09:57:52-07:00",
+          "updatedAt": "2026-08-29T22:17:54-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-28T09:57:52-07:00",
+        "updatedAt": "2026-08-29T22:17:54-07:00",
+        "feedRank": 16
+      }
+    },
+    {
+      "name": "CTRL Micro",
+      "maker": "Andrew Flores",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Haptic control deck for your Mac and AI agents",
+      "signal": "公开 Feed 于 2026-08-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 47,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/ctrl-micro",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 5 天",
+          "score": 67,
+          "ageDays": 5,
+          "firstSeenAt": "2026-08-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 17 位",
+          "score": 30,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-24T14:54:57-07:00",
+          "updatedAt": "2026-08-29T22:03:30-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-24T14:54:57-07:00",
+        "updatedAt": "2026-08-29T22:03:30-07:00",
+        "feedRank": 17
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "OpenMAIC",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/THU-MAIC/OpenMAIC/releases/tag/v1.0.0"
+    },
+    {
+      "name": "scientific-agent-skills",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/releases/tag/v2.65.0"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "God’s Eye View",
+          "url": "https://www.producthunt.com/products/god-s-eye-view"
+        },
+        {
+          "label": "Hy4 preview",
+          "url": "https://www.producthunt.com/products/hunyuan-a13b"
+        },
+        {
+          "label": "Staats",
+          "url": "https://www.producthunt.com/products/staats-3"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "label": "OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "label": "archify",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "OpenMAIC",
+      "source": "GitHub",
+      "why": "+907 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "rank": 2,
+      "name": "scientific-agent-skills",
+      "source": "GitHub",
+      "why": "+1,587 stars / today；成熟项目 · 314 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 OpenMAIC 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "linkLabel": "打开 OpenMAIC"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 22,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-08-30T13:26:34+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 22 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-08-30/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
