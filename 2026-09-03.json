@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-09-03",
+    "weekday": "星期四",
+    "edition": "LIVE · 20260903",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-03 12:35 CST",
+    "capturedAt": "2026-09-03T12:35:39+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 timesfm。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        },
+        {
+          "label": "ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "1 个信号属于近 14 天新建或发布，3 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        },
+        {
+          "label": "ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "1",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "3",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "26/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "timesfm 是当前增长最明显的公开信号。",
+      "evidence": "+343 stars / today",
+      "sources": [
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：OpenClaw 2.0 · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "OpenClaw 2.0",
+          "url": "https://www.producthunt.com/products/openclaw-formerly-clawdbot"
+        },
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 84,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 3 个实质更新；最高信号为 hermes-agent · 近 2 天有 Release。",
+      "sources": [
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 81,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+343 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：OpenClaw 2.0 · PH 发布 2 天。",
+      "变化信号：确认 3 个实质更新；最高信号为 hermes-agent · 近 2 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "label": "atlas",
+        "url": "https://github.com/pacifio/atlas"
+      },
+      {
+        "label": "ECC",
+        "url": "https://github.com/affaan-m/ECC"
+      },
+      {
+        "label": "academic-research-skills",
+        "url": "https://github.com/Imbad0202/academic-research-skills"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "timesfm",
+      "owner": "google-research",
+      "category": "知识与记忆",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "delta": "GitHub Daily Trending #2，近周期新增 343 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+343 stars / today",
+      "heat": 87,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://github.com/google-research/timesfm",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 856,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+343 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": 21,
+          "starsSince": 343,
+          "snapshotStarDelta": null,
+          "totalStars": 30055
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-02T21:37:52Z",
+          "latestRelease": {
+            "name": "TimesFM-3.0",
+            "tag": "v3.0.0",
+            "publishedAt": "2026-08-28T23:42:49Z",
+            "url": "https://github.com/google-research/timesfm/releases/tag/v3.0.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-04-29T21:26:26Z",
+        "pushedAt": "2026-09-02T21:37:52Z",
+        "totalStars": 30055,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "hermes-agent",
+      "owner": "NousResearch",
+      "category": "Agent 技能与工具",
+      "description": "The agent that grows with you",
+      "delta": "GitHub Daily Trending #7，近周期新增 533 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+533 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 407 天",
+          "score": 24,
+          "ageDays": 407,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+533 stars / today",
+          "score": 100,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 533,
+          "snapshotStarDelta": null,
+          "totalStars": 240244
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-03T04:27:51Z",
+          "latestRelease": {
+            "name": "Hermes Agent v0.21.0 (v2026.8.31)",
+            "tag": "v2026.8.31",
+            "publishedAt": "2026-08-31T19:29:49Z",
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T22:22:28Z",
+        "pushedAt": "2026-09-03T04:27:51Z",
+        "totalStars": 240244,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "atlas",
+      "owner": "pacifio",
+      "category": "Agent 技能与工具",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "delta": "GitHub Daily Trending #9，近周期新增 888 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+888 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/pacifio/atlas",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 111,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+888 stars / today",
+          "score": 100,
+          "rankDaily": 9,
+          "rankWeekly": null,
+          "starsSince": 888,
+          "snapshotStarDelta": null,
+          "totalStars": 2985
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-02T18:49:24Z",
+          "latestRelease": {
+            "name": "Atlas ACP + Timeline",
+            "tag": "alpha-0.3.0",
+            "publishedAt": "2026-08-25T13:54:58Z",
+            "url": "https://github.com/pacifio/atlas/releases/tag/alpha-0.3.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-14T16:48:52Z",
+        "pushedAt": "2026-09-02T18:49:24Z",
+        "totalStars": 2985,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ECC",
+      "owner": "affaan-m",
+      "category": "Agent 技能与工具",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "delta": "GitHub Daily Trending #12，近周期新增 516 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+516 stars / today",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 228 天",
+          "score": 24,
+          "ageDays": 228,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+516 stars / today",
+          "score": 89,
+          "rankDaily": 12,
+          "rankWeekly": null,
+          "starsSince": 516,
+          "snapshotStarDelta": 625,
+          "totalStars": 246457
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-03T00:48:58Z",
+          "latestRelease": {
+            "name": "ECC 2.2.0: Guided Setup, Antigravity 2.0, and the Nasiko CLI Bridge",
+            "tag": "v2.2.0",
+            "publishedAt": "2026-08-28T19:55:05Z",
+            "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-18T00:51:51Z",
+        "pushedAt": "2026-09-03T00:48:58Z",
+        "totalStars": 246457,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "academic-research-skills",
+      "owner": "Imbad0202",
+      "category": "Agent 技能与工具",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "delta": "GitHub Daily Trending #11，近周期新增 799 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+799 stars / today",
+      "heat": 74,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 189 天",
+          "score": 24,
+          "ageDays": 189,
+          "firstSeenAt": "2026-09-02",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+799 stars / today",
+          "score": 96,
+          "rankDaily": 11,
+          "rankWeekly": null,
+          "starsSince": 799,
+          "snapshotStarDelta": 592,
+          "totalStars": 45651
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-09-01T17:57:41Z",
+          "latestRelease": {
+            "name": "v3.21.1 — Bounded workflow substrates, sealed bakeoffs, and transport hardening",
+            "tag": "v3.21.1",
+            "publishedAt": "2026-08-24T11:21:21Z",
+            "url": "https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.21.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-26T06:31:01Z",
+        "pushedAt": "2026-09-01T17:57:41Z",
+        "totalStars": 45651,
+        "language": "Python",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "category": "Agent 技能与工具",
+      "description": "Chrome DevTools for coding agents",
+      "delta": "GitHub Daily Trending #6，近周期新增 148 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+148 stars / today",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 357 天",
+          "score": 24,
+          "ageDays": 357,
+          "firstSeenAt": "2026-08-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+148 stars / today",
+          "score": 91,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 148,
+          "snapshotStarDelta": null,
+          "totalStars": 50706
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-03T04:14:10Z",
+          "latestRelease": {
+            "name": "chrome-devtools-mcp: v1.8.0",
+            "tag": "chrome-devtools-mcp-v1.8.0",
+            "publishedAt": "2026-08-25T11:35:48Z",
+            "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/chrome-devtools-mcp-v1.8.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-09-11T10:39:55Z",
+        "pushedAt": "2026-09-03T04:14:10Z",
+        "totalStars": 50706,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Userlens",
+      "maker": "Garry Tan",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI agent to improve product adoption",
+      "signal": "公开 Feed 于 2026-09-02 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/userlens",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 131,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-04-25T08:16:39-07:00",
+          "updatedAt": "2026-09-02T21:02:33-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-04-25T08:16:39-07:00",
+        "updatedAt": "2026-09-02T21:02:33-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "OpenClaw 2.0",
+      "maker": "Chris Messina",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The AI that really does things",
+      "signal": "公开 Feed 于 2026-09-02 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/openclaw-formerly-clawdbot",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-31T11:52:42-07:00",
+          "updatedAt": "2026-09-02T21:33:07-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-31T11:52:42-07:00",
+        "updatedAt": "2026-09-02T21:33:07-07:00",
+        "feedRank": 7
+      }
+    },
+    {
+      "name": "Dial",
+      "maker": "fmerian",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Give your AI agent a real phone number in 10 seconds",
+      "signal": "公开 Feed 于 2026-09-02 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 54,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/dial-3",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 18 天",
+          "score": 47,
+          "ageDays": 18,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-15T14:20:05-07:00",
+          "updatedAt": "2026-09-02T21:08:20-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-15T14:20:05-07:00",
+        "updatedAt": "2026-09-02T21:08:20-07:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "Onset MCP",
+      "maker": "Sonny T.",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Write and publish release notes from your AI assistant",
+      "signal": "公开 Feed 于 2026-09-02 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 56,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/onset-io",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 36,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-07-28T14:30:24-07:00",
+          "updatedAt": "2026-09-02T21:02:33-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-07-28T14:30:24-07:00",
+        "updatedAt": "2026-09-02T21:02:33-07:00",
+        "feedRank": 9
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "timesfm",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/google-research/timesfm/releases/tag/v3.0.0"
+    },
+    {
+      "name": "hermes-agent",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31"
+    },
+    {
+      "name": "ECC",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.0"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "OpenClaw 2.0",
+          "url": "https://www.producthunt.com/products/openclaw-formerly-clawdbot"
+        },
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "atlas",
+          "url": "https://github.com/pacifio/atlas"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "label": "timesfm",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "label": "ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "timesfm",
+      "source": "GitHub",
+      "why": "+343 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "rank": 2,
+      "name": "hermes-agent",
+      "source": "GitHub",
+      "why": "+533 stars / today；成熟项目 · 407 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 timesfm 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/google-research/timesfm",
+      "linkLabel": "打开 timesfm"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 26,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-03T12:35:39+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 26 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-03/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
