@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-07",
+    "weekday": "星期一",
+    "edition": "LIVE · 20260907",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-07 12:45 CST",
+    "capturedAt": "2026-09-07T12:44:58+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 humanizer。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "humanizer 是当前增长最明显的公开信号。",
+      "evidence": "+748 stars / today",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 72,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Agentic Video Understanding in Gemini · PH 发布 4 天。",
+      "sources": [
+        {
+          "label": "Agentic Video Understanding in Gemini",
+          "url": "https://www.producthunt.com/products/google"
+        },
+        {
+          "label": "Kit by Speakeasy",
+          "url": "https://www.producthunt.com/products/speakeasydev"
+        },
+        {
+          "label": "AI Toolbox 3.0",
+          "url": "https://www.producthunt.com/products/chatgpt-toolbox"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 humanizer · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "magnitude",
+          "url": "https://github.com/magnitudedev/magnitude"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 84,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+748 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Agentic Video Understanding in Gemini · PH 发布 4 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 humanizer · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "humanizer",
+        "url": "https://github.com/blader/humanizer"
+      },
+      {
+        "label": "opencode",
+        "url": "https://github.com/anomalyco/opencode"
+      },
+      {
+        "label": "hermes-agent",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      {
+        "label": "magnitude",
+        "url": "https://github.com/magnitudedev/magnitude"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "humanizer",
+      "owner": "blader",
+      "category": "Agent 技能与工具",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "delta": "GitHub Daily Trending #7，近周期新增 748 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+748 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/blader/humanizer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 232 天",
+          "score": 24,
+          "ageDays": 232,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+748 stars / today",
+          "score": 100,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 748,
+          "snapshotStarDelta": 867,
+          "totalStars": 44461
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-06T20:26:10Z",
+          "latestRelease": {
+            "name": "Humanizer v3.0.0",
+            "tag": "v3.0.0",
+            "publishedAt": "2026-09-06T20:26:10Z",
+            "url": "https://github.com/blader/humanizer/releases/tag/v3.0.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-18T05:30:15Z",
+        "pushedAt": "2026-09-06T20:26:10Z",
+        "totalStars": 44461,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "opencode",
+      "owner": "anomalyco",
+      "category": "Agent 技能与工具",
+      "description": "The open source coding agent.",
+      "delta": "GitHub Daily Trending #6，近周期新增 551 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+551 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anomalyco/opencode",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 494 天",
+          "score": 24,
+          "ageDays": 494,
+          "firstSeenAt": "2026-09-05",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+551 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 551,
+          "snapshotStarDelta": 610,
+          "totalStars": 205364
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-07T04:42:06Z",
+          "latestRelease": {
+            "name": "v1.18.29",
+            "tag": "v1.18.29",
+            "publishedAt": "2026-09-04T23:47:16Z",
+            "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.29"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-30T20:08:00Z",
+        "pushedAt": "2026-09-07T04:42:06Z",
+        "totalStars": 205364,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "hermes-agent",
+      "owner": "NousResearch",
+      "category": "Agent 技能与工具",
+      "description": "The agent that grows with you",
+      "delta": "GitHub Daily Trending #4，近周期新增 520 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+520 stars / today",
+      "heat": 81,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 411 天",
+          "score": 24,
+          "ageDays": 411,
+          "firstSeenAt": "2026-08-24",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+520 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 520,
+          "snapshotStarDelta": 563,
+          "totalStars": 242651
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 6 天有 Release",
+          "score": 68,
+          "material": true,
+          "pushedAt": "2026-09-07T04:43:19Z",
+          "latestRelease": {
+            "name": "Hermes Agent v0.21.0 (v2026.8.31)",
+            "tag": "v2026.8.31",
+            "publishedAt": "2026-08-31T19:29:49Z",
+            "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T22:22:28Z",
+        "pushedAt": "2026-09-07T04:43:19Z",
+        "totalStars": 242651,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "magnitude",
+      "owner": "magnitudedev",
+      "category": "Agent 技能与工具",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "delta": "GitHub Daily Trending #11，近周期新增 604 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+604 stars / today",
+      "heat": 77,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 87 天",
+          "score": 24,
+          "ageDays": 87,
+          "firstSeenAt": "2026-09-04",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+604 stars / today",
+          "score": 93,
+          "rankDaily": 11,
+          "rankWeekly": 2,
+          "starsSince": 604,
+          "snapshotStarDelta": 481,
+          "totalStars": 3764
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-06T23:28:31Z",
+          "latestRelease": {
+            "name": "@magnitudedev/cli@0.0.11",
+            "tag": "@magnitudedev/cli@0.0.11",
+            "publishedAt": "2026-09-02T05:57:36Z",
+            "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.0.11"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-12T09:06:26Z",
+        "pushedAt": "2026-09-06T23:28:31Z",
+        "totalStars": 3764,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ECC",
+      "owner": "affaan-m",
+      "category": "Agent 技能与工具",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,485 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,485 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 232 天",
+          "score": 24,
+          "ageDays": 232,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,485 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 15,
+          "starsSince": 1485,
+          "snapshotStarDelta": 1574,
+          "totalStars": 251669
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-09-05T21:47:27Z",
+          "latestRelease": {
+            "name": "ECC 2.2.0: Guided Setup, Antigravity 2.0, and the Nasiko CLI Bridge",
+            "tag": "v2.2.0",
+            "publishedAt": "2026-08-28T19:55:05Z",
+            "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-18T00:51:51Z",
+        "pushedAt": "2026-09-05T21:47:27Z",
+        "totalStars": 251669,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #2，近周期新增 2,207 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,207 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 216 天",
+          "score": 24,
+          "ageDays": 216,
+          "firstSeenAt": "2026-08-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,207 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 2207,
+          "snapshotStarDelta": 2046,
+          "totalStars": 254971
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-09-04T08:45:43Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-09-04T08:45:43Z",
+        "totalStars": 254971,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Kit by Speakeasy",
+      "maker": "fmerian",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your coding agent runtime. Claude but fast, cheap, concise.",
+      "signal": "公开 Feed 于 2026-09-06 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/speakeasydev",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 5 天",
+          "score": 67,
+          "ageDays": 5,
+          "firstSeenAt": "2026-09-07",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-02T07:23:38-07:00",
+          "updatedAt": "2026-09-06T21:37:57-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-02T07:23:38-07:00",
+        "updatedAt": "2026-09-06T21:37:57-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Agentic Video Understanding in Gemini",
+      "maker": "Rohan Chaubey",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Agentic video analysis for faster, smarter Gemini insights",
+      "signal": "公开 Feed 于 2026-09-06 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/google",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-08-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-02T12:44:06-07:00",
+          "updatedAt": "2026-09-06T21:37:55-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-02T12:44:06-07:00",
+        "updatedAt": "2026-09-06T21:37:55-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "AI Toolbox 3.0",
+      "maker": "Justin Jincaid",
+      "category": "知识与记忆",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Search, organize and export every AI chat in one place",
+      "signal": "公开 Feed 于 2026-09-06 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://www.producthunt.com/products/chatgpt-toolbox",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 44,
+          "firstSeenAt": "2026-09-07",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-07-25T06:16:23-07:00",
+          "updatedAt": "2026-09-06T21:43:04-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-07-25T06:16:23-07:00",
+        "updatedAt": "2026-09-06T21:43:04-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Tadata",
+      "maker": "Rajiv Ayyangar",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The AI employee in Slack that reads the room.",
+      "signal": "公开 Feed 于 2026-09-06 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/tadata",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 264,
+          "firstSeenAt": "2026-09-07",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2025-12-16T12:05:20-08:00",
+          "updatedAt": "2026-09-06T21:38:48-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2025-12-16T12:05:20-08:00",
+        "updatedAt": "2026-09-06T21:38:48-07:00",
+        "feedRank": 6
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "humanizer",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/blader/humanizer/releases/tag/v3.0.0"
+    },
+    {
+      "name": "opencode",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.29"
+    },
+    {
+      "name": "hermes-agent",
+      "change": "近 6 天有 Release",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31"
+    },
+    {
+      "name": "magnitude",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/magnitudedev/magnitude/releases/tag/%40magnitudedev/cli%400.0.11"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Agentic Video Understanding in Gemini",
+          "url": "https://www.producthunt.com/products/google"
+        },
+        {
+          "label": "Kit by Speakeasy",
+          "url": "https://www.producthunt.com/products/speakeasydev"
+        },
+        {
+          "label": "AI Toolbox 3.0",
+          "url": "https://www.producthunt.com/products/chatgpt-toolbox"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "humanizer",
+          "url": "https://github.com/blader/humanizer"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        },
+        {
+          "label": "magnitude",
+          "url": "https://github.com/magnitudedev/magnitude"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "humanizer",
+      "source": "GitHub",
+      "why": "+748 stars / today；成熟项目 · 232 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "rank": 2,
+      "name": "opencode",
+      "source": "GitHub",
+      "why": "+551 stars / today；成熟项目 · 494 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/anomalyco/opencode"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 humanizer 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/blader/humanizer",
+      "linkLabel": "打开 humanizer"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-07T12:44:58+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-07/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
