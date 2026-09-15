@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-15",
+    "weekday": "星期二",
+    "edition": "LIVE · 20260915",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-15 12:57 CST",
+    "capturedAt": "2026-09-15T12:57:08+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 open-code-review。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE"
+        },
+        {
+          "label": "MiroFish",
+          "url": "https://github.com/666ghj/MiroFish"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        {
+          "label": "YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE"
+        },
+        {
+          "label": "MiroFish",
+          "url": "https://github.com/666ghj/MiroFish"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "open-code-review 是当前增长最明显的公开信号。",
+      "evidence": "+1,571 stars / today",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        {
+          "label": "YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 77,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：MemoryPet 2.0 · PH 发布 3 天。",
+      "sources": [
+        {
+          "label": "MemoryPet 2.0",
+          "url": "https://www.producthunt.com/products/memorypet"
+        },
+        {
+          "label": "Juggler",
+          "url": "https://www.producthunt.com/products/juggler"
+        },
+        {
+          "label": "OzBrain",
+          "url": "https://www.producthunt.com/products/ozbrain"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 open-code-review · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        {
+          "label": "oh-my-hermes",
+          "url": "https://github.com/rlaope/oh-my-hermes"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 81,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,571 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：MemoryPet 2.0 · PH 发布 3 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 open-code-review · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "label": "YuE",
+        "url": "https://github.com/multimodal-art-projection/YuE"
+      },
+      {
+        "label": "MiroFish",
+        "url": "https://github.com/666ghj/MiroFish"
+      },
+      {
+        "label": "Agent-Reach",
+        "url": "https://github.com/Panniantong/Agent-Reach"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Daily Trending #2，近周期新增 1,571 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,571 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 120 天",
+          "score": 24,
+          "ageDays": 120,
+          "firstSeenAt": "2026-09-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,571 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": 22,
+          "starsSince": 1571,
+          "snapshotStarDelta": 2480,
+          "totalStars": 26226
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-15T03:21:40Z",
+          "latestRelease": {
+            "name": "v1.12.1",
+            "tag": "v1.12.1",
+            "publishedAt": "2026-09-14T11:23:26Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-09-15T03:21:40Z",
+        "totalStars": 26226,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "colibri",
+      "owner": "JustVugg",
+      "category": "模型与推理",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "delta": "GitHub Daily Trending #1，近周期新增 2,173 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,173 stars / today",
+      "heat": 84,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/JustVugg/colibri",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 76 天",
+          "score": 24,
+          "ageDays": 76,
+          "firstSeenAt": "2026-09-11",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,173 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 2173,
+          "snapshotStarDelta": 2176,
+          "totalStars": 32391
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-14T21:35:36Z",
+          "latestRelease": {
+            "name": "colibri v1.11.0",
+            "tag": "v1.11.0",
+            "publishedAt": "2026-09-13T13:44:10Z",
+            "url": "https://github.com/JustVugg/colibri/releases/tag/v1.11.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-07-01T12:27:49Z",
+        "pushedAt": "2026-09-14T21:35:36Z",
+        "totalStars": 32391,
+        "language": "C",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "YuE",
+      "owner": "multimodal-art-projection",
+      "category": "Agent 技能与工具",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "delta": "GitHub Daily Trending #3，近周期新增 559 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+559 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 600 天",
+          "score": 24,
+          "ageDays": 600,
+          "firstSeenAt": "2026-09-13",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+559 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 559,
+          "snapshotStarDelta": 684,
+          "totalStars": 8555
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-14T10:31:07Z",
+          "latestRelease": {
+            "name": "YuE2 · frontier music generation with symbolic planning",
+            "tag": "yue2-v0.1.6",
+            "publishedAt": "2026-09-09T19:10:05Z",
+            "url": "https://github.com/multimodal-art-projection/YuE/releases/tag/yue2-v0.1.6"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-01-23T06:21:58Z",
+        "pushedAt": "2026-09-14T10:31:07Z",
+        "totalStars": 8555,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "MiroFish",
+      "owner": "666ghj",
+      "category": "Agent 技能与工具",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "delta": "GitHub Daily Trending #5，近周期新增 560 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+560 stars / today",
+      "heat": 77,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/666ghj/MiroFish",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 293,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+560 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 560,
+          "snapshotStarDelta": null,
+          "totalStars": 73358
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "未确认重大更新",
+          "score": 24,
+          "material": false,
+          "pushedAt": "2026-09-03T05:00:50Z",
+          "latestRelease": {
+            "name": "V0.1.2",
+            "tag": "v0.1.2",
+            "publishedAt": "2026-03-07T13:45:58Z",
+            "url": "https://github.com/666ghj/MiroFish/releases/tag/v0.1.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-11-26T04:23:02Z",
+        "pushedAt": "2026-09-03T05:00:50Z",
+        "totalStars": 73358,
+        "language": "Python",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "Agent-Reach",
+      "owner": "Panniantong",
+      "category": "Agent 技能与工具",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "delta": "GitHub Daily Trending #6，近周期新增 651 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+651 stars / today",
+      "heat": 77,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 203,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+651 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 651,
+          "snapshotStarDelta": null,
+          "totalStars": 81529
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "未确认重大更新",
+          "score": 24,
+          "material": false,
+          "pushedAt": "2026-09-01T08:09:58Z",
+          "latestRelease": {
+            "name": "v1.5.0 — 能力层:多后端路由 + 真体检 + OpenCLI",
+            "tag": "v1.5.0",
+            "publishedAt": "2026-06-11T12:29:59Z",
+            "url": "https://github.com/Panniantong/Agent-Reach/releases/tag/v1.5.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-24T02:10:24Z",
+        "pushedAt": "2026-09-01T08:09:58Z",
+        "totalStars": 81529,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "oh-my-hermes",
+      "owner": "rlaope",
+      "category": "Agent 技能与工具",
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+      "delta": "GitHub Daily Trending #8，近周期新增 77 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+77 stars / today",
+      "heat": 77,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/rlaope/oh-my-hermes",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 104,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+77 stars / today",
+          "score": 81,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 77,
+          "snapshotStarDelta": null,
+          "totalStars": 2177
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-15T04:51:06Z",
+          "latestRelease": {
+            "name": "v2.0.3",
+            "tag": "v2.0.3",
+            "publishedAt": "2026-09-12T02:21:19Z",
+            "url": "https://github.com/rlaope/oh-my-hermes/releases/tag/v2.0.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-03T13:00:34Z",
+        "pushedAt": "2026-09-15T04:51:06Z",
+        "totalStars": 2177,
+        "language": "Python",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Naoma AI Demo Agent V2",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Turns website traffic into booked, qualified meetings",
+      "signal": "公开 Feed 于 2026-09-14 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/naoma",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 6 天",
+          "score": 62,
+          "ageDays": 6,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-09T05:36:36-07:00",
+          "updatedAt": "2026-09-14T21:54:55-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-09T05:36:36-07:00",
+        "updatedAt": "2026-09-14T21:54:55-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "OzBrain",
+      "maker": "Darius A Monsef IV",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your knowledge shared with every AI agent & any teammate",
+      "signal": "公开 Feed 于 2026-09-14 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/ozbrain",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-10T15:25:45-07:00",
+          "updatedAt": "2026-09-14T21:39:24-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-10T15:25:45-07:00",
+        "updatedAt": "2026-09-14T21:39:24-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "MemoryPet 2.0",
+      "maker": "Veit Voss",
+      "category": "浏览器 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Turn your browsers toolbar into an animated usage monitor",
+      "signal": "公开 Feed 于 2026-09-14 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://www.producthunt.com/products/memorypet",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-11T10:54:42-07:00",
+          "updatedAt": "2026-09-14T21:40:05-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-11T10:54:42-07:00",
+        "updatedAt": "2026-09-14T21:40:05-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Juggler",
+      "maker": "Julian Storer",
+      "category": "编码 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "A visual AI coding harness",
+      "signal": "公开 Feed 于 2026-09-14 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "从代码生成继续深入自动检查、评审、测试与交付物生成。",
+      "url": "https://www.producthunt.com/products/juggler",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-15",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-11T11:43:38-07:00",
+          "updatedAt": "2026-09-14T21:39:30-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-11T11:43:38-07:00",
+        "updatedAt": "2026-09-14T21:39:30-07:00",
+        "feedRank": 6
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "open-code-review",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.1"
+    },
+    {
+      "name": "colibri",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/JustVugg/colibri/releases/tag/v1.11.0"
+    },
+    {
+      "name": "YuE",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/multimodal-art-projection/YuE/releases/tag/yue2-v0.1.6"
+    },
+    {
+      "name": "oh-my-hermes",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/rlaope/oh-my-hermes/releases/tag/v2.0.3"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        {
+          "label": "YuE",
+          "url": "https://github.com/multimodal-art-projection/YuE"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "MemoryPet 2.0",
+          "url": "https://www.producthunt.com/products/memorypet"
+        },
+        {
+          "label": "Juggler",
+          "url": "https://www.producthunt.com/products/juggler"
+        },
+        {
+          "label": "OzBrain",
+          "url": "https://www.producthunt.com/products/ozbrain"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        },
+        {
+          "label": "oh-my-hermes",
+          "url": "https://github.com/rlaope/oh-my-hermes"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "open-code-review",
+      "source": "GitHub",
+      "why": "+1,571 stars / today；成熟项目 · 120 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "rank": 2,
+      "name": "colibri",
+      "source": "GitHub",
+      "why": "+2,173 stars / today；成熟项目 · 76 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/JustVugg/colibri"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 open-code-review 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/alibaba/open-code-review",
+      "linkLabel": "打开 open-code-review"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-15T12:57:08+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-15/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
