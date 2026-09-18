@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-18",
+    "weekday": "星期五",
+    "edition": "LIVE · 20260918",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-18 12:46 CST",
+    "capturedAt": "2026-09-18T12:46:30+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 BrowserSkill。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "BrowserSkill 是当前增长最明显的公开信号。",
+      "evidence": "+1,302 stars / today",
+      "sources": [
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Opyt · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "Opyt",
+          "url": "https://www.producthunt.com/products/opyt"
+        },
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "AskDeck",
+          "url": "https://www.producthunt.com/products/askdeck"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 agent-skills · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 88,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,302 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Opyt · PH 发布 2 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 agent-skills · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "BrowserSkill",
+        "url": "https://github.com/Tencent/BrowserSkill"
+      },
+      {
+        "label": "agent-skills",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      {
+        "label": "claude-code",
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "BrowserSkill",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "delta": "GitHub Daily Trending #4，近周期新增 1,302 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,302 stars / today",
+      "heat": 91,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 88,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,302 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 1302,
+          "snapshotStarDelta": null,
+          "totalStars": 4438
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-18T02:50:00Z",
+          "latestRelease": {
+            "name": "bsk CLI 0.3.0",
+            "tag": "cli-v0.3.0",
+            "publishedAt": "2026-09-17T02:22:24Z",
+            "url": "https://github.com/Tencent/BrowserSkill/releases/tag/cli-v0.3.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-22T07:24:40Z",
+        "pushedAt": "2026-09-18T02:50:00Z",
+        "totalStars": 4438,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "agent-skills",
+      "owner": "addyosmani",
+      "category": "Agent 技能与工具",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "delta": "GitHub Daily Trending #3，近周期新增 680 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+680 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 214 天",
+          "score": 24,
+          "ageDays": 214,
+          "firstSeenAt": "2026-08-30",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+680 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 9,
+          "starsSince": 680,
+          "snapshotStarDelta": 382,
+          "totalStars": 95966
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-18T03:32:22Z",
+          "latestRelease": {
+            "name": "Agent Skills 0.6.10",
+            "tag": "0.6.10",
+            "publishedAt": "2026-09-18T03:32:23Z",
+            "url": "https://github.com/addyosmani/agent-skills/releases/tag/0.6.10"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-15T20:20:26Z",
+        "pushedAt": "2026-09-18T03:32:22Z",
+        "totalStars": 95966,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "claude-code",
+      "owner": "anthropics",
+      "category": "Agent 技能与工具",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "delta": "GitHub Daily Trending #6，近周期新增 538 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+538 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anthropics/claude-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 572 天",
+          "score": 24,
+          "ageDays": 572,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+538 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": 10,
+          "starsSince": 538,
+          "snapshotStarDelta": 319,
+          "totalStars": 145936
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-18T02:12:25Z",
+          "latestRelease": {
+            "name": "v2.1.276",
+            "tag": "v2.1.276",
+            "publishedAt": "2026-09-18T02:12:26Z",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-02-22T17:41:21Z",
+        "pushedAt": "2026-09-18T02:12:25Z",
+        "totalStars": 145936,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Daily Trending #1，近周期新增 3,286 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+3,286 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 123 天",
+          "score": 24,
+          "ageDays": 123,
+          "firstSeenAt": "2026-09-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,286 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 1,
+          "starsSince": 3286,
+          "snapshotStarDelta": 2818,
+          "totalStars": 35314
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-18T04:45:09Z",
+          "latestRelease": {
+            "name": "v1.12.5",
+            "tag": "v1.12.5",
+            "publishedAt": "2026-09-17T13:33:32Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.5"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-09-18T04:45:09Z",
+        "totalStars": 35314,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "OpenResearch",
+      "owner": "alphaXiv",
+      "category": "Agent 技能与工具",
+      "description": "Turn your coding agents into research agents",
+      "delta": "GitHub Daily Trending #5，近周期新增 939 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+939 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 103 天",
+          "score": 24,
+          "ageDays": 103,
+          "firstSeenAt": "2026-09-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+939 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 939,
+          "snapshotStarDelta": 515,
+          "totalStars": 5066
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-18T03:54:25Z",
+          "latestRelease": {
+            "name": "v0.2.4",
+            "tag": "v0.2.4",
+            "publishedAt": "2026-09-17T01:46:04Z",
+            "url": "https://github.com/alphaXiv/OpenResearch/releases/tag/v0.2.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-07T01:51:39Z",
+        "pushedAt": "2026-09-18T03:54:25Z",
+        "totalStars": 5066,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WeKnora",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "delta": "GitHub Daily Trending #9，近周期新增 1,125 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,125 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 423 天",
+          "score": 24,
+          "ageDays": 423,
+          "firstSeenAt": "2026-09-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,125 stars / today",
+          "score": 100,
+          "rankDaily": 9,
+          "rankWeekly": 6,
+          "starsSince": 1125,
+          "snapshotStarDelta": 922,
+          "totalStars": 26487
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-18T04:28:57Z",
+          "latestRelease": {
+            "name": "v0.8.0",
+            "tag": "v0.8.0",
+            "publishedAt": "2026-09-03T07:03:36Z",
+            "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T08:01:23Z",
+        "pushedAt": "2026-09-18T04:28:57Z",
+        "totalStars": 26487,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "CREEM 2.0",
+      "maker": "Ben Lang",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Sell and grow your AI built products",
+      "signal": "公开 Feed 于 2026-09-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 62,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/creem",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 25 天",
+          "score": 40,
+          "ageDays": 25,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-24T01:43:54-07:00",
+          "updatedAt": "2026-09-17T21:45:01-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-24T01:43:54-07:00",
+        "updatedAt": "2026-09-17T21:45:01-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Opyt",
+      "maker": "David Maimon ",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your attention is the context your AI is missing",
+      "signal": "公开 Feed 于 2026-09-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/opyt",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-16T02:21:38-07:00",
+          "updatedAt": "2026-09-17T21:18:42-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-16T02:21:38-07:00",
+        "updatedAt": "2026-09-17T21:18:42-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Analytiics",
+      "maker": "Charlie Clark",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Web and product analytics, set up by your coding agent",
+      "signal": "公开 Feed 于 2026-09-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 57,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/analytiics",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 10 天",
+          "score": 55,
+          "ageDays": 10,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-07T20:03:51-07:00",
+          "updatedAt": "2026-09-17T18:01:42-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-07T20:03:51-07:00",
+        "updatedAt": "2026-09-17T18:01:42-07:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "AskDeck",
+      "maker": "Thibault (Joe)",
+      "category": "内容生成",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Call an AI to get a PowerPoint and a narrated video back",
+      "signal": "公开 Feed 于 2026-09-17 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 55,
+      "opportunity": "把生成能力嵌入已有创作流程，并用素材管理和协作降低切换成本。",
+      "url": "https://www.producthunt.com/products/askdeck",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 94,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 10 位",
+          "score": 51,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-06-15T09:26:22-07:00",
+          "updatedAt": "2026-09-17T21:29:12-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-06-15T09:26:22-07:00",
+        "updatedAt": "2026-09-17T21:29:12-07:00",
+        "feedRank": 10
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "BrowserSkill",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/Tencent/BrowserSkill/releases/tag/cli-v0.3.0"
+    },
+    {
+      "name": "agent-skills",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/addyosmani/agent-skills/releases/tag/0.6.10"
+    },
+    {
+      "name": "claude-code",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276"
+    },
+    {
+      "name": "open-code-review",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.5"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Opyt",
+          "url": "https://www.producthunt.com/products/opyt"
+        },
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        },
+        {
+          "label": "AskDeck",
+          "url": "https://www.producthunt.com/products/askdeck"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "BrowserSkill",
+      "source": "GitHub",
+      "why": "+1,302 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    {
+      "rank": 2,
+      "name": "agent-skills",
+      "source": "GitHub",
+      "why": "+680 stars / today；成熟项目 · 214 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/addyosmani/agent-skills"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 BrowserSkill 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "linkLabel": "打开 BrowserSkill"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-18T12:46:30+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-18/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
