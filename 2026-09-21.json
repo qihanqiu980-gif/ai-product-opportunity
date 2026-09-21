@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-21",
+    "weekday": "星期一",
+    "edition": "LIVE · 20260921",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-21 12:58 CST",
+    "capturedAt": "2026-09-21T12:58:45+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 agent-native。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "open-code-review 是当前增长最明显的公开信号。",
+      "evidence": "+15,504 stars / this week",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "cua",
+          "url": "https://github.com/trycua/cua"
+        },
+        {
+          "label": "ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Epismo OS · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Epismo OS",
+          "url": "https://www.producthunt.com/products/epismo"
+        },
+        {
+          "label": "Morsa Signals",
+          "url": "https://www.producthunt.com/products/morsa-signals"
+        },
+        {
+          "label": "Ruby UTCP",
+          "url": "https://www.producthunt.com/products/utcp"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 84,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 open-code-review · 近 2 天有 Release。",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 84,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+15,504 stars / this week",
+      "新鲜度信号：当前最高新鲜度信号：Epismo OS · PH 发布 1 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 open-code-review · 近 2 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "agent-native",
+        "url": "https://github.com/BuilderIO/agent-native"
+      },
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "label": "claude-code",
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "label": "cua",
+        "url": "https://github.com/trycua/cua"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "agent-native",
+      "owner": "BuilderIO",
+      "category": "Agent 技能与工具",
+      "description": "A framework for building agentic apps",
+      "delta": "GitHub Daily Trending #2，近周期新增 98 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+98 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 193,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+98 stars / today",
+          "score": 96,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 98,
+          "snapshotStarDelta": null,
+          "totalStars": 5365
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-21T04:35:43Z",
+          "latestRelease": {
+            "name": "@agent-native/toolkit@0.20.4",
+            "tag": "@agent-native/toolkit@0.20.4",
+            "publishedAt": "2026-09-17T19:37:43Z",
+            "url": "https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/toolkit%400.20.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-12T14:57:10Z",
+        "pushedAt": "2026-09-21T04:35:43Z",
+        "totalStars": 5365,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Weekly Trending #1",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+15,504 stars / this week",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 126 天",
+          "score": 24,
+          "ageDays": 126,
+          "firstSeenAt": "2026-09-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+15,504 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 1,
+          "starsSince": 15504,
+          "snapshotStarDelta": 796,
+          "totalStars": 38570
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-20T07:57:28Z",
+          "latestRelease": {
+            "name": "v1.12.7",
+            "tag": "v1.12.7",
+            "publishedAt": "2026-09-19T08:59:56Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-09-20T07:57:28Z",
+        "totalStars": 38570,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "claude-code",
+      "owner": "anthropics",
+      "category": "Agent 技能与工具",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "delta": "GitHub Daily Trending #7，近周期新增 419 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+419 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anthropics/claude-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 575 天",
+          "score": 24,
+          "ageDays": 575,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+419 stars / today",
+          "score": 98,
+          "rankDaily": 7,
+          "rankWeekly": 2,
+          "starsSince": 419,
+          "snapshotStarDelta": 443,
+          "totalStars": 147226
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-20T20:41:16Z",
+          "latestRelease": {
+            "name": "v2.1.278",
+            "tag": "v2.1.278",
+            "publishedAt": "2026-09-19T03:10:40Z",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-02-22T17:41:21Z",
+        "pushedAt": "2026-09-20T20:41:16Z",
+        "totalStars": 147226,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "cua",
+      "owner": "trycua",
+      "category": "Agent 技能与工具",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "delta": "GitHub Daily Trending #4，近周期新增 1,018 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,018 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/trycua/cua",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 598 天",
+          "score": 24,
+          "ageDays": 598,
+          "firstSeenAt": "2026-09-20",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,018 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 1018,
+          "snapshotStarDelta": 679,
+          "totalStars": 25277
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-21T04:57:21Z",
+          "latestRelease": {
+            "name": "sandbox: v0.8.0",
+            "tag": "sandbox-v0.8.0",
+            "publishedAt": "2026-09-15T16:48:28Z",
+            "url": "https://github.com/trycua/cua/releases/tag/sandbox-v0.8.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-01-31T15:02:49Z",
+        "pushedAt": "2026-09-21T04:57:21Z",
+        "totalStars": 25277,
+        "language": "HTML",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ECC",
+      "owner": "affaan-m",
+      "category": "Agent 技能与工具",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "delta": "GitHub Daily Trending #1，近周期新增 826 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+826 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/affaan-m/ECC",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 246 天",
+          "score": 24,
+          "ageDays": 246,
+          "firstSeenAt": "2026-08-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+826 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 3,
+          "starsSince": 826,
+          "snapshotStarDelta": 890,
+          "totalStars": 263941
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-21T04:55:15Z",
+          "latestRelease": {
+            "name": "v2.2.1",
+            "tag": "v2.2.1",
+            "publishedAt": "2026-09-08T17:52:08Z",
+            "url": "https://github.com/affaan-m/ECC/releases/tag/v2.2.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-18T00:51:51Z",
+        "pushedAt": "2026-09-21T04:55:15Z",
+        "totalStars": 263941,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "WeKnora",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "delta": "GitHub Weekly Trending #4",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+5,242 stars / this week",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 426 天",
+          "score": 24,
+          "ageDays": 426,
+          "firstSeenAt": "2026-09-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+5,242 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 4,
+          "starsSince": 5242,
+          "snapshotStarDelta": 567,
+          "totalStars": 28148
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-21T04:36:56Z",
+          "latestRelease": {
+            "name": "v0.8.0",
+            "tag": "v0.8.0",
+            "publishedAt": "2026-09-03T07:03:36Z",
+            "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T08:01:23Z",
+        "pushedAt": "2026-09-21T04:36:56Z",
+        "totalStars": 28148,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Morsa Signals",
+      "maker": "Sergei Petrov",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "GTM and AI visibility workflows for developer tools",
+      "signal": "公开 Feed 于 2026-09-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/morsa-signals",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-17T08:07:28-07:00",
+          "updatedAt": "2026-09-20T21:57:45-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-17T08:07:28-07:00",
+        "updatedAt": "2026-09-20T21:57:45-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Minicart",
+      "maker": "Ben Lang",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Launch your store. Let AI run the busywork.",
+      "signal": "公开 Feed 于 2026-09-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/minicart",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 6 天",
+          "score": 62,
+          "ageDays": 6,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-14T10:22:27-07:00",
+          "updatedAt": "2026-09-20T21:55:10-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-14T10:22:27-07:00",
+        "updatedAt": "2026-09-20T21:55:10-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Epismo OS",
+      "maker": "Hiroki",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Keep your work when you switch AI tools",
+      "signal": "公开 Feed 于 2026-09-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/epismo",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 12 位",
+          "score": 45,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-19T13:05:33-07:00",
+          "updatedAt": "2026-09-20T21:40:26-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-19T13:05:33-07:00",
+        "updatedAt": "2026-09-20T21:40:26-07:00",
+        "feedRank": 12
+      }
+    },
+    {
+      "name": "Ruby UTCP",
+      "maker": "fmerian",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The scalable, secure alternative to MCP for tool calling",
+      "signal": "公开 Feed 于 2026-09-20 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 47,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/utcp",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 5 天",
+          "score": 67,
+          "ageDays": 5,
+          "firstSeenAt": "2026-09-20",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 17 位",
+          "score": 30,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-16T07:18:43-07:00",
+          "updatedAt": "2026-09-20T20:19:31-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-16T07:18:43-07:00",
+        "updatedAt": "2026-09-20T20:19:31-07:00",
+        "feedRank": 17
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "agent-native",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/toolkit%400.20.4"
+    },
+    {
+      "name": "open-code-review",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.7"
+    },
+    {
+      "name": "claude-code",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278"
+    },
+    {
+      "name": "cua",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/trycua/cua/releases/tag/sandbox-v0.8.0"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Epismo OS",
+          "url": "https://www.producthunt.com/products/epismo"
+        },
+        {
+          "label": "Morsa Signals",
+          "url": "https://www.producthunt.com/products/morsa-signals"
+        },
+        {
+          "label": "Ruby UTCP",
+          "url": "https://www.producthunt.com/products/utcp"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "agent-native",
+      "source": "GitHub",
+      "why": "+98 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/BuilderIO/agent-native"
+    },
+    {
+      "rank": 2,
+      "name": "open-code-review",
+      "source": "GitHub",
+      "why": "+15,504 stars / this week；成熟项目 · 126 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/alibaba/open-code-review"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 agent-native 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "linkLabel": "打开 agent-native"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-21T12:58:45+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-21/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
