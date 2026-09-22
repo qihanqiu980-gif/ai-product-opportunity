@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-22",
+    "weekday": "星期二",
+    "edition": "LIVE · 20260922",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-22 12:59 CST",
+    "capturedAt": "2026-09-22T12:59:17+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 agent-native。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "agent-native 是当前增长最明显的公开信号。",
+      "evidence": "+607 stars / today",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Jevtown · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Jevtown",
+          "url": "https://www.producthunt.com/products/jevtown"
+        },
+        {
+          "label": "Gradio Workflow",
+          "url": "https://www.producthunt.com/products/gradio"
+        },
+        {
+          "label": "autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 agent-native · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+607 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Jevtown · PH 发布 1 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 agent-native · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "agent-native",
+        "url": "https://github.com/BuilderIO/agent-native"
+      },
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "label": "ai-memory",
+        "url": "https://github.com/akitaonrails/ai-memory"
+      },
+      {
+        "label": "autoclip",
+        "url": "https://github.com/zhouxiaoka/autoclip"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "agent-native",
+      "owner": "BuilderIO",
+      "category": "Agent 技能与工具",
+      "description": "A framework for building agentic apps",
+      "delta": "GitHub Daily Trending #1，近周期新增 607 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+607 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 194 天",
+          "score": 24,
+          "ageDays": 194,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+607 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 607,
+          "snapshotStarDelta": 686,
+          "totalStars": 6051
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-22T04:57:35Z",
+          "latestRelease": {
+            "name": "@agent-native/creative-context@0.8.4",
+            "tag": "@agent-native/creative-context@0.8.4",
+            "publishedAt": "2026-09-21T19:35:25Z",
+            "url": "https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/creative-context%400.8.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-12T14:57:10Z",
+        "pushedAt": "2026-09-22T04:57:35Z",
+        "totalStars": 6051,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Weekly Trending #1",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+14,499 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 127 天",
+          "score": 24,
+          "ageDays": 127,
+          "firstSeenAt": "2026-09-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+14,499 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 1,
+          "starsSince": 14499,
+          "snapshotStarDelta": 761,
+          "totalStars": 39331
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-22T04:57:38Z",
+          "latestRelease": {
+            "name": "v1.12.8",
+            "tag": "v1.12.8",
+            "publishedAt": "2026-09-21T12:46:24Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.8"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-09-22T04:57:38Z",
+        "totalStars": 39331,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "colibri",
+      "owner": "JustVugg",
+      "category": "模型与推理",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+5,565 stars / this week",
+      "heat": 85,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/JustVugg/colibri",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 83 天",
+          "score": 24,
+          "ageDays": 83,
+          "firstSeenAt": "2026-09-11",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+5,565 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 5565,
+          "snapshotStarDelta": null,
+          "totalStars": 36912
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-22T00:10:10Z",
+          "latestRelease": {
+            "name": "colibri 1.12.0",
+            "tag": "v1.12.0",
+            "publishedAt": "2026-09-20T22:13:26Z",
+            "url": "https://github.com/JustVugg/colibri/releases/tag/v1.12.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-07-01T12:27:49Z",
+        "pushedAt": "2026-09-22T00:10:10Z",
+        "totalStars": 36912,
+        "language": "C",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ai-memory",
+      "owner": "akitaonrails",
+      "category": "Agent 技能与工具",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "delta": "GitHub Daily Trending #4，近周期新增 167 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+167 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 123 天",
+          "score": 24,
+          "ageDays": 123,
+          "firstSeenAt": "2026-08-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+167 stars / today",
+          "score": 97,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 167,
+          "snapshotStarDelta": null,
+          "totalStars": 7804
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-22T00:14:33Z",
+          "latestRelease": {
+            "name": "v2.4.0",
+            "tag": "v2.4.0",
+            "publishedAt": "2026-09-21T23:45:13Z",
+            "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v2.4.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-21T23:23:51Z",
+        "pushedAt": "2026-09-22T00:14:33Z",
+        "totalStars": 7804,
+        "language": "Rust",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "autoclip",
+      "owner": "zhouxiaoka",
+      "category": "Agent 技能与工具",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "delta": "GitHub Daily Trending #9，近周期新增 250 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+250 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 441,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+250 stars / today",
+          "score": 89,
+          "rankDaily": 9,
+          "rankWeekly": null,
+          "starsSince": 250,
+          "snapshotStarDelta": null,
+          "totalStars": 8399
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-22T04:58:13Z",
+          "latestRelease": {
+            "name": "AutoClip Desktop v1.3.1",
+            "tag": "v1.3.1",
+            "publishedAt": "2026-09-21T15:47:58Z",
+            "url": "https://github.com/zhouxiaoka/autoclip/releases/tag/v1.3.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-08T04:51:15Z",
+        "pushedAt": "2026-09-22T04:58:13Z",
+        "totalStars": 8399,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "coder",
+      "owner": "coder",
+      "category": "Agent 技能与工具",
+      "description": "Secure environments for developers and their agents",
+      "delta": "GitHub Daily Trending #5，近周期新增 460 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+460 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/coder/coder",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1735 天",
+          "score": 24,
+          "ageDays": 1735,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+460 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 460,
+          "snapshotStarDelta": 357,
+          "totalStars": 16488
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-22T04:46:08Z",
+          "latestRelease": {
+            "name": "v2.36.6",
+            "tag": "v2.36.6",
+            "publishedAt": "2026-09-18T16:10:11Z",
+            "url": "https://github.com/coder/coder/releases/tag/v2.36.6"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2021-12-22T06:08:52Z",
+        "pushedAt": "2026-09-22T04:46:08Z",
+        "totalStars": 16488,
+        "language": "Go",
+        "license": "AGPL-3.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Superset Mobile",
+      "maker": "Garry Tan",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your coding agents, now in your pocket",
+      "signal": "公开 Feed 于 2026-09-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/superset-5",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 11 天",
+          "score": 54,
+          "ageDays": 11,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-10T15:01:04-07:00",
+          "updatedAt": "2026-09-21T21:59:13-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-10T15:01:04-07:00",
+        "updatedAt": "2026-09-21T21:59:13-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Hyrax AI",
+      "maker": "Ben Lang",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The AI architect for your entire codebase",
+      "signal": "公开 Feed 于 2026-09-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 65,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/tristan-benozer",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 12 天",
+          "score": 53,
+          "ageDays": 12,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-09T13:08:21-07:00",
+          "updatedAt": "2026-09-21T21:55:10-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-09T13:08:21-07:00",
+        "updatedAt": "2026-09-21T21:55:10-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Gradio Workflow",
+      "maker": "hannah",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "connect nodes to build AI pipelines, powered by Hugging Face",
+      "signal": "公开 Feed 于 2026-09-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/gradio",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-18T10:16:18-07:00",
+          "updatedAt": "2026-09-21T21:57:25-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-18T10:16:18-07:00",
+        "updatedAt": "2026-09-21T21:57:25-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "Jevtown",
+      "maker": "Ivan Gabor",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "10,000 AI readers react to your post before you publish it",
+      "signal": "公开 Feed 于 2026-09-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/jevtown",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-20T14:22:04-07:00",
+          "updatedAt": "2026-09-21T21:57:18-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-20T14:22:04-07:00",
+        "updatedAt": "2026-09-21T21:57:18-07:00",
+        "feedRank": 7
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "agent-native",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/BuilderIO/agent-native/releases/tag/%40agent-native/creative-context%400.8.4"
+    },
+    {
+      "name": "open-code-review",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.12.8"
+    },
+    {
+      "name": "colibri",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/JustVugg/colibri/releases/tag/v1.12.0"
+    },
+    {
+      "name": "ai-memory",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/akitaonrails/ai-memory/releases/tag/v2.4.0"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "colibri",
+          "url": "https://github.com/JustVugg/colibri"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Jevtown",
+          "url": "https://www.producthunt.com/products/jevtown"
+        },
+        {
+          "label": "Gradio Workflow",
+          "url": "https://www.producthunt.com/products/gradio"
+        },
+        {
+          "label": "autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "agent-native",
+      "source": "GitHub",
+      "why": "+607 stars / today；成熟项目 · 194 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/BuilderIO/agent-native"
+    },
+    {
+      "rank": 2,
+      "name": "open-code-review",
+      "source": "GitHub",
+      "why": "+14,499 stars / this week；成熟项目 · 127 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/alibaba/open-code-review"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 agent-native 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "linkLabel": "打开 agent-native"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-22T12:59:17+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-22/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
