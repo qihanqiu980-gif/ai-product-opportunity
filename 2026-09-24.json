@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-24",
+    "weekday": "星期四",
+    "edition": "LIVE · 20260924",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-24 12:54 CST",
+    "capturedAt": "2026-09-24T12:54:23+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 univer。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "univer 是当前增长最明显的公开信号。",
+      "evidence": "+1,142 stars / today",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Claude Opus 5.5 · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Claude Opus 5.5",
+          "url": "https://www.producthunt.com/products/claude-fable-5-1"
+        },
+        {
+          "label": "Solid",
+          "url": "https://www.producthunt.com/products/solid-3"
+        },
+        {
+          "label": "harness-sdk",
+          "url": "https://github.com/strands-agents/harness-sdk"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 univer · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "harness-sdk",
+          "url": "https://github.com/strands-agents/harness-sdk"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 84,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,142 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Claude Opus 5.5 · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 univer · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "univer",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "label": "ax",
+        "url": "https://github.com/google/ax"
+      },
+      {
+        "label": "superpowers",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "label": "agent-native",
+        "url": "https://github.com/BuilderIO/agent-native"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "univer",
+      "owner": "dream-num",
+      "category": "Agent 技能与工具",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "delta": "GitHub Daily Trending #6，近周期新增 1,142 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,142 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1456 天",
+          "score": 24,
+          "ageDays": 1456,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,142 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 1142,
+          "snapshotStarDelta": 778,
+          "totalStars": 16468
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-24T02:51:47Z",
+          "latestRelease": {
+            "name": "Univer 1.0.0",
+            "tag": "v1.0.0",
+            "publishedAt": "2026-09-24T03:27:43Z",
+            "url": "https://github.com/dream-num/univer/releases/tag/v1.0.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2022-09-29T12:09:14Z",
+        "pushedAt": "2026-09-24T02:51:47Z",
+        "totalStars": 16468,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ax",
+      "owner": "google",
+      "category": "Agent 技能与工具",
+      "description": "Google's open agentic orchestration runtime",
+      "delta": "GitHub Daily Trending #2，近周期新增 1,543 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,543 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/google/ax",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 177 天",
+          "score": 24,
+          "ageDays": 177,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,543 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 1543,
+          "snapshotStarDelta": 1427,
+          "totalStars": 9306
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-09-23T21:08:29Z",
+          "latestRelease": {
+            "name": "v0.3.0",
+            "tag": "v0.3.0",
+            "publishedAt": "2026-09-20T03:33:20Z",
+            "url": "https://github.com/google/ax/releases/tag/v0.3.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-30T17:55:01Z",
+        "pushedAt": "2026-09-23T21:08:29Z",
+        "totalStars": 9306,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "superpowers",
+      "owner": "obra",
+      "category": "Agent 技能与工具",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "delta": "GitHub Daily Trending #5，近周期新增 474 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+474 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/obra/superpowers",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 349 天",
+          "score": 24,
+          "ageDays": 349,
+          "firstSeenAt": "2026-09-04",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+474 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 474,
+          "snapshotStarDelta": null,
+          "totalStars": 290789
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-22T18:22:49Z",
+          "latestRelease": {
+            "name": "v6.4.1",
+            "tag": "v6.4.1",
+            "publishedAt": "2026-09-19T00:32:44Z",
+            "url": "https://github.com/obra/superpowers/releases/tag/v6.4.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-09T19:45:18Z",
+        "pushedAt": "2026-09-22T18:22:49Z",
+        "totalStars": 290789,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "agent-native",
+      "owner": "BuilderIO",
+      "category": "Agent 技能与工具",
+      "description": "A framework for building agentic apps",
+      "delta": "GitHub Daily Trending #4，近周期新增 87 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+87 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 196 天",
+          "score": 24,
+          "ageDays": 196,
+          "firstSeenAt": "2026-09-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+87 stars / today",
+          "score": 91,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 87,
+          "snapshotStarDelta": null,
+          "totalStars": 6625
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-24T04:34:09Z",
+          "latestRelease": {
+            "name": "Agent-Native v0.1.264",
+            "tag": "v0.1.264",
+            "publishedAt": "2026-09-24T01:04:36Z",
+            "url": "https://github.com/BuilderIO/agent-native/releases/tag/v0.1.264"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-12T14:57:10Z",
+        "pushedAt": "2026-09-24T04:34:09Z",
+        "totalStars": 6625,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "harness-sdk",
+      "owner": "strands-agents",
+      "category": "Agent 技能与工具",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "delta": "GitHub Daily Trending #9，近周期新增 115 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+115 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/strands-agents/harness-sdk",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 497,
+          "firstSeenAt": "2026-09-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+115 stars / today",
+          "score": 82,
+          "rankDaily": 9,
+          "rankWeekly": null,
+          "starsSince": 115,
+          "snapshotStarDelta": null,
+          "totalStars": 7934
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-23T21:50:15Z",
+          "latestRelease": {
+            "name": "harness-cli/v0.1.2",
+            "tag": "harness-cli/v0.1.2",
+            "publishedAt": "2026-09-23T21:50:16Z",
+            "url": "https://github.com/strands-agents/harness-sdk/releases/tag/harness-cli/v0.1.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-05-14T19:59:51Z",
+        "pushedAt": "2026-09-23T21:50:15Z",
+        "totalStars": 7934,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "substrate",
+      "owner": "agent-substrate",
+      "category": "Agent 技能与工具",
+      "description": "Agent Substrate: the core system",
+      "delta": "GitHub Daily Trending #8，近周期新增 558 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+558 stars / today",
+      "heat": 78,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/agent-substrate/substrate",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 133 天",
+          "score": 24,
+          "ageDays": 133,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+558 stars / today",
+          "score": 99,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 558,
+          "snapshotStarDelta": 497,
+          "totalStars": 3565
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-24T02:44:05Z",
+          "latestRelease": {
+            "name": "v0.1.0 - The First Release",
+            "tag": "v0.1.0",
+            "publishedAt": "2026-09-10T23:39:13Z",
+            "url": "https://github.com/agent-substrate/substrate/releases/tag/v0.1.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-13T19:02:38Z",
+        "pushedAt": "2026-09-24T02:44:05Z",
+        "totalStars": 3565,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Solid",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Agents with their own computers, accounts, and budgets.",
+      "signal": "公开 Feed 于 2026-09-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/solid-3",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-20T23:01:40-07:00",
+          "updatedAt": "2026-09-23T21:53:55-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-20T23:01:40-07:00",
+        "updatedAt": "2026-09-23T21:53:55-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Naise AI",
+      "maker": "Rohan Chaubey",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Autonomous marketing agents that actually execute",
+      "signal": "公开 Feed 于 2026-09-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 58,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/naise-ai",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 29 天",
+          "score": 36,
+          "ageDays": 29,
+          "firstSeenAt": "2026-09-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-26T06:23:59-07:00",
+          "updatedAt": "2026-09-23T21:53:34-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-26T06:23:59-07:00",
+        "updatedAt": "2026-09-23T21:53:34-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Claude Opus 5.5",
+      "maker": "Rohan Chaubey",
+      "category": "模型与推理",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Anthropic's first model in their new Claude 5.5 family",
+      "signal": "公开 Feed 于 2026-09-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 72,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://www.producthunt.com/products/claude-fable-5-1",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-22T09:36:09-07:00",
+          "updatedAt": "2026-09-23T21:53:16-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-22T09:36:09-07:00",
+        "updatedAt": "2026-09-23T21:53:16-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Pactto",
+      "maker": "Demian Borba",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The room where creative teams align and AI takes action",
+      "signal": "公开 Feed 于 2026-09-23 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 59,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/pactto-replay",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 133,
+          "firstSeenAt": "2026-09-24",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-05-13T18:15:40-07:00",
+          "updatedAt": "2026-09-23T21:51:36-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-05-13T18:15:40-07:00",
+        "updatedAt": "2026-09-23T21:51:36-07:00",
+        "feedRank": 7
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "univer",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.0.0"
+    },
+    {
+      "name": "ax",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/google/ax/releases/tag/v0.3.0"
+    },
+    {
+      "name": "superpowers",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.4.1"
+    },
+    {
+      "name": "agent-native",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/BuilderIO/agent-native/releases/tag/v0.1.264"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Claude Opus 5.5",
+          "url": "https://www.producthunt.com/products/claude-fable-5-1"
+        },
+        {
+          "label": "Solid",
+          "url": "https://www.producthunt.com/products/solid-3"
+        },
+        {
+          "label": "harness-sdk",
+          "url": "https://github.com/strands-agents/harness-sdk"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "agent-native",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "label": "harness-sdk",
+          "url": "https://github.com/strands-agents/harness-sdk"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "univer",
+      "source": "GitHub",
+      "why": "+1,142 stars / today；成熟项目 · 1456 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "rank": 2,
+      "name": "ax",
+      "source": "GitHub",
+      "why": "+1,543 stars / today；成熟项目 · 177 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/google/ax"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 univer 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/dream-num/univer",
+      "linkLabel": "打开 univer"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-24T12:54:23+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-24/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
