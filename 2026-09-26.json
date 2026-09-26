@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-26",
+    "weekday": "星期六",
+    "edition": "LIVE · 20260926",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-26 13:01 CST",
+    "capturedAt": "2026-09-26T13:00:55+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 paperclip。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "paperclip 是当前增长最明显的公开信号。",
+      "evidence": "+2,109 stars / today",
+      "sources": [
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Hyperdream · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "Hyperdream",
+          "url": "https://www.producthunt.com/products/hyperdream"
+        },
+        {
+          "label": "Kelam",
+          "url": "https://www.producthunt.com/products/kelam"
+        },
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 superpowers · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 86,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+2,109 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Hyperdream · PH 发布 2 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 superpowers · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "paperclip",
+        "url": "https://github.com/paperclipai/paperclip"
+      },
+      {
+        "label": "superpowers",
+        "url": "https://github.com/obra/superpowers"
+      },
+      {
+        "label": "univer",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "label": "ax",
+        "url": "https://github.com/google/ax"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "paperclip",
+      "owner": "paperclipai",
+      "category": "Agent 技能与工具",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "delta": "GitHub Daily Trending #1，近周期新增 2,109 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,109 stars / today",
+      "heat": 88,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 208,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,109 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 12,
+          "starsSince": 2109,
+          "snapshotStarDelta": null,
+          "totalStars": 85280
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-09-26T01:00:13Z",
+          "latestRelease": {
+            "name": "v2026.916.1",
+            "tag": "v2026.916.1",
+            "publishedAt": "2026-09-21T21:22:44Z",
+            "url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-02T15:01:51Z",
+        "pushedAt": "2026-09-26T01:00:13Z",
+        "totalStars": 85280,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "superpowers",
+      "owner": "obra",
+      "category": "Agent 技能与工具",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "delta": "GitHub Daily Trending #4，近周期新增 468 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+468 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/obra/superpowers",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 351 天",
+          "score": 24,
+          "ageDays": 351,
+          "firstSeenAt": "2026-09-04",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+468 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 468,
+          "snapshotStarDelta": 427,
+          "totalStars": 291718
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-25T18:08:16Z",
+          "latestRelease": {
+            "name": "v6.4.2",
+            "tag": "v6.4.2",
+            "publishedAt": "2026-09-25T18:08:09Z",
+            "url": "https://github.com/obra/superpowers/releases/tag/v6.4.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-09T19:45:18Z",
+        "pushedAt": "2026-09-25T18:08:16Z",
+        "totalStars": 291718,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "univer",
+      "owner": "dream-num",
+      "category": "Agent 技能与工具",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "delta": "GitHub Daily Trending #6，近周期新增 1,050 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,050 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1458 天",
+          "score": 24,
+          "ageDays": 1458,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,050 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 1050,
+          "snapshotStarDelta": 844,
+          "totalStars": 18761
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-24T14:02:42Z",
+          "latestRelease": {
+            "name": "🕶️ Release v1.0.2",
+            "tag": "v1.0.2",
+            "publishedAt": "2026-09-24T11:32:24Z",
+            "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2022-09-29T12:09:14Z",
+        "pushedAt": "2026-09-24T14:02:42Z",
+        "totalStars": 18761,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ax",
+      "owner": "google",
+      "category": "Agent 技能与工具",
+      "description": "Google's open agentic orchestration runtime",
+      "delta": "GitHub Daily Trending #13，近周期新增 1,379 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,379 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/google/ax",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 179 天",
+          "score": 24,
+          "ageDays": 179,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,379 stars / today",
+          "score": 96,
+          "rankDaily": 13,
+          "rankWeekly": null,
+          "starsSince": 1379,
+          "snapshotStarDelta": 936,
+          "totalStars": 11598
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-26T04:44:56Z",
+          "latestRelease": {
+            "name": "v0.3.1",
+            "tag": "v0.3.1",
+            "publishedAt": "2026-09-25T13:25:21Z",
+            "url": "https://github.com/google/ax/releases/tag/v0.3.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-30T17:55:01Z",
+        "pushedAt": "2026-09-26T04:44:56Z",
+        "totalStars": 11598,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "hindsight",
+      "owner": "vectorize-io",
+      "category": "Agent 技能与工具",
+      "description": "Hindsight: Agent Memory That Learns",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,653 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,653 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 331 天",
+          "score": 24,
+          "ageDays": 331,
+          "firstSeenAt": "2026-09-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,653 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 9,
+          "starsSince": 1653,
+          "snapshotStarDelta": 1990,
+          "totalStars": 30052
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-25T20:14:12Z",
+          "latestRelease": {
+            "name": "v0.10.1",
+            "tag": "v0.10.1",
+            "publishedAt": "2026-09-21T15:24:30Z",
+            "url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-30T11:49:48Z",
+        "pushedAt": "2026-09-25T20:14:12Z",
+        "totalStars": 30052,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #5，近周期新增 583 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+583 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 235 天",
+          "score": 24,
+          "ageDays": 235,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+583 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 583,
+          "snapshotStarDelta": null,
+          "totalStars": 269807
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-09-24T14:07:55Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-09-24T14:07:55Z",
+        "totalStars": 269807,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Fivemetrics",
+      "maker": "Pavel Foujeu",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Understand cloud and AI spend, then investigate what changed",
+      "signal": "公开 Feed 于 2026-09-25 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 61,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/fivemetrics",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-17T01:35:17-07:00",
+          "updatedAt": "2026-09-25T21:02:34-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-17T01:35:17-07:00",
+        "updatedAt": "2026-09-25T21:02:34-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Evvery",
+      "maker": "Bobby Renteria",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Everyday AI meant for everyone.",
+      "signal": "公开 Feed 于 2026-09-25 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 59,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/evvery",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 11 天",
+          "score": 54,
+          "ageDays": 11,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-14T18:33:31-07:00",
+          "updatedAt": "2026-09-25T21:02:34-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-14T18:33:31-07:00",
+        "updatedAt": "2026-09-25T21:02:34-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "Kelam",
+      "maker": "Kaushik Kanna",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Let your agent make the calls you don't want to",
+      "signal": "公开 Feed 于 2026-09-25 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/kelam",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 10 位",
+          "score": 51,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-22T14:05:24-07:00",
+          "updatedAt": "2026-09-25T20:35:39-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-22T14:05:24-07:00",
+        "updatedAt": "2026-09-25T20:35:39-07:00",
+        "feedRank": 10
+      }
+    },
+    {
+      "name": "Hyperdream",
+      "maker": "Divy Brahmbhatt",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The Cursor of AI filmmaking",
+      "signal": "公开 Feed 于 2026-09-25 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 58,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/hyperdream",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 13 位",
+          "score": 42,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-24T08:47:40-07:00",
+          "updatedAt": "2026-09-25T21:53:58-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-24T08:47:40-07:00",
+        "updatedAt": "2026-09-25T21:53:58-07:00",
+        "feedRank": 13
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "paperclip",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1"
+    },
+    {
+      "name": "superpowers",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.4.2"
+    },
+    {
+      "name": "univer",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+    },
+    {
+      "name": "ax",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/google/ax/releases/tag/v0.3.1"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Hyperdream",
+          "url": "https://www.producthunt.com/products/hyperdream"
+        },
+        {
+          "label": "Kelam",
+          "url": "https://www.producthunt.com/products/kelam"
+        },
+        {
+          "label": "paperclip",
+          "url": "https://github.com/paperclipai/paperclip"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "superpowers",
+          "url": "https://github.com/obra/superpowers"
+        },
+        {
+          "label": "ax",
+          "url": "https://github.com/google/ax"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "paperclip",
+      "source": "GitHub",
+      "why": "+2,109 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "rank": 2,
+      "name": "superpowers",
+      "source": "GitHub",
+      "why": "+468 stars / today；成熟项目 · 351 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/obra/superpowers"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 paperclip 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/paperclipai/paperclip",
+      "linkLabel": "打开 paperclip"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-26T13:00:55+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-26/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
