@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-27",
+    "weekday": "星期日",
+    "edition": "LIVE · 20260927",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-27 13:21 CST",
+    "capturedAt": "2026-09-27T13:21:00+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 claude-code。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "WeKnora",
+          "url": "https://github.com/Tencent/WeKnora"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "Model-Optimizer",
+          "url": "https://github.com/NVIDIA/Model-Optimizer"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "label": "WeKnora",
+          "url": "https://github.com/Tencent/WeKnora"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "claude-code 是当前增长最明显的公开信号。",
+      "evidence": "+1,744 stars / this week",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "Model-Optimizer",
+          "url": "https://github.com/NVIDIA/Model-Optimizer"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：GoodSocials · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "GoodSocials",
+          "url": "https://www.producthunt.com/products/goodsocials"
+        },
+        {
+          "label": "Hemory",
+          "url": "https://www.producthunt.com/products/hemory"
+        },
+        {
+          "label": "Paragraph Notes",
+          "url": "https://www.producthunt.com/products/paragraph-notes"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 claude-code · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "Model-Optimizer",
+          "url": "https://github.com/NVIDIA/Model-Optimizer"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 84,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,744 stars / this week",
+      "新鲜度信号：当前最高新鲜度信号：GoodSocials · PH 发布 2 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 claude-code · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "claude-code",
+        "url": "https://github.com/anthropics/claude-code"
+      },
+      {
+        "label": "univer",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "label": "WeKnora",
+        "url": "https://github.com/Tencent/WeKnora"
+      },
+      {
+        "label": "paperclip",
+        "url": "https://github.com/paperclipai/paperclip"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "claude-code",
+      "owner": "anthropics",
+      "category": "Agent 技能与工具",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+1,744 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anthropics/claude-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 581 天",
+          "score": 24,
+          "ageDays": 581,
+          "firstSeenAt": "2026-09-17",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,744 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 1744,
+          "snapshotStarDelta": 125,
+          "totalStars": 148244
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-26T22:04:19Z",
+          "latestRelease": {
+            "name": "v2.1.283",
+            "tag": "v2.1.283",
+            "publishedAt": "2026-09-25T21:50:12Z",
+            "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-02-22T17:41:21Z",
+        "pushedAt": "2026-09-26T22:04:19Z",
+        "totalStars": 148244,
+        "language": "TypeScript",
+        "license": null
+      }
+    },
+    {
+      "name": "Model-Optimizer",
+      "owner": "NVIDIA",
+      "category": "编码 Agent",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "delta": "GitHub Daily Trending #3，近周期新增 357 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+357 stars / today",
+      "heat": 83,
+      "opportunity": "从代码生成继续深入自动检查、评审、测试与交付物生成。",
+      "url": "https://github.com/NVIDIA/Model-Optimizer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 886 天",
+          "score": 24,
+          "ageDays": 886,
+          "firstSeenAt": "2026-09-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+357 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 357,
+          "snapshotStarDelta": 284,
+          "totalStars": 4804
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-27T04:29:15Z",
+          "latestRelease": {
+            "name": "ModelOpt 0.47.0 Release",
+            "tag": "0.47.0",
+            "publishedAt": "2026-09-23T18:55:03Z",
+            "url": "https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-04-23T19:00:54Z",
+        "pushedAt": "2026-09-27T04:29:15Z",
+        "totalStars": 4804,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "univer",
+      "owner": "dream-num",
+      "category": "Agent 技能与工具",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "delta": "GitHub Daily Trending #4，近周期新增 849 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+849 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1459 天",
+          "score": 24,
+          "ageDays": 1459,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+849 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": 18,
+          "starsSince": 849,
+          "snapshotStarDelta": 905,
+          "totalStars": 19666
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-27T04:18:55Z",
+          "latestRelease": {
+            "name": "🕶️ Release v1.0.2",
+            "tag": "v1.0.2",
+            "publishedAt": "2026-09-24T11:32:24Z",
+            "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2022-09-29T12:09:14Z",
+        "pushedAt": "2026-09-27T04:18:55Z",
+        "totalStars": 19666,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "WeKnora",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "delta": "GitHub Weekly Trending #6",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,015 stars / this week",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 432 天",
+          "score": 24,
+          "ageDays": 432,
+          "firstSeenAt": "2026-09-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,015 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 6,
+          "starsSince": 3015,
+          "snapshotStarDelta": 240,
+          "totalStars": 30382
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-09-27T05:03:38Z",
+          "latestRelease": {
+            "name": "v0.8.2",
+            "tag": "v0.8.2",
+            "publishedAt": "2026-09-24T06:43:43Z",
+            "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T08:01:23Z",
+        "pushedAt": "2026-09-27T05:03:38Z",
+        "totalStars": 30382,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "paperclip",
+      "owner": "paperclipai",
+      "category": "Agent 技能与工具",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "delta": "GitHub Daily Trending #1，近周期新增 2,608 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,608 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 209 天",
+          "score": 24,
+          "ageDays": 209,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,608 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": 4,
+          "starsSince": 2608,
+          "snapshotStarDelta": 2462,
+          "totalStars": 87742
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-27T03:47:02Z",
+          "latestRelease": {
+            "name": "v2026.916.1",
+            "tag": "v2026.916.1",
+            "publishedAt": "2026-09-21T21:22:44Z",
+            "url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-02T15:01:51Z",
+        "pushedAt": "2026-09-27T03:47:02Z",
+        "totalStars": 87742,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "hindsight",
+      "owner": "vectorize-io",
+      "category": "Agent 技能与工具",
+      "description": "Hindsight: Agent Memory That Learns",
+      "delta": "GitHub Daily Trending #2，近周期新增 2,147 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,147 stars / today",
+      "heat": 81,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 332 天",
+          "score": 24,
+          "ageDays": 332,
+          "firstSeenAt": "2026-09-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,147 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": 5,
+          "starsSince": 2147,
+          "snapshotStarDelta": 3103,
+          "totalStars": 33155
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 6 天有 Release",
+          "score": 68,
+          "material": true,
+          "pushedAt": "2026-09-26T14:14:46Z",
+          "latestRelease": {
+            "name": "v0.10.1",
+            "tag": "v0.10.1",
+            "publishedAt": "2026-09-21T15:24:30Z",
+            "url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-30T11:49:48Z",
+        "pushedAt": "2026-09-26T14:14:46Z",
+        "totalStars": 33155,
+        "language": "Python",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Hemory",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Keep listening. Searchable memory for your AI agents.",
+      "signal": "公开 Feed 于 2026-09-26 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/hemory",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 5 天",
+          "score": 67,
+          "ageDays": 5,
+          "firstSeenAt": "2026-09-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-22T08:16:05-07:00",
+          "updatedAt": "2026-09-26T22:17:22-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-22T08:16:05-07:00",
+        "updatedAt": "2026-09-26T22:17:22-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "GoodSocials",
+      "maker": "Pavel Kucherbaev",
+      "category": "内容生成",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI social media manager for LinkedIn. Only authentic content",
+      "signal": "公开 Feed 于 2026-09-26 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把生成能力嵌入已有创作流程，并用素材管理和协作降低切换成本。",
+      "url": "https://www.producthunt.com/products/goodsocials",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-09-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-25T03:43:48-07:00",
+          "updatedAt": "2026-09-26T22:15:31-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-25T03:43:48-07:00",
+        "updatedAt": "2026-09-26T22:15:31-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Eclatira",
+      "maker": "Rohan Chaubey",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Conversational Video Agent That Plugs Into Any Stack",
+      "signal": "公开 Feed 于 2026-09-26 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 53,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/eclatira",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 26 天",
+          "score": 39,
+          "ageDays": 26,
+          "firstSeenAt": "2026-09-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-31T09:07:06-07:00",
+          "updatedAt": "2026-09-26T22:20:02-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-31T09:07:06-07:00",
+        "updatedAt": "2026-09-26T22:20:02-07:00",
+        "feedRank": 7
+      }
+    },
+    {
+      "name": "Paragraph Notes",
+      "maker": "Chris Messina",
+      "category": "知识与记忆",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "A private Markdown notes app for Mac",
+      "signal": "公开 Feed 于 2026-09-26 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 52,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://www.producthunt.com/products/paragraph-notes",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 19 天",
+          "score": 46,
+          "ageDays": 19,
+          "firstSeenAt": "2026-09-27",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-07T09:31:09-07:00",
+          "updatedAt": "2026-09-26T22:14:42-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-07T09:31:09-07:00",
+        "updatedAt": "2026-09-26T22:14:42-07:00",
+        "feedRank": 9
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "claude-code",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283"
+    },
+    {
+      "name": "Model-Optimizer",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/NVIDIA/Model-Optimizer/releases/tag/0.47.0"
+    },
+    {
+      "name": "univer",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+    },
+    {
+      "name": "WeKnora",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "Model-Optimizer",
+          "url": "https://github.com/NVIDIA/Model-Optimizer"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "GoodSocials",
+          "url": "https://www.producthunt.com/products/goodsocials"
+        },
+        {
+          "label": "Hemory",
+          "url": "https://www.producthunt.com/products/hemory"
+        },
+        {
+          "label": "Paragraph Notes",
+          "url": "https://www.producthunt.com/products/paragraph-notes"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "claude-code",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "label": "Model-Optimizer",
+          "url": "https://github.com/NVIDIA/Model-Optimizer"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "claude-code",
+      "source": "GitHub",
+      "why": "+1,744 stars / this week；成熟项目 · 581 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "rank": 2,
+      "name": "Model-Optimizer",
+      "source": "GitHub",
+      "why": "+357 stars / today；成熟项目 · 886 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/NVIDIA/Model-Optimizer"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 claude-code 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/anthropics/claude-code",
+      "linkLabel": "打开 claude-code"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-27T13:21:00+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-27/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
