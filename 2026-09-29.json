@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-29",
+    "weekday": "星期二",
+    "edition": "LIVE · 20260929",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-29 13:46 CST",
+    "capturedAt": "2026-09-29T13:46:15+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 openrig。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "openrig 是当前增长最明显的公开信号。",
+      "evidence": "+734 stars / today",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Arc · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Arc",
+          "url": "https://www.producthunt.com/products/arc-ai-screen-assistant"
+        },
+        {
+          "label": "vantage.ai",
+          "url": "https://www.producthunt.com/products/vantage-ai-2"
+        },
+        {
+          "label": "Okara",
+          "url": "https://www.producthunt.com/products/okara-2"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 openrig · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+734 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Arc · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 openrig · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "openrig",
+        "url": "https://github.com/mvschwarz/openrig"
+      },
+      {
+        "label": "orca",
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "label": "univer",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "label": "WeKnora",
+        "url": "https://github.com/Tencent/WeKnora"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "openrig",
+      "owner": "mvschwarz",
+      "category": "Agent 技能与工具",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "delta": "GitHub Daily Trending #7，近周期新增 734 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+734 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 181 天",
+          "score": 24,
+          "ageDays": 181,
+          "firstSeenAt": "2026-09-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+734 stars / today",
+          "score": 100,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 734,
+          "snapshotStarDelta": 744,
+          "totalStars": 1881
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-29T05:10:48Z",
+          "latestRelease": {
+            "name": "OpenRig v0.6.0 — works for strangers",
+            "tag": "v0.6.0",
+            "publishedAt": "2026-09-28T22:07:18Z",
+            "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-01T06:22:40Z",
+        "pushedAt": "2026-09-29T05:10:48Z",
+        "totalStars": 1881,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "orca",
+      "owner": "stablyai",
+      "category": "Agent 技能与工具",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "delta": "GitHub Weekly Trending #8",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+6,151 stars / this week",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/stablyai/orca",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 196 天",
+          "score": 24,
+          "ageDays": 196,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+6,151 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 8,
+          "starsSince": 6151,
+          "snapshotStarDelta": 1071,
+          "totalStars": 80941
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-29T05:45:09Z",
+          "latestRelease": {
+            "name": "v1.4.216",
+            "tag": "v1.4.216",
+            "publishedAt": "2026-09-28T19:46:11Z",
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.216"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-17T03:28:57Z",
+        "pushedAt": "2026-09-29T05:45:09Z",
+        "totalStars": 80941,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "univer",
+      "owner": "dream-num",
+      "category": "Agent 技能与工具",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "delta": "GitHub Daily Trending #8，近周期新增 1,099 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,099 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1461 天",
+          "score": 24,
+          "ageDays": 1461,
+          "firstSeenAt": "2026-09-23",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,099 stars / today",
+          "score": 100,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 1099,
+          "snapshotStarDelta": 677,
+          "totalStars": 21415
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-29T05:45:11Z",
+          "latestRelease": {
+            "name": "🕶️ Release v1.0.2",
+            "tag": "v1.0.2",
+            "publishedAt": "2026-09-24T11:32:24Z",
+            "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2022-09-29T12:09:14Z",
+        "pushedAt": "2026-09-29T05:45:11Z",
+        "totalStars": 21415,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "WeKnora",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "delta": "GitHub Weekly Trending #6",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+2,509 stars / this week",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/WeKnora",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 434 天",
+          "score": 24,
+          "ageDays": 434,
+          "firstSeenAt": "2026-09-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,509 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 6,
+          "starsSince": 2509,
+          "snapshotStarDelta": 331,
+          "totalStars": 31047
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-09-29T04:16:47Z",
+          "latestRelease": {
+            "name": "v0.8.2",
+            "tag": "v0.8.2",
+            "publishedAt": "2026-09-24T06:43:43Z",
+            "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-07-22T08:01:23Z",
+        "pushedAt": "2026-09-29T04:16:47Z",
+        "totalStars": 31047,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "paperclip",
+      "owner": "paperclipai",
+      "category": "Agent 技能与工具",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "delta": "GitHub Daily Trending #2，近周期新增 3,197 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+3,197 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/paperclipai/paperclip",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 211 天",
+          "score": 24,
+          "ageDays": 211,
+          "firstSeenAt": "2026-09-26",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,197 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": 2,
+          "starsSince": 3197,
+          "snapshotStarDelta": 2725,
+          "totalStars": 93273
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-09-29T02:46:34Z",
+          "latestRelease": {
+            "name": "v2026.916.1",
+            "tag": "v2026.916.1",
+            "publishedAt": "2026-09-21T21:22:44Z",
+            "url": "https://github.com/paperclipai/paperclip/releases/tag/v2026.916.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-02T15:01:51Z",
+        "pushedAt": "2026-09-29T02:46:34Z",
+        "totalStars": 93273,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "hindsight",
+      "owner": "vectorize-io",
+      "category": "Agent 技能与工具",
+      "description": "Hindsight: Agent Memory That Learns",
+      "delta": "GitHub Daily Trending #3，近周期新增 4,561 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+4,561 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 334 天",
+          "score": 24,
+          "ageDays": 334,
+          "firstSeenAt": "2026-09-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+4,561 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 3,
+          "starsSince": 4561,
+          "snapshotStarDelta": 3361,
+          "totalStars": 41416
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-09-29T00:09:54Z",
+          "latestRelease": {
+            "name": "v0.10.1",
+            "tag": "v0.10.1",
+            "publishedAt": "2026-09-21T15:24:30Z",
+            "url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-30T11:49:48Z",
+        "pushedAt": "2026-09-29T00:09:54Z",
+        "totalStars": 41416,
+        "language": "Python",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Arc",
+      "maker": "Mamata",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your mobile AI assistant on any screen",
+      "signal": "公开 Feed 于 2026-09-28 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 76,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/arc-ai-screen-assistant",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-09-29",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-27T10:11:05-07:00",
+          "updatedAt": "2026-09-28T20:48:37-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-27T10:11:05-07:00",
+        "updatedAt": "2026-09-28T20:48:37-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Okara",
+      "maker": "Zac Zuo",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The world's first AI CMO",
+      "signal": "公开 Feed 于 2026-09-28 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/okara-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-09-29",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-24T23:04:25-07:00",
+          "updatedAt": "2026-09-28T22:39:04-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-24T23:04:25-07:00",
+        "updatedAt": "2026-09-28T22:39:04-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "vantage.ai",
+      "maker": "Jovan",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "See and control what your coding agent does.",
+      "signal": "公开 Feed 于 2026-09-28 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/vantage-ai-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-09-29",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-26T03:22:26-07:00",
+          "updatedAt": "2026-09-28T22:14:51-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-26T03:22:26-07:00",
+        "updatedAt": "2026-09-28T22:14:51-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Statable Analytics",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Web analytics built for you and your AI agents",
+      "signal": "公开 Feed 于 2026-09-28 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/statable-analytics",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 13 天",
+          "score": 52,
+          "ageDays": 13,
+          "firstSeenAt": "2026-09-29",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-15T13:12:55-07:00",
+          "updatedAt": "2026-09-28T22:40:11-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-15T13:12:55-07:00",
+        "updatedAt": "2026-09-28T22:40:11-07:00",
+        "feedRank": 5
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "openrig",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.0"
+    },
+    {
+      "name": "orca",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.216"
+    },
+    {
+      "name": "univer",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.0.2"
+    },
+    {
+      "name": "WeKnora",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/Tencent/WeKnora/releases/tag/v0.8.2"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Arc",
+          "url": "https://www.producthunt.com/products/arc-ai-screen-assistant"
+        },
+        {
+          "label": "vantage.ai",
+          "url": "https://www.producthunt.com/products/vantage-ai-2"
+        },
+        {
+          "label": "Okara",
+          "url": "https://www.producthunt.com/products/okara-2"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "openrig",
+      "source": "GitHub",
+      "why": "+734 stars / today；成熟项目 · 181 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "rank": 2,
+      "name": "orca",
+      "source": "GitHub",
+      "why": "+6,151 stars / this week；成熟项目 · 196 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/stablyai/orca"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 openrig 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/mvschwarz/openrig",
+      "linkLabel": "打开 openrig"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-29T13:46:15+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-29/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
