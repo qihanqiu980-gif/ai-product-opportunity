@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-09-30",
+    "weekday": "星期三",
+    "edition": "LIVE · 20260930",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-09-30 13:35 CST",
+    "capturedAt": "2026-09-30T13:35:12+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 OpenShell。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "3 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "3",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "OpenShell 是当前增长最明显的公开信号。",
+      "evidence": "+990 stars / today",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 58,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：OpenShell · 今日首次捕获。",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 dbx · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 89,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+990 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：OpenShell · 今日首次捕获。",
+      "变化信号：确认 6 个实质更新；最高信号为 dbx · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "OpenShell",
+        "url": "https://github.com/NVIDIA/OpenShell"
+      },
+      {
+        "label": "dbx",
+        "url": "https://github.com/t8y2/dbx"
+      },
+      {
+        "label": "PageIndex",
+        "url": "https://github.com/VectifyAI/PageIndex"
+      },
+      {
+        "label": "openrig",
+        "url": "https://github.com/mvschwarz/openrig"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "OpenShell",
+      "owner": "NVIDIA",
+      "category": "Agent 技能与工具",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "delta": "GitHub Daily Trending #2，近周期新增 990 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+990 stars / today",
+      "heat": 90,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 217,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+990 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 990,
+          "snapshotStarDelta": null,
+          "totalStars": 10845
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-30T04:19:16Z",
+          "latestRelease": {
+            "name": "OpenShell v0.1.2",
+            "tag": "v0.1.2",
+            "publishedAt": "2026-09-28T03:58:00Z",
+            "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-24T22:52:22Z",
+        "pushedAt": "2026-09-30T04:19:16Z",
+        "totalStars": 10845,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "dbx",
+      "owner": "t8y2",
+      "category": "Agent 技能与工具",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "delta": "GitHub Daily Trending #5，近周期新增 232 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+232 stars / today",
+      "heat": 90,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/t8y2/dbx",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 154,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+232 stars / today",
+          "score": 98,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 232,
+          "snapshotStarDelta": null,
+          "totalStars": 22368
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-30T04:24:11Z",
+          "latestRelease": {
+            "name": "DBX v0.6.28",
+            "tag": "v0.6.28",
+            "publishedAt": "2026-09-29T16:29:52Z",
+            "url": "https://github.com/t8y2/dbx/releases/tag/v0.6.28"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-29T03:00:36Z",
+        "pushedAt": "2026-09-30T04:24:11Z",
+        "totalStars": 22368,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "PageIndex",
+      "owner": "VectifyAI",
+      "category": "Agent 技能与工具",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "delta": "GitHub Daily Trending #11，近周期新增 835 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+835 stars / today",
+      "heat": 87,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 547,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+835 stars / today",
+          "score": 96,
+          "rankDaily": 11,
+          "rankWeekly": null,
+          "starsSince": 835,
+          "snapshotStarDelta": null,
+          "totalStars": 37576
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-09-29T15:50:17Z",
+          "latestRelease": {
+            "name": "v0.2.20",
+            "tag": "v0.2.20",
+            "publishedAt": "2026-09-28T14:03:36Z",
+            "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.20"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-01T10:53:54Z",
+        "pushedAt": "2026-09-29T15:50:17Z",
+        "totalStars": 37576,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "openrig",
+      "owner": "mvschwarz",
+      "category": "Agent 技能与工具",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "delta": "GitHub Daily Trending #6，近周期新增 737 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+737 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 182 天",
+          "score": 24,
+          "ageDays": 182,
+          "firstSeenAt": "2026-09-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+737 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 737,
+          "snapshotStarDelta": 674,
+          "totalStars": 2555
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-30T05:32:24Z",
+          "latestRelease": {
+            "name": "OpenRig v0.6.2 — first-project and recovery fixes",
+            "tag": "v0.6.2",
+            "publishedAt": "2026-09-30T05:32:32Z",
+            "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-01T06:22:40Z",
+        "pushedAt": "2026-09-30T05:32:24Z",
+        "totalStars": 2555,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "orca",
+      "owner": "stablyai",
+      "category": "Agent 技能与工具",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "delta": "GitHub Weekly Trending #9",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+6,242 stars / this week",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/stablyai/orca",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 197 天",
+          "score": 24,
+          "ageDays": 197,
+          "firstSeenAt": "2026-09-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+6,242 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 9,
+          "starsSince": 6242,
+          "snapshotStarDelta": 855,
+          "totalStars": 81796
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-09-30T05:29:02Z",
+          "latestRelease": {
+            "name": "v1.4.217",
+            "tag": "v1.4.217",
+            "publishedAt": "2026-09-29T19:40:43Z",
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.217"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-17T03:28:57Z",
+        "pushedAt": "2026-09-30T05:29:02Z",
+        "totalStars": 81796,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "hindsight",
+      "owner": "vectorize-io",
+      "category": "Agent 技能与工具",
+      "description": "Hindsight: Agent Memory That Learns",
+      "delta": "GitHub Daily Trending #3，近周期新增 2,575 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,575 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 335 天",
+          "score": 24,
+          "ageDays": 335,
+          "firstSeenAt": "2026-09-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,575 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 3,
+          "starsSince": 2575,
+          "snapshotStarDelta": 1712,
+          "totalStars": 43128
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-09-30T00:37:11Z",
+          "latestRelease": {
+            "name": "v0.10.2",
+            "tag": "v0.10.2",
+            "publishedAt": "2026-09-29T10:06:40Z",
+            "url": "https://github.com/vectorize-io/hindsight/releases/tag/v0.10.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-10-30T11:49:48Z",
+        "pushedAt": "2026-09-30T00:37:11Z",
+        "totalStars": 43128,
+        "language": "Python",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "LUCI Desktop",
+      "maker": "RunzeYang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Let your AI agents remember what you've seen",
+      "signal": "公开 Feed 于 2026-09-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 65,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/luci-desktop",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 10 天",
+          "score": 55,
+          "ageDays": 10,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-19T22:10:19-07:00",
+          "updatedAt": "2026-09-29T22:35:03-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-19T22:10:19-07:00",
+        "updatedAt": "2026-09-29T22:35:03-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "iFixAi",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Independent auditing of AI agents to uncover misalignment",
+      "signal": "公开 Feed 于 2026-09-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/ifixai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 13 天",
+          "score": 52,
+          "ageDays": 13,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-16T11:44:42-07:00",
+          "updatedAt": "2026-09-29T22:34:41-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-16T11:44:42-07:00",
+        "updatedAt": "2026-09-29T22:34:41-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "ColdIQ x Slack",
+      "maker": "Jules Triolo",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Prompt GTM systems inside Slack",
+      "signal": "公开 Feed 于 2026-09-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/coldiq-x-slack",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 7 天",
+          "score": 57,
+          "ageDays": 7,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-23T04:06:48-07:00",
+          "updatedAt": "2026-09-29T22:01:51-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-23T04:06:48-07:00",
+        "updatedAt": "2026-09-29T22:01:51-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Semos.ai Manager Agents",
+      "maker": "Jonno Riekwel",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI agents purpose-built for managers",
+      "signal": "公开 Feed 于 2026-09-29 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 62,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/semos-ai-manager-agents",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 47,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-08-14T04:23:03-07:00",
+          "updatedAt": "2026-09-29T22:12:44-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-08-14T04:23:03-07:00",
+        "updatedAt": "2026-09-29T22:12:44-07:00",
+        "feedRank": 5
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "OpenShell",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2"
+    },
+    {
+      "name": "dbx",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/t8y2/dbx/releases/tag/v0.6.28"
+    },
+    {
+      "name": "PageIndex",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.20"
+    },
+    {
+      "name": "openrig",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.2"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "PageIndex",
+          "url": "https://github.com/VectifyAI/PageIndex"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "dbx",
+          "url": "https://github.com/t8y2/dbx"
+        },
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "OpenShell",
+      "source": "GitHub",
+      "why": "+990 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "rank": 2,
+      "name": "dbx",
+      "source": "GitHub",
+      "why": "+232 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/t8y2/dbx"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 OpenShell 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "linkLabel": "打开 OpenShell"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-09-30T13:35:12+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-09-30/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
