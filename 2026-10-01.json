@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-10-01",
+    "weekday": "星期四",
+    "edition": "LIVE · 20261001",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-10-01 13:58 CST",
+    "capturedAt": "2026-10-01T13:58:46+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 openrig。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        },
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "label": "hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "openrig 是当前增长最明显的公开信号。",
+      "evidence": "+624 stars / today",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        },
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：jambuild · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "jambuild",
+          "url": "https://www.producthunt.com/products/jambuild"
+        },
+        {
+          "label": "CrawlRaven MCP",
+          "url": "https://www.producthunt.com/products/crawlraven-mcp"
+        },
+        {
+          "label": "m’kay",
+          "url": "https://www.producthunt.com/products/m-kay"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 openrig · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        },
+        {
+          "label": "openclaw",
+          "url": "https://github.com/openclaw/openclaw"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 83,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+624 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：jambuild · PH 发布 1 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 openrig · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "openrig",
+        "url": "https://github.com/mvschwarz/openrig"
+      },
+      {
+        "label": "OpenShell",
+        "url": "https://github.com/NVIDIA/OpenShell"
+      },
+      {
+        "label": "hyperframes",
+        "url": "https://github.com/heygen-com/hyperframes"
+      },
+      {
+        "label": "skills",
+        "url": "https://github.com/mattpocock/skills"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "openrig",
+      "owner": "mvschwarz",
+      "category": "Agent 技能与工具",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "delta": "GitHub Daily Trending #3，近周期新增 624 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+624 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mvschwarz/openrig",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 183 天",
+          "score": 24,
+          "ageDays": 183,
+          "firstSeenAt": "2026-09-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+624 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 624,
+          "snapshotStarDelta": 606,
+          "totalStars": 3161
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-10-01T05:57:39Z",
+          "latestRelease": {
+            "name": "OpenRig v0.6.3 — Managed Claude messaging repair",
+            "tag": "v0.6.3",
+            "publishedAt": "2026-09-30T19:32:46Z",
+            "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-01T06:22:40Z",
+        "pushedAt": "2026-10-01T05:57:39Z",
+        "totalStars": 3161,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "MoneyPrinterTurbo",
+      "owner": "harry0703",
+      "category": "模型与推理",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "delta": "GitHub Daily Trending #6，近周期新增 431 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+431 stars / today",
+      "heat": 84,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 934,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+431 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 431,
+          "snapshotStarDelta": null,
+          "totalStars": 127663
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-10-01T02:14:45Z",
+          "latestRelease": {
+            "name": "v1.3.7",
+            "tag": "v1.3.7",
+            "publishedAt": "2026-09-13T12:26:39Z",
+            "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-03-11T02:57:34Z",
+        "pushedAt": "2026-10-01T02:14:45Z",
+        "totalStars": 127663,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "OpenShell",
+      "owner": "NVIDIA",
+      "category": "Agent 技能与工具",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,281 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,281 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 218 天",
+          "score": 24,
+          "ageDays": 218,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,281 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1281,
+          "snapshotStarDelta": 2248,
+          "totalStars": 13093
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-10-01T05:50:30Z",
+          "latestRelease": {
+            "name": "OpenShell v0.1.2",
+            "tag": "v0.1.2",
+            "publishedAt": "2026-09-28T03:58:00Z",
+            "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-24T22:52:22Z",
+        "pushedAt": "2026-10-01T05:50:30Z",
+        "totalStars": 13093,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "openclaw",
+      "owner": "openclaw",
+      "category": "AI 应用",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
+      "delta": "GitHub Daily Trending #7，近周期新增 136 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+136 stars / today",
+      "heat": 83,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://github.com/openclaw/openclaw",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 311,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+136 stars / today",
+          "score": 88,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 136,
+          "snapshotStarDelta": null,
+          "totalStars": 391041
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-01T05:57:56Z",
+          "latestRelease": {
+            "name": "openclaw 2026.9.7",
+            "tag": "v2026.9.7",
+            "publishedAt": "2026-09-30T04:44:14Z",
+            "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-11-24T10:16:47Z",
+        "pushedAt": "2026-10-01T05:57:56Z",
+        "totalStars": 391041,
+        "language": "TypeScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "hyperframes",
+      "owner": "heygen-com",
+      "category": "Agent 技能与工具",
+      "description": "Write HTML. Render video. Built for agents.",
+      "delta": "GitHub Daily Trending #10，近周期新增 349 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+349 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 205 天",
+          "score": 24,
+          "ageDays": 205,
+          "firstSeenAt": "2026-09-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+349 stars / today",
+          "score": 90,
+          "rankDaily": 10,
+          "rankWeekly": null,
+          "starsSince": 349,
+          "snapshotStarDelta": null,
+          "totalStars": 54858
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-10-01T05:58:31Z",
+          "latestRelease": {
+            "name": "v0.8.101",
+            "tag": "v0.8.101",
+            "publishedAt": "2026-10-01T04:17:43Z",
+            "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.101"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-10T01:51:06Z",
+        "pushedAt": "2026-10-01T05:58:31Z",
+        "totalStars": 54858,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "mattpocock",
+      "category": "Agent 技能与工具",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "delta": "GitHub Daily Trending #9，近周期新增 876 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+876 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mattpocock/skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 240 天",
+          "score": 24,
+          "ageDays": 240,
+          "firstSeenAt": "2026-09-03",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+876 stars / today",
+          "score": 100,
+          "rankDaily": 9,
+          "rankWeekly": null,
+          "starsSince": 876,
+          "snapshotStarDelta": null,
+          "totalStars": 273171
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-09-29T12:38:37Z",
+          "latestRelease": {
+            "name": "v1.2.3",
+            "tag": "v1.2.3",
+            "publishedAt": "2026-08-06T14:05:28Z",
+            "url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-03T11:15:53Z",
+        "pushedAt": "2026-09-29T12:38:37Z",
+        "totalStars": 273171,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Squint",
+      "maker": "Evan Schwartzentruber",
+      "category": "知识与记忆",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Drag a box on your screen and ask AI about it",
+      "signal": "公开 Feed 于 2026-09-30 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://www.producthunt.com/products/squint",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-27T13:58:30-07:00",
+          "updatedAt": "2026-09-30T22:14:42-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-27T13:58:30-07:00",
+        "updatedAt": "2026-09-30T22:14:42-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "m’kay",
+      "maker": "Maxim Makatchev",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "One voice for all your coding agents, from your phone",
+      "signal": "公开 Feed 于 2026-09-30 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/m-kay",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-28T19:18:05-07:00",
+          "updatedAt": "2026-09-30T22:07:03-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-28T19:18:05-07:00",
+        "updatedAt": "2026-09-30T22:07:03-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "jambuild",
+      "maker": "Rajiv Ayyangar",
+      "category": "编码 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Near instant multiplayer vibecoding, just point and talk",
+      "signal": "公开 Feed 于 2026-09-30 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "从代码生成继续深入自动检查、评审、测试与交付物生成。",
+      "url": "https://www.producthunt.com/products/jambuild",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-29T22:43:28-07:00",
+          "updatedAt": "2026-09-30T22:25:28-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-29T22:43:28-07:00",
+        "updatedAt": "2026-09-30T22:25:28-07:00",
+        "feedRank": 7
+      }
+    },
+    {
+      "name": "CrawlRaven MCP",
+      "maker": "Ayush Chaturvedi",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your SEO work, done from your AI agent",
+      "signal": "公开 Feed 于 2026-09-30 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/crawlraven-mcp",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-09-29T23:51:13-07:00",
+          "updatedAt": "2026-09-30T22:52:46-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-09-29T23:51:13-07:00",
+        "updatedAt": "2026-09-30T22:52:46-07:00",
+        "feedRank": 8
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "openrig",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/mvschwarz/openrig/releases/tag/v0.6.3"
+    },
+    {
+      "name": "OpenShell",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/NVIDIA/OpenShell/releases/tag/v0.1.2"
+    },
+    {
+      "name": "openclaw",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.9.7"
+    },
+    {
+      "name": "hyperframes",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.8.101"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        },
+        {
+          "label": "OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "jambuild",
+          "url": "https://www.producthunt.com/products/jambuild"
+        },
+        {
+          "label": "CrawlRaven MCP",
+          "url": "https://www.producthunt.com/products/crawlraven-mcp"
+        },
+        {
+          "label": "m’kay",
+          "url": "https://www.producthunt.com/products/m-kay"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "openrig",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "label": "hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes"
+        },
+        {
+          "label": "openclaw",
+          "url": "https://github.com/openclaw/openclaw"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "openrig",
+      "source": "GitHub",
+      "why": "+624 stars / today；成熟项目 · 183 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "rank": 2,
+      "name": "MoneyPrinterTurbo",
+      "source": "GitHub",
+      "why": "+431 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 openrig 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/mvschwarz/openrig",
+      "linkLabel": "打开 openrig"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-10-01T13:58:46+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-10-01/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
