@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-10-22",
+    "weekday": "星期四",
+    "edition": "LIVE · 20261022",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-10-22 12:50 CST",
+    "capturedAt": "2026-10-22T12:50:40+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 orca。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "vllm",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "29/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "orca 是当前增长最明显的公开信号。",
+      "evidence": "+1,541 stars / today",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "vllm",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：The Brains · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "The Brains",
+          "url": "https://www.producthunt.com/products/the-brains"
+        },
+        {
+          "label": "SuperCMO AI",
+          "url": "https://www.producthunt.com/products/supercmo-ai"
+        },
+        {
+          "label": "UseIt Studio",
+          "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 orca · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 84,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,541 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：The Brains · PH 发布 2 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 orca · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "orca",
+        "url": "https://github.com/stablyai/orca"
+      },
+      {
+        "label": "graphify",
+        "url": "https://github.com/Graphify-Labs/graphify"
+      },
+      {
+        "label": "ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail"
+      },
+      {
+        "label": "headroom",
+        "url": "https://github.com/headroomlabs-ai/headroom"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "orca",
+      "owner": "stablyai",
+      "category": "Agent 技能与工具",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,541 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,541 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/stablyai/orca",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 219 天",
+          "score": 24,
+          "ageDays": 219,
+          "firstSeenAt": "2026-09-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,541 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 16,
+          "starsSince": 1541,
+          "snapshotStarDelta": 1604,
+          "totalStars": 101620
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-22T04:50:01Z",
+          "latestRelease": {
+            "name": "v1.4.237",
+            "tag": "v1.4.237",
+            "publishedAt": "2026-10-21T07:25:23Z",
+            "url": "https://github.com/stablyai/orca/releases/tag/v1.4.237"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-17T03:28:57Z",
+        "pushedAt": "2026-10-22T04:50:01Z",
+        "totalStars": 101620,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "graphify",
+      "owner": "Graphify-Labs",
+      "category": "Agent 技能与工具",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "delta": "GitHub Daily Trending #11，近周期新增 1,433 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,433 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 202 天",
+          "score": 24,
+          "ageDays": 202,
+          "firstSeenAt": "2026-10-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,433 stars / today",
+          "score": 100,
+          "rankDaily": 11,
+          "rankWeekly": null,
+          "starsSince": 1433,
+          "snapshotStarDelta": 1384,
+          "totalStars": 131871
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-21T15:23:36Z",
+          "latestRelease": {
+            "name": "graphify 0.9.93",
+            "tag": "v0.9.93",
+            "publishedAt": "2026-10-20T16:29:43Z",
+            "url": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.93"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-03T15:49:07Z",
+        "pushedAt": "2026-10-21T15:23:36Z",
+        "totalStars": 131871,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "vllm",
+      "owner": "vllm-project",
+      "category": "知识与记忆",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "delta": "GitHub Daily Trending #2，近周期新增 441 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+441 stars / today",
+      "heat": 83,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://github.com/vllm-project/vllm",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1351 天",
+          "score": 24,
+          "ageDays": 1351,
+          "firstSeenAt": "2026-10-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+441 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 441,
+          "snapshotStarDelta": 448,
+          "totalStars": 94963
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-10-22T04:47:44Z",
+          "latestRelease": {
+            "name": "v0.32.0",
+            "tag": "v0.32.0",
+            "publishedAt": "2026-10-18T06:50:48Z",
+            "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2023-02-09T11:23:20Z",
+        "pushedAt": "2026-10-22T04:47:44Z",
+        "totalStars": 94963,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ComfyUI",
+      "owner": "Comfy-Org",
+      "category": "模型与推理",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "delta": "GitHub Daily Trending #6，近周期新增 939 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+939 stars / today",
+      "heat": 83,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1374 天",
+          "score": 24,
+          "ageDays": 1374,
+          "firstSeenAt": "2026-10-19",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+939 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 939,
+          "snapshotStarDelta": 716,
+          "totalStars": 141652
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-10-22T04:26:33Z",
+          "latestRelease": {
+            "name": "v0.42.1",
+            "tag": "v0.42.1",
+            "publishedAt": "2026-10-19T01:33:54Z",
+            "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2023-01-17T03:15:56Z",
+        "pushedAt": "2026-10-22T04:26:33Z",
+        "totalStars": 141652,
+        "language": "Python",
+        "license": "GPL-3.0"
+      }
+    },
+    {
+      "name": "ponytail",
+      "owner": "DietrichGebert",
+      "category": "Agent 技能与工具",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "delta": "GitHub Daily Trending #5，近周期新增 2,079 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+2,079 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 132 天",
+          "score": 24,
+          "ageDays": 132,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+2,079 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 2079,
+          "snapshotStarDelta": 1899,
+          "totalStars": 171980
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-10-18T01:55:14Z",
+          "latestRelease": {
+            "name": "v5.3.2",
+            "tag": "v5.3.2",
+            "publishedAt": "2026-10-16T23:15:15Z",
+            "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-12T00:52:37Z",
+        "pushedAt": "2026-10-18T01:55:14Z",
+        "totalStars": 171980,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "headroom",
+      "owner": "headroomlabs-ai",
+      "category": "Agent 技能与工具",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "delta": "GitHub Daily Trending #4，近周期新增 474 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+474 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 287 天",
+          "score": 24,
+          "ageDays": 287,
+          "firstSeenAt": "2026-10-20",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+474 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 474,
+          "snapshotStarDelta": 504,
+          "totalStars": 77353
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-10-22T04:48:14Z",
+          "latestRelease": {
+            "name": "Release v0.41.0",
+            "tag": "v0.41.0",
+            "publishedAt": "2026-10-14T22:46:09Z",
+            "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.41.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-07T19:58:51Z",
+        "pushedAt": "2026-10-22T04:48:14Z",
+        "totalStars": 77353,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "The Brains",
+      "maker": "Victor Giurgiu",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Founders and investors as MCP servers, every answer cited",
+      "signal": "公开 Feed 于 2026-10-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/the-brains",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-10-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-20T01:27:13-07:00",
+          "updatedAt": "2026-10-21T21:49:15-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-20T01:27:13-07:00",
+        "updatedAt": "2026-10-21T21:49:15-07:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "UseIt Studio",
+      "maker": "Zac Zuo",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your AI design agent for real, editable project files.",
+      "signal": "公开 Feed 于 2026-10-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 8 天",
+          "score": 57,
+          "ageDays": 8,
+          "firstSeenAt": "2026-10-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-14T06:11:39-07:00",
+          "updatedAt": "2026-10-21T21:49:49-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-14T06:11:39-07:00",
+        "updatedAt": "2026-10-21T21:49:49-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "SuperCMO AI",
+      "maker": "Kshitiz Kumar",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Open-source skills that turn your Claude into an AI CMO",
+      "signal": "公开 Feed 于 2026-10-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/supercmo-ai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-10-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-20T05:21:29-07:00",
+          "updatedAt": "2026-10-21T21:46:14-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-20T05:21:29-07:00",
+        "updatedAt": "2026-10-21T21:46:14-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "BAND for Developers",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Coding agents, meet teamwork",
+      "signal": "公开 Feed 于 2026-10-21 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 58,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/band",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-10-22",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-12T14:02:39-07:00",
+          "updatedAt": "2026-10-21T21:48:41-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-12T14:02:39-07:00",
+        "updatedAt": "2026-10-21T21:48:41-07:00",
+        "feedRank": 7
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "orca",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/stablyai/orca/releases/tag/v1.4.237"
+    },
+    {
+      "name": "graphify",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.93"
+    },
+    {
+      "name": "vllm",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0"
+    },
+    {
+      "name": "ComfyUI",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.42.1"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "vllm",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "The Brains",
+          "url": "https://www.producthunt.com/products/the-brains"
+        },
+        {
+          "label": "SuperCMO AI",
+          "url": "https://www.producthunt.com/products/supercmo-ai"
+        },
+        {
+          "label": "UseIt Studio",
+          "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "orca",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "orca",
+      "source": "GitHub",
+      "why": "+1,541 stars / today；成熟项目 · 219 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "rank": 2,
+      "name": "graphify",
+      "source": "GitHub",
+      "why": "+1,433 stars / today；成熟项目 · 202 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 orca 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/stablyai/orca",
+      "linkLabel": "打开 orca"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 29,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-10-22T12:50:40+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 29 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-10-22/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
