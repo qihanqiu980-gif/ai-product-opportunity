@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-10-23",
+    "weekday": "星期五",
+    "edition": "LIVE · 20261023",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-10-23 12:53 CST",
+    "capturedAt": "2026-10-23T12:53:00+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 graphify。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "29/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "graphify 是当前增长最明显的公开信号。",
+      "evidence": "+1,408 stars / today",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Bits · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Bits",
+          "url": "https://www.producthunt.com/products/bits-4"
+        },
+        {
+          "label": "Notif",
+          "url": "https://www.producthunt.com/products/notif-2"
+        },
+        {
+          "label": "Playad",
+          "url": "https://www.producthunt.com/products/playad"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 graphify · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,408 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Bits · PH 发布 1 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 graphify · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "graphify",
+        "url": "https://github.com/Graphify-Labs/graphify"
+      },
+      {
+        "label": "ruflo",
+        "url": "https://github.com/ruvnet/ruflo"
+      },
+      {
+        "label": "opencode",
+        "url": "https://github.com/anomalyco/opencode"
+      },
+      {
+        "label": "skills",
+        "url": "https://github.com/android/skills"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "graphify",
+      "owner": "Graphify-Labs",
+      "category": "Agent 技能与工具",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "delta": "GitHub Daily Trending #5，近周期新增 1,408 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,408 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 203 天",
+          "score": 24,
+          "ageDays": 203,
+          "firstSeenAt": "2026-10-21",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,408 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 1408,
+          "snapshotStarDelta": 1307,
+          "totalStars": 133178
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-10-22T16:19:38Z",
+          "latestRelease": {
+            "name": "graphify 0.9.94",
+            "tag": "v0.9.94",
+            "publishedAt": "2026-10-22T16:19:50Z",
+            "url": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.94"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-03T15:49:07Z",
+        "pushedAt": "2026-10-22T16:19:38Z",
+        "totalStars": 133178,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ruflo",
+      "owner": "ruvnet",
+      "category": "Agent 技能与工具",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,708 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ruvnet/ruflo",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 507 天",
+          "score": 24,
+          "ageDays": 507,
+          "firstSeenAt": "2026-10-16",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,708 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 3708,
+          "snapshotStarDelta": 280,
+          "totalStars": 78531
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-23T02:58:58Z",
+          "latestRelease": {
+            "name": "v3.59.17 — stop advertising a dead init memory-config key",
+            "tag": "v3.59.17",
+            "publishedAt": "2026-10-22T13:28:58Z",
+            "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.17"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-06-02T21:24:20Z",
+        "pushedAt": "2026-10-23T02:58:58Z",
+        "totalStars": 78531,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "opencode",
+      "owner": "anomalyco",
+      "category": "Agent 技能与工具",
+      "description": "The open source coding agent.",
+      "delta": "GitHub Weekly Trending #6",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+6,750 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/anomalyco/opencode",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 540 天",
+          "score": 24,
+          "ageDays": 540,
+          "firstSeenAt": "2026-10-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+6,750 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 6,
+          "starsSince": 6750,
+          "snapshotStarDelta": 474,
+          "totalStars": 220282
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-23T04:46:56Z",
+          "latestRelease": {
+            "name": "v1.19.4",
+            "tag": "v1.19.4",
+            "publishedAt": "2026-10-22T13:03:41Z",
+            "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.4"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-04-30T20:08:00Z",
+        "pushedAt": "2026-10-23T04:46:56Z",
+        "totalStars": 220282,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "skills",
+      "owner": "android",
+      "category": "Agent 技能与工具",
+      "description": "GitHub Trending 项目",
+      "delta": "GitHub Weekly Trending #4",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+1,384 stars / this week",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/android/skills",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 221 天",
+          "score": 24,
+          "ageDays": 221,
+          "firstSeenAt": "2026-10-17",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,384 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 4,
+          "starsSince": 1384,
+          "snapshotStarDelta": 107,
+          "totalStars": 9273
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-10-21T13:55:04Z",
+          "latestRelease": {
+            "name": "Release v1.0.16",
+            "tag": "v1.0.16",
+            "publishedAt": "2026-10-21T08:03:17Z",
+            "url": "https://github.com/android/skills/releases/tag/v1.0.16"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-16T12:41:46Z",
+        "pushedAt": "2026-10-21T13:55:04Z",
+        "totalStars": 9273,
+        "language": "Kotlin",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "rea",
+      "owner": "morluto",
+      "category": "Agent 技能与工具",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "delta": "GitHub Weekly Trending #1",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+106,341 stars / this week",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/morluto/rea",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 192 天",
+          "score": 24,
+          "ageDays": 192,
+          "firstSeenAt": "2026-10-07",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+106,341 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 1,
+          "starsSince": 106341,
+          "snapshotStarDelta": 8219,
+          "totalStars": 367538
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-10-23T03:53:10Z",
+          "latestRelease": {
+            "name": "rea-agents: v6.7.0",
+            "tag": "rea-agents-6.7.0",
+            "publishedAt": "2026-10-18T07:45:18Z",
+            "url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.7.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-14T00:51:32Z",
+        "pushedAt": "2026-10-23T03:53:10Z",
+        "totalStars": 367538,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ponytail",
+      "owner": "DietrichGebert",
+      "category": "Agent 技能与工具",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,948 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,948 stars / today",
+      "heat": 81,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 133 天",
+          "score": 24,
+          "ageDays": 133,
+          "firstSeenAt": "2026-10-01",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,948 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 1948,
+          "snapshotStarDelta": 1806,
+          "totalStars": 173786
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 6 天有 Release",
+          "score": 68,
+          "material": true,
+          "pushedAt": "2026-10-18T01:55:14Z",
+          "latestRelease": {
+            "name": "v5.3.2",
+            "tag": "v5.3.2",
+            "publishedAt": "2026-10-16T23:15:15Z",
+            "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v5.3.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-12T00:52:37Z",
+        "pushedAt": "2026-10-18T01:55:14Z",
+        "totalStars": 173786,
+        "language": "JavaScript",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Concierge by Juniors AI",
+      "maker": "Rahul Khanna",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Omni-channel AI-first customer support (6 months free)",
+      "signal": "公开 Feed 于 2026-10-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/concierge-by-juniors-ai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 12 天",
+          "score": 53,
+          "ageDays": 12,
+          "firstSeenAt": "2026-10-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-11T03:21:34-07:00",
+          "updatedAt": "2026-10-22T19:48:55-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-11T03:21:34-07:00",
+        "updatedAt": "2026-10-22T19:48:55-07:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Notif",
+      "maker": "Andrew Amisola",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI for your Apple Reminders",
+      "signal": "公开 Feed 于 2026-10-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/notif-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-10-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-20T17:54:33-07:00",
+          "updatedAt": "2026-10-22T19:52:19-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-20T17:54:33-07:00",
+        "updatedAt": "2026-10-22T19:52:19-07:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Bits",
+      "maker": "Harsh Patel",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "An open-source personal agent that gets you things done",
+      "signal": "公开 Feed 于 2026-10-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 69,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/bits-4",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-21T13:59:15-07:00",
+          "updatedAt": "2026-10-22T19:13:49-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-21T13:59:15-07:00",
+        "updatedAt": "2026-10-22T19:13:49-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "Playad",
+      "maker": "Youn Hwang",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Hire your AI Marketing Team",
+      "signal": "公开 Feed 于 2026-10-22 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 56,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/playad",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 11 天",
+          "score": 54,
+          "ageDays": 11,
+          "firstSeenAt": "2026-10-23",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-12T03:56:22-07:00",
+          "updatedAt": "2026-10-22T19:48:42-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-12T03:56:22-07:00",
+        "updatedAt": "2026-10-22T19:48:42-07:00",
+        "feedRank": 8
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "graphify",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/Graphify-Labs/graphify/releases/tag/v0.9.94"
+    },
+    {
+      "name": "ruflo",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.59.17"
+    },
+    {
+      "name": "opencode",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/anomalyco/opencode/releases/tag/v1.19.4"
+    },
+    {
+      "name": "skills",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/android/skills/releases/tag/v1.0.16"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Bits",
+          "url": "https://www.producthunt.com/products/bits-4"
+        },
+        {
+          "label": "Notif",
+          "url": "https://www.producthunt.com/products/notif-2"
+        },
+        {
+          "label": "Playad",
+          "url": "https://www.producthunt.com/products/playad"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "graphify",
+          "url": "https://github.com/Graphify-Labs/graphify"
+        },
+        {
+          "label": "ruflo",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "label": "opencode",
+          "url": "https://github.com/anomalyco/opencode"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "graphify",
+      "source": "GitHub",
+      "why": "+1,408 stars / today；成熟项目 · 203 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "rank": 2,
+      "name": "ruflo",
+      "source": "GitHub",
+      "why": "+3,708 stars / this week；成熟项目 · 507 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/ruvnet/ruflo"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 graphify 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "linkLabel": "打开 graphify"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 29,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-10-23T12:53:00+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 29 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-10-23/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
