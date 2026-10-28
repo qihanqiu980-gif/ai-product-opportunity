@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-10-28",
+    "weekday": "星期三",
+    "edition": "LIVE · 20261028",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-10-28 13:45 CST",
+    "capturedAt": "2026-10-28T13:45:13+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 openbot。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "29/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "openbot 是当前增长最明显的公开信号。",
+      "evidence": "+777 stars / today",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：PulseDev · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "PulseDev",
+          "url": "https://www.producthunt.com/products/pulsedev"
+        },
+        {
+          "label": "Nuvio 5.0",
+          "url": "https://www.producthunt.com/products/nuvio"
+        },
+        {
+          "label": "Paddock",
+          "url": "https://www.producthunt.com/products/paddock-2"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 openbot · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "postiz-app",
+          "url": "https://github.com/gitroomhq/postiz-app"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+777 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：PulseDev · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 openbot · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "openbot",
+        "url": "https://github.com/nightly-labs/openbot"
+      },
+      {
+        "label": "impeccable",
+        "url": "https://github.com/pbakaus/impeccable"
+      },
+      {
+        "label": "ai-design-skills",
+        "url": "https://github.com/elayadesign/ai-design-skills"
+      },
+      {
+        "label": "postiz-app",
+        "url": "https://github.com/gitroomhq/postiz-app"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "openbot",
+      "owner": "nightly-labs",
+      "category": "Agent 技能与工具",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "delta": "GitHub Daily Trending #3，近周期新增 777 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+777 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/nightly-labs/openbot",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 76 天",
+          "score": 24,
+          "ageDays": 76,
+          "firstSeenAt": "2026-10-27",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+777 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 777,
+          "snapshotStarDelta": 1015,
+          "totalStars": 2644
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-10-28T04:23:54Z",
+          "latestRelease": {
+            "name": "OpenBot v0.52.1",
+            "tag": "v0.52.1",
+            "publishedAt": "2026-10-27T18:06:59Z",
+            "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.52.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-08-12T21:32:03Z",
+        "pushedAt": "2026-10-28T04:23:54Z",
+        "totalStars": 2644,
+        "language": "TypeScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "impeccable",
+      "owner": "pbakaus",
+      "category": "Agent 技能与工具",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "delta": "GitHub Daily Trending #5，近周期新增 1,449 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,449 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/pbakaus/impeccable",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 346 天",
+          "score": 24,
+          "ageDays": 346,
+          "firstSeenAt": "2026-09-30",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,449 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 1449,
+          "snapshotStarDelta": 1468,
+          "totalStars": 90907
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-10-28T04:45:54Z",
+          "latestRelease": {
+            "name": "CLI 4.8.0",
+            "tag": "cli-v4.8.0",
+            "publishedAt": "2026-10-26T23:41:55Z",
+            "url": "https://github.com/pbakaus/impeccable/releases/tag/cli-v4.8.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-11-16T01:52:04Z",
+        "pushedAt": "2026-10-28T04:45:54Z",
+        "totalStars": 90907,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ai-design-skills",
+      "owner": "elayadesign",
+      "category": "Agent 技能与工具",
+      "description": "GitHub Trending 项目",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,395 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,395 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 91,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,395 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1395,
+          "snapshotStarDelta": null,
+          "totalStars": 9869
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-10-27T16:02:10Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-07-29T06:43:16Z",
+        "pushedAt": "2026-10-27T16:02:10Z",
+        "totalStars": 9869,
+        "language": "",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "postiz-app",
+      "owner": "gitroomhq",
+      "category": "Agent 技能与工具",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "delta": "GitHub Daily Trending #7，近周期新增 951 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+951 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1207 天",
+          "score": 24,
+          "ageDays": 1207,
+          "firstSeenAt": "2026-10-27",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+951 stars / today",
+          "score": 100,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 951,
+          "snapshotStarDelta": 971,
+          "totalStars": 39587
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-10-24T18:27:21Z",
+          "latestRelease": {
+            "name": "v2.25.3",
+            "tag": "v2.25.3",
+            "publishedAt": "2026-10-24T14:16:43Z",
+            "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2023-07-08T17:24:22Z",
+        "pushedAt": "2026-10-24T18:27:21Z",
+        "totalStars": 39587,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "cindy",
+      "owner": "makecindy",
+      "category": "Agent 技能与工具",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "delta": "GitHub Daily Trending #6，近周期新增 1,465 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,465 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/makecindy/cindy",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 97 天",
+          "score": 24,
+          "ageDays": 97,
+          "firstSeenAt": "2026-10-25",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,465 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 1465,
+          "snapshotStarDelta": 902,
+          "totalStars": 7656
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-10-28T05:25:19Z",
+          "latestRelease": {
+            "name": "v0.1.115",
+            "tag": "v0.1.115",
+            "publishedAt": "2026-10-23T02:46:16Z",
+            "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.115"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-07-22T17:49:34Z",
+        "pushedAt": "2026-10-28T05:25:19Z",
+        "totalStars": 7656,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "claude-seo",
+      "owner": "AgriciDaniel",
+      "category": "Agent 技能与工具",
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,081 stars / this week",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 263 天",
+          "score": 24,
+          "ageDays": 263,
+          "firstSeenAt": "2026-10-26",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,081 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 3081,
+          "snapshotStarDelta": 594,
+          "totalStars": 22856
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-10-22T16:47:40Z",
+          "latestRelease": {
+            "name": "v2.5.0: Python 3.11+, security and accuracy fixes, Claude Desktop installs",
+            "tag": "v2.5.0",
+            "publishedAt": "2026-10-22T16:20:38Z",
+            "url": "https://github.com/AgriciDaniel/claude-seo/releases/tag/v2.5.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-07T08:17:38Z",
+        "pushedAt": "2026-10-22T16:47:40Z",
+        "totalStars": 22856,
+        "language": "Python",
+        "license": "MIT"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "PulseDev",
+      "maker": "Perlat Kociaj",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Click any UI bug on localhost and your AI agent fixes it",
+      "signal": "公开 Feed 于 2026-10-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 73,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/pulsedev",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-26T15:47:46-07:00",
+          "updatedAt": "2026-10-27T22:42:56-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-26T15:47:46-07:00",
+        "updatedAt": "2026-10-27T22:42:56-07:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Nuvio 5.0",
+      "maker": "Ali İlhami ÖZTAN",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Hand your financial admin to your AI agent",
+      "signal": "公开 Feed 于 2026-10-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 71,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/nuvio",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-26T13:06:22-07:00",
+          "updatedAt": "2026-10-27T22:25:25-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-26T13:06:22-07:00",
+        "updatedAt": "2026-10-27T22:25:25-07:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Notra",
+      "maker": "fmerian",
+      "category": "知识与记忆",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Notra is a GEO tool that helps you rank in AI Search.",
+      "signal": "公开 Feed 于 2026-10-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 65,
+      "opportunity": "让用户能够查看、修正、授权和删除长期记忆，而不只是提升召回率。",
+      "url": "https://www.producthunt.com/products/notra-3",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-23T13:02:20-07:00",
+          "updatedAt": "2026-10-27T22:17:48-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-23T13:02:20-07:00",
+        "updatedAt": "2026-10-27T22:17:48-07:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "Paddock",
+      "maker": "Antonio Santiago Dueñas",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Computers and sandboxes for your agents",
+      "signal": "公开 Feed 于 2026-10-27 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/paddock-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-26T19:46:50-07:00",
+          "updatedAt": "2026-10-27T22:08:45-07:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-26T19:46:50-07:00",
+        "updatedAt": "2026-10-27T22:08:45-07:00",
+        "feedRank": 8
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "openbot",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/nightly-labs/openbot/releases/tag/v0.52.1"
+    },
+    {
+      "name": "impeccable",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/pbakaus/impeccable/releases/tag/cli-v4.8.0"
+    },
+    {
+      "name": "postiz-app",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.3"
+    },
+    {
+      "name": "cindy",
+      "change": "近 5 天有 Release",
+      "url": "https://github.com/makecindy/cindy/releases/tag/v0.1.115"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "PulseDev",
+          "url": "https://www.producthunt.com/products/pulsedev"
+        },
+        {
+          "label": "Nuvio 5.0",
+          "url": "https://www.producthunt.com/products/nuvio"
+        },
+        {
+          "label": "Paddock",
+          "url": "https://www.producthunt.com/products/paddock-2"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "openbot",
+          "url": "https://github.com/nightly-labs/openbot"
+        },
+        {
+          "label": "impeccable",
+          "url": "https://github.com/pbakaus/impeccable"
+        },
+        {
+          "label": "postiz-app",
+          "url": "https://github.com/gitroomhq/postiz-app"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "openbot",
+      "source": "GitHub",
+      "why": "+777 stars / today；成熟项目 · 76 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "rank": 2,
+      "name": "impeccable",
+      "source": "GitHub",
+      "why": "+1,449 stars / today；成熟项目 · 346 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/pbakaus/impeccable"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 openbot 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/nightly-labs/openbot",
+      "linkLabel": "打开 openbot"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 29,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-10-28T13:45:13+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 29 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-10-28/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
