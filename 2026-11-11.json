@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-11-11",
+    "weekday": "星期三",
+    "edition": "LIVE · 20261111",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-11 14:26 CST",
+    "capturedAt": "2026-11-11T14:26:26+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 astryx。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "astryx 是当前增长最明显的公开信号。",
+      "evidence": "+3,108 stars / today",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：OpenVibe · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "OpenVibe",
+          "url": "https://www.producthunt.com/products/openvibe-2"
+        },
+        {
+          "label": "Kata Send",
+          "url": "https://www.producthunt.com/products/kata-send"
+        },
+        {
+          "label": "Maxma",
+          "url": "https://www.producthunt.com/products/maxma-2"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 astryx · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+3,108 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：OpenVibe · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 astryx · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "astryx",
+        "url": "https://github.com/meta/astryx"
+      },
+      {
+        "label": "agent-browser",
+        "url": "https://github.com/vercel-labs/agent-browser"
+      },
+      {
+        "label": "Claude-Code-Game-Studios",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+      },
+      {
+        "label": "ha-mcp",
+        "url": "https://github.com/homeassistant-ai/ha-mcp"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "astryx",
+      "owner": "meta",
+      "category": "Agent 技能与工具",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "delta": "GitHub Daily Trending #1，近周期新增 3,108 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+3,108 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/meta/astryx",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 305 天",
+          "score": 24,
+          "ageDays": 305,
+          "firstSeenAt": "2026-11-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,108 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 3108,
+          "snapshotStarDelta": 2649,
+          "totalStars": 23541
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-11T06:24:25Z",
+          "latestRelease": {
+            "name": "v0.7.13",
+            "tag": "v0.7.13",
+            "publishedAt": "2026-11-10T21:27:43Z",
+            "url": "https://github.com/meta/astryx/releases/tag/v0.7.13"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-09T16:20:32Z",
+        "pushedAt": "2026-11-11T06:24:25Z",
+        "totalStars": 23541,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "category": "Agent 技能与工具",
+      "description": "Browser automation CLI for AI agents",
+      "delta": "GitHub Daily Trending #8，近周期新增 780 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+780 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 304 天",
+          "score": 24,
+          "ageDays": 304,
+          "firstSeenAt": "2026-11-06",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+780 stars / today",
+          "score": 100,
+          "rankDaily": 8,
+          "rankWeekly": 6,
+          "starsSince": 780,
+          "snapshotStarDelta": 697,
+          "totalStars": 49424
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-11T06:08:27Z",
+          "latestRelease": {
+            "name": "v0.42.0",
+            "tag": "v0.42.0",
+            "publishedAt": "2026-11-10T00:37:19Z",
+            "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.42.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-11T05:38:15Z",
+        "pushedAt": "2026-11-11T06:08:27Z",
+        "totalStars": 49424,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "owner": "Donchitos",
+      "category": "Agent 技能与工具",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "delta": "GitHub Weekly Trending #7",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+3,730 stars / this week",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 272 天",
+          "score": 24,
+          "ageDays": 272,
+          "firstSeenAt": "2026-10-30",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+3,730 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 7,
+          "starsSince": 3730,
+          "snapshotStarDelta": 434,
+          "totalStars": 38163
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-11-09T23:33:14Z",
+          "latestRelease": {
+            "name": "v1.3.0 — make me a game",
+            "tag": "v1.3.0",
+            "publishedAt": "2026-11-09T15:24:15Z",
+            "url": "https://github.com/Donchitos/Claude-Code-Game-Studios/releases/tag/v1.3.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-12T05:21:38Z",
+        "pushedAt": "2026-11-09T23:33:14Z",
+        "totalStars": 38163,
+        "language": "Shell",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "ha-mcp",
+      "owner": "homeassistant-ai",
+      "category": "Agent 技能与工具",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "delta": "GitHub Daily Trending #7，近周期新增 790 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+790 stars / today",
+      "heat": 83,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 423 天",
+          "score": 24,
+          "ageDays": 423,
+          "firstSeenAt": "2026-11-10",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+790 stars / today",
+          "score": 100,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 790,
+          "snapshotStarDelta": 624,
+          "totalStars": 6806
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天有 Release",
+          "score": 80,
+          "material": true,
+          "pushedAt": "2026-11-11T06:17:22Z",
+          "latestRelease": {
+            "name": "v9.1.2",
+            "tag": "v9.1.2",
+            "publishedAt": "2026-11-08T15:45:35Z",
+            "url": "https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.1.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-09-14T13:23:45Z",
+        "pushedAt": "2026-11-11T06:17:22Z",
+        "totalStars": 6806,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "agent-desktop",
+      "owner": "vercel-labs",
+      "category": "Agent 技能与工具",
+      "description": "Computer use CLI for AI agents",
+      "delta": "GitHub Weekly Trending #2",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+9,502 stars / this week",
+      "heat": 81,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 264 天",
+          "score": 24,
+          "ageDays": 264,
+          "firstSeenAt": "2026-11-03",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+9,502 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 2,
+          "starsSince": 9502,
+          "snapshotStarDelta": 772,
+          "totalStars": 21573
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 6 天有 Release",
+          "score": 68,
+          "material": true,
+          "pushedAt": "2026-11-11T06:09:45Z",
+          "latestRelease": {
+            "name": "v1.2.0",
+            "tag": "v1.2.0",
+            "publishedAt": "2026-11-05T02:43:54Z",
+            "url": "https://github.com/vercel-labs/agent-desktop/releases/tag/v1.2.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-02-19T18:00:49Z",
+        "pushedAt": "2026-11-11T06:09:45Z",
+        "totalStars": 21573,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "auto-ontology",
+      "owner": "NVIDIA",
+      "category": "Agent 技能与工具",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "delta": "GitHub Weekly Trending #1",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+9,621 stars / this week",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 197 天",
+          "score": 24,
+          "ageDays": 197,
+          "firstSeenAt": "2026-11-05",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+9,621 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 1,
+          "starsSince": 9621,
+          "snapshotStarDelta": 394,
+          "totalStars": 11555
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-11-10T19:31:47Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-04-27T21:45:56Z",
+        "pushedAt": "2026-11-10T19:31:47Z",
+        "totalStars": 11555,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Maxma",
+      "maker": "Justin Jincaid",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The 24/7 AI teammate that scales your paid ad performance",
+      "signal": "公开 Feed 于 2026-11-10 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 61,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/maxma-2",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 18 天",
+          "score": 47,
+          "ageDays": 18,
+          "firstSeenAt": "2026-11-11",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-23T17:59:22-07:00",
+          "updatedAt": "2026-11-10T22:16:06-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-23T17:59:22-07:00",
+        "updatedAt": "2026-11-10T22:16:06-08:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "OpenVibe",
+      "maker": "Mathieu KERBEL",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "A canvas of real terminals for your AI coding agents",
+      "signal": "公开 Feed 于 2026-11-10 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/openvibe-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-11-11",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-09T09:34:57-08:00",
+          "updatedAt": "2026-11-10T21:41:12-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-09T09:34:57-08:00",
+        "updatedAt": "2026-11-10T21:41:12-08:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Billing MCP By SubscriptionFlow",
+      "maker": "Kashif Saleem",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Open Source AI Agent to Run Your Subscription Billing",
+      "signal": "公开 Feed 于 2026-11-10 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 50,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/subscriptionflow-ai-billing-mcp",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 27 天",
+          "score": 38,
+          "ageDays": 27,
+          "firstSeenAt": "2026-11-11",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-15T00:32:33-07:00",
+          "updatedAt": "2026-11-10T13:45:36-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-15T00:32:33-07:00",
+        "updatedAt": "2026-11-10T13:45:36-08:00",
+        "feedRank": 9
+      }
+    },
+    {
+      "name": "Kata Send",
+      "maker": "Yoann",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Cold email infrastructure for AI agents",
+      "signal": "公开 Feed 于 2026-11-10 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 54,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/kata-send",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 6 天",
+          "score": 62,
+          "ageDays": 6,
+          "firstSeenAt": "2026-11-11",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 11 位",
+          "score": 48,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-05T00:50:12-08:00",
+          "updatedAt": "2026-11-10T19:09:03-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-05T00:50:12-08:00",
+        "updatedAt": "2026-11-10T19:09:03-08:00",
+        "feedRank": 11
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "astryx",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/meta/astryx/releases/tag/v0.7.13"
+    },
+    {
+      "name": "agent-browser",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.42.0"
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios/releases/tag/v1.3.0"
+    },
+    {
+      "name": "ha-mcp",
+      "change": "近 3 天有 Release",
+      "url": "https://github.com/homeassistant-ai/ha-mcp/releases/tag/v9.1.2"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "OpenVibe",
+          "url": "https://www.producthunt.com/products/openvibe-2"
+        },
+        {
+          "label": "Kata Send",
+          "url": "https://www.producthunt.com/products/kata-send"
+        },
+        {
+          "label": "Maxma",
+          "url": "https://www.producthunt.com/products/maxma-2"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "astryx",
+      "source": "GitHub",
+      "why": "+3,108 stars / today；成熟项目 · 305 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/meta/astryx"
+    },
+    {
+      "rank": 2,
+      "name": "agent-browser",
+      "source": "GitHub",
+      "why": "+780 stars / today；成熟项目 · 304 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 astryx 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/meta/astryx",
+      "linkLabel": "打开 astryx"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-11T14:26:26+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-11/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
