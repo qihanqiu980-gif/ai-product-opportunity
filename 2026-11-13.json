@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-11-13",
+    "weekday": "星期五",
+    "edition": "LIVE · 20261113",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-13 14:48 CST",
+    "capturedAt": "2026-11-13T14:48:18+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 qwen-code。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "3 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "3",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "astryx 是当前增长最明显的公开信号。",
+      "evidence": "+1,830 stars / today",
+      "sources": [
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 82,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：three.dev · PH 发布 2 天。",
+      "sources": [
+        {
+          "label": "three.dev",
+          "url": "https://www.producthunt.com/products/three-dev"
+        },
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 qwen-code · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 86,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+1,830 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：three.dev · PH 发布 2 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 qwen-code · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "qwen-code",
+        "url": "https://github.com/QwenLM/qwen-code"
+      },
+      {
+        "label": "astryx",
+        "url": "https://github.com/meta/astryx"
+      },
+      {
+        "label": "agent-browser",
+        "url": "https://github.com/vercel-labs/agent-browser"
+      },
+      {
+        "label": "modern-web-guidance-src",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "qwen-code",
+      "owner": "QwenLM",
+      "category": "Agent 技能与工具",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "delta": "GitHub Daily Trending #6，近周期新增 151 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+151 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 505,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+151 stars / today",
+          "score": 91,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 151,
+          "snapshotStarDelta": null,
+          "totalStars": 29974
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-13T06:33:29Z",
+          "latestRelease": {
+            "name": "SDK TypeScript Release v0.1.33",
+            "tag": "sdk-typescript-v0.1.33",
+            "publishedAt": "2026-11-13T01:14:28Z",
+            "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-06-26T01:37:46Z",
+        "pushedAt": "2026-11-13T06:33:29Z",
+        "totalStars": 29974,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "astryx",
+      "owner": "meta",
+      "category": "Agent 技能与工具",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "delta": "GitHub Daily Trending #10，近周期新增 1,830 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,830 stars / today",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/meta/astryx",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 307 天",
+          "score": 24,
+          "ageDays": 307,
+          "firstSeenAt": "2026-11-08",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,830 stars / today",
+          "score": 100,
+          "rankDaily": 10,
+          "rankWeekly": null,
+          "starsSince": 1830,
+          "snapshotStarDelta": 1319,
+          "totalStars": 26868
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-13T06:44:09Z",
+          "latestRelease": {
+            "name": "v0.7.15",
+            "tag": "v0.7.15",
+            "publishedAt": "2026-11-12T19:25:33Z",
+            "url": "https://github.com/meta/astryx/releases/tag/v0.7.15"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-09T16:20:32Z",
+        "pushedAt": "2026-11-13T06:44:09Z",
+        "totalStars": 26868,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "category": "Agent 技能与工具",
+      "description": "Browser automation CLI for AI agents",
+      "delta": "GitHub Weekly Trending #3",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+4,601 stars / this week",
+      "heat": 86,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 306 天",
+          "score": 24,
+          "ageDays": 306,
+          "firstSeenAt": "2026-11-06",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+4,601 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 3,
+          "starsSince": 4601,
+          "snapshotStarDelta": 379,
+          "totalStars": 50428
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-13T06:29:09Z",
+          "latestRelease": {
+            "name": "v0.43.0",
+            "tag": "v0.43.0",
+            "publishedAt": "2026-11-12T23:09:31Z",
+            "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-11T05:38:15Z",
+        "pushedAt": "2026-11-13T06:29:09Z",
+        "totalStars": 50428,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "free-claude-code",
+      "owner": "Alishahryar1",
+      "category": "浏览器 Agent",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "delta": "GitHub Daily Trending #12，近周期新增 415 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+415 stars / today",
+      "heat": 83,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 288,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+415 stars / today",
+          "score": 87,
+          "rankDaily": 12,
+          "rankWeekly": null,
+          "starsSince": 415,
+          "snapshotStarDelta": null,
+          "totalStars": 69526
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-12T19:36:16Z",
+          "latestRelease": {
+            "name": "v6.19.11",
+            "tag": "v6.19.11",
+            "publishedAt": "2026-11-12T10:04:07Z",
+            "url": "https://github.com/Alishahryar1/free-claude-code/releases/tag/v6.19.11"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-28T19:02:30Z",
+        "pushedAt": "2026-11-12T19:36:16Z",
+        "totalStars": 69526,
+        "language": "Python",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "category": "Agent 技能与工具",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "delta": "GitHub Daily Trending #1，近周期新增 739 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+739 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 289 天",
+          "score": 24,
+          "ageDays": 289,
+          "firstSeenAt": "2026-11-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+739 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 739,
+          "snapshotStarDelta": 1599,
+          "totalStars": 3604
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-11-13T06:34:46Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-27T20:22:24Z",
+        "pushedAt": "2026-11-13T06:34:46Z",
+        "totalStars": 3604,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "TensorFold",
+      "owner": "ashhart",
+      "category": "Agent 技能与工具",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "delta": "GitHub Daily Trending #7，近周期新增 54 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+54 stars / today",
+      "heat": 78,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ashhart/TensorFold",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 146,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+54 stars / today",
+          "score": 80,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 54,
+          "snapshotStarDelta": null,
+          "totalStars": 2015
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-13T03:23:41Z",
+          "latestRelease": {
+            "name": "TensorFold 1.2.7",
+            "tag": "v1.2.7",
+            "publishedAt": "2026-11-11T17:18:05Z",
+            "url": "https://github.com/ashhart/TensorFold/releases/tag/v1.2.7"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-19T20:27:39Z",
+        "pushedAt": "2026-11-13T03:23:41Z",
+        "totalStars": 2015,
+        "language": "Zig",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Omnigraph",
+      "maker": "Ben Lang",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Open source graph database for your AI agents",
+      "signal": "公开 Feed 于 2026-11-12 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/omnigraph",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 14 天",
+          "score": 51,
+          "ageDays": 14,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-30T07:36:05-07:00",
+          "updatedAt": "2026-11-12T22:47:05-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-30T07:36:05-07:00",
+        "updatedAt": "2026-11-12T22:47:05-08:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Sendr V4: Lovable for GTM",
+      "maker": "Kevin William David",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Your AI GTM engineer to build signal based go-to-market",
+      "signal": "公开 Feed 于 2026-11-12 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/sendr",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 42,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-01T12:46:45-07:00",
+          "updatedAt": "2026-11-12T21:56:20-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-01T12:46:45-07:00",
+        "updatedAt": "2026-11-12T21:56:20-08:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Neura HQ",
+      "maker": "Kevin William David",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The agentic conversational storefront for consumer brands",
+      "signal": "公开 Feed 于 2026-11-12 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 64,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/neura-4",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-04T03:07:16-08:00",
+          "updatedAt": "2026-11-12T22:34:01-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-04T03:07:16-08:00",
+        "updatedAt": "2026-11-12T22:34:01-08:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "three.dev",
+      "maker": "Bryan Lee",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Find out how your AI agent fails. Before your users do.",
+      "signal": "公开 Feed 于 2026-11-12 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 70,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/three-dev",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-11-13",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-10T08:51:51-08:00",
+          "updatedAt": "2026-11-12T22:28:06-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-10T08:51:51-08:00",
+        "updatedAt": "2026-11-12T22:28:06-08:00",
+        "feedRank": 4
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "qwen-code",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/QwenLM/qwen-code/releases/tag/sdk-typescript-v0.1.33"
+    },
+    {
+      "name": "astryx",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/meta/astryx/releases/tag/v0.7.15"
+    },
+    {
+      "name": "agent-browser",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0"
+    },
+    {
+      "name": "free-claude-code",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/Alishahryar1/free-claude-code/releases/tag/v6.19.11"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "three.dev",
+          "url": "https://www.producthunt.com/products/three-dev"
+        },
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "qwen-code",
+          "url": "https://github.com/QwenLM/qwen-code"
+        },
+        {
+          "label": "astryx",
+          "url": "https://github.com/meta/astryx"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "qwen-code",
+      "source": "GitHub",
+      "why": "+151 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/QwenLM/qwen-code"
+    },
+    {
+      "rank": 2,
+      "name": "astryx",
+      "source": "GitHub",
+      "why": "+1,830 stars / today；成熟项目 · 307 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/meta/astryx"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 qwen-code 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/QwenLM/qwen-code",
+      "linkLabel": "打开 qwen-code"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-13T14:48:18+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-13/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
