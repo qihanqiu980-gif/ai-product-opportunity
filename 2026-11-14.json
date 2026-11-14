@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-11-14",
+    "weekday": "星期六",
+    "edition": "LIVE · 20261114",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-14 14:26 CST",
+    "capturedAt": "2026-11-14T14:26:41+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 open-code-review。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "2 个信号属于近 14 天新建或发布，5 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "2",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "5",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "open-code-review 是当前增长最明显的公开信号。",
+      "evidence": "+215 stars / today",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Expo Simulators · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Expo Simulators",
+          "url": "https://www.producthunt.com/products/expo"
+        },
+        {
+          "label": "Aven App Agent",
+          "url": "https://www.producthunt.com/products/aven-app-agent"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 5 个实质更新；最高信号为 plannotator · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 87,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+215 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Expo Simulators · PH 发布 1 天。",
+      "变化信号：确认 5 个实质更新；最高信号为 plannotator · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "label": "agent-browser",
+        "url": "https://github.com/vercel-labs/agent-browser"
+      },
+      {
+        "label": "elephant-goldfish-model",
+        "url": "https://github.com/google/elephant-goldfish-model"
+      },
+      {
+        "label": "plannotator",
+        "url": "https://github.com/backnotprop/plannotator"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Daily Trending #1，近周期新增 215 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+215 stars / today",
+      "heat": 91,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 180,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+215 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 215,
+          "snapshotStarDelta": null,
+          "totalStars": 50825
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-14T05:39:05Z",
+          "latestRelease": {
+            "name": "v1.13.9",
+            "tag": "v1.13.9",
+            "publishedAt": "2026-11-13T09:47:57Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.13.9"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-11-14T05:39:05Z",
+        "totalStars": 50825,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "agent-browser",
+      "owner": "vercel-labs",
+      "category": "Agent 技能与工具",
+      "description": "Browser automation CLI for AI agents",
+      "delta": "GitHub Weekly Trending #4",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+4,360 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 307 天",
+          "score": 24,
+          "ageDays": 307,
+          "firstSeenAt": "2026-11-06",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+4,360 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 4,
+          "starsSince": 4360,
+          "snapshotStarDelta": 384,
+          "totalStars": 50812
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-14T04:29:22Z",
+          "latestRelease": {
+            "name": "v0.43.0",
+            "tag": "v0.43.0",
+            "publishedAt": "2026-11-12T23:09:31Z",
+            "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-11T05:38:15Z",
+        "pushedAt": "2026-11-14T04:29:22Z",
+        "totalStars": 50812,
+        "language": "Rust",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "elephant-goldfish-model",
+      "owner": "google",
+      "category": "Agent 技能与工具",
+      "description": "Open-source plugin for designing and reviewing software with agents",
+      "delta": "GitHub Weekly Trending #5",
+      "metricLabel": "GitHub Trending · Weekly",
+      "metricValue": "+5,560 stars / this week",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 61,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+5,560 stars / this week",
+          "score": 100,
+          "rankDaily": null,
+          "rankWeekly": 5,
+          "starsSince": 5560,
+          "snapshotStarDelta": null,
+          "totalStars": 18727
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 7 天有 Release",
+          "score": 64,
+          "material": true,
+          "pushedAt": "2026-11-14T03:30:16Z",
+          "latestRelease": {
+            "name": "EGM v0.1.1",
+            "tag": "v0.1.1",
+            "publishedAt": "2026-11-06T21:50:31Z",
+            "url": "https://github.com/google/elephant-goldfish-model/releases/tag/v0.1.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-09-13T16:31:06Z",
+        "pushedAt": "2026-11-14T03:30:16Z",
+        "totalStars": 18727,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "category": "Agent 技能与工具",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+      "delta": "GitHub Daily Trending #6，近周期新增 108 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+108 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/backnotprop/plannotator",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 321,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+108 stars / today",
+          "score": 88,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 108,
+          "snapshotStarDelta": null,
+          "totalStars": 10559
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-14T06:22:00Z",
+          "latestRelease": {
+            "name": "v0.28.64",
+            "tag": "v0.28.64",
+            "publishedAt": "2026-11-13T17:24:36Z",
+            "url": "https://github.com/backnotprop/plannotator/releases/tag/v0.28.64"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-12-28T02:09:40Z",
+        "pushedAt": "2026-11-14T06:22:00Z",
+        "totalStars": 10559,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "daily_stock_analysis",
+      "owner": "ZhuLinsen",
+      "category": "Agent 技能与工具",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "delta": "GitHub Daily Trending #4，近周期新增 256 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+256 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 308 天",
+          "score": 24,
+          "ageDays": 308,
+          "firstSeenAt": "2026-11-10",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+256 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": 6,
+          "starsSince": 256,
+          "snapshotStarDelta": null,
+          "totalStars": 71854
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-11-14T05:03:48Z",
+          "latestRelease": {
+            "name": "v3.34.0",
+            "tag": "v3.34.0",
+            "publishedAt": "2026-11-09T12:39:03Z",
+            "url": "https://github.com/ZhuLinsen/daily_stock_analysis/releases/tag/v3.34.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-10T06:43:20Z",
+        "pushedAt": "2026-11-14T05:03:48Z",
+        "totalStars": 71854,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "modern-web-guidance-src",
+      "owner": "GoogleChrome",
+      "category": "Agent 技能与工具",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "delta": "GitHub Daily Trending #2，近周期新增 1,925 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,925 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 290 天",
+          "score": 24,
+          "ageDays": 290,
+          "firstSeenAt": "2026-11-12",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,925 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 1925,
+          "snapshotStarDelta": 1463,
+          "totalStars": 5067
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-11-14T02:08:33Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-27T20:22:24Z",
+        "pushedAt": "2026-11-14T02:08:33Z",
+        "totalStars": 5067,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Filament by Galaxy",
+      "maker": "fmerian",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Move data using your terminal or agent. Fast & open source.",
+      "signal": "公开 Feed 于 2026-11-13 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/galaxy",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 29 天",
+          "score": 36,
+          "ageDays": 29,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-16T07:05:37-07:00",
+          "updatedAt": "2026-11-13T22:23:59-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-16T07:05:37-07:00",
+        "updatedAt": "2026-11-13T22:23:59-08:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "Templify AI",
+      "maker": "Rohan Chaubey",
+      "category": "内容生成",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Powerful content editor for people who aren’t editors",
+      "signal": "公开 Feed 于 2026-11-13 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 61,
+      "opportunity": "把生成能力嵌入已有创作流程，并用素材管理和协作降低切换成本。",
+      "url": "https://www.producthunt.com/products/templify",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 19 天",
+          "score": 46,
+          "ageDays": 19,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 3 位",
+          "score": 72,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-26T04:56:03-07:00",
+          "updatedAt": "2026-11-13T22:25:53-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-26T04:56:03-07:00",
+        "updatedAt": "2026-11-13T22:25:53-08:00",
+        "feedRank": 3
+      }
+    },
+    {
+      "name": "Aven App Agent",
+      "maker": "Himanshu Kumar Pathak",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI that guides users through your app",
+      "signal": "公开 Feed 于 2026-11-13 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/aven-app-agent",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 2 天",
+          "score": 82,
+          "ageDays": 2,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-11T14:12:11-08:00",
+          "updatedAt": "2026-11-13T21:24:23-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-11T14:12:11-08:00",
+        "updatedAt": "2026-11-13T21:24:23-08:00",
+        "feedRank": 6
+      }
+    },
+    {
+      "name": "Expo Simulators",
+      "maker": "Exponent",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Cloud simulators built for agents",
+      "signal": "公开 Feed 于 2026-11-13 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 65,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/expo",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-12T10:34:18-08:00",
+          "updatedAt": "2026-11-13T21:28:37-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-12T10:34:18-08:00",
+        "updatedAt": "2026-11-13T21:28:37-08:00",
+        "feedRank": 9
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "open-code-review",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.13.9"
+    },
+    {
+      "name": "agent-browser",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.43.0"
+    },
+    {
+      "name": "elephant-goldfish-model",
+      "change": "近 7 天有 Release",
+      "url": "https://github.com/google/elephant-goldfish-model/releases/tag/v0.1.1"
+    },
+    {
+      "name": "plannotator",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/backnotprop/plannotator/releases/tag/v0.28.64"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        },
+        {
+          "label": "elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Expo Simulators",
+          "url": "https://www.producthunt.com/products/expo"
+        },
+        {
+          "label": "Aven App Agent",
+          "url": "https://www.producthunt.com/products/aven-app-agent"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "open-code-review",
+      "source": "GitHub",
+      "why": "+215 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "rank": 2,
+      "name": "agent-browser",
+      "source": "GitHub",
+      "why": "+4,360 stars / this week；成熟项目 · 307 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 open-code-review 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/alibaba/open-code-review",
+      "linkLabel": "打开 open-code-review"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-14T14:26:41+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-14/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
