@@ -1,0 +1,845 @@
+{
+  "meta": {
+    "date": "2026-11-16",
+    "weekday": "星期一",
+    "edition": "LIVE · 20261116",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-16 14:33 CST",
+    "capturedAt": "2026-11-16T14:33:08+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 plannotator。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，6 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "6",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "plannotator 是当前增长最明显的公开信号。",
+      "evidence": "+866 stars / today",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Agentic Canvas · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "Agentic Canvas",
+          "url": "https://www.producthunt.com/products/agentgrid-io"
+        },
+        {
+          "label": "Pixel Office",
+          "url": "https://www.producthunt.com/products/pixel-office-3"
+        },
+        {
+          "label": "Frevana Multiplayer",
+          "url": "https://www.producthunt.com/products/frevana-2"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 6 个实质更新；最高信号为 plannotator · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 85,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+866 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Agentic Canvas · PH 发布 1 天。",
+      "变化信号：确认 6 个实质更新；最高信号为 plannotator · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "plannotator",
+        "url": "https://github.com/backnotprop/plannotator"
+      },
+      {
+        "label": "open-code-review",
+        "url": "https://github.com/alibaba/open-code-review"
+      },
+      {
+        "label": "univer",
+        "url": "https://github.com/dream-num/univer"
+      },
+      {
+        "label": "ag-ui",
+        "url": "https://github.com/ag-ui-protocol/ag-ui"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "plannotator",
+      "owner": "backnotprop",
+      "category": "Agent 技能与工具",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+      "delta": "GitHub Daily Trending #4，近周期新增 866 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+866 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/backnotprop/plannotator",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 323 天",
+          "score": 24,
+          "ageDays": 323,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+866 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": 4,
+          "starsSince": 866,
+          "snapshotStarDelta": 696,
+          "totalStars": 12041
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-16T06:32:22Z",
+          "latestRelease": {
+            "name": "v0.28.65",
+            "tag": "v0.28.65",
+            "publishedAt": "2026-11-15T00:07:22Z",
+            "url": "https://github.com/backnotprop/plannotator/releases/tag/v0.28.65"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-12-28T02:09:40Z",
+        "pushedAt": "2026-11-16T06:32:22Z",
+        "totalStars": 12041,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "open-code-review",
+      "owner": "alibaba",
+      "category": "Agent 技能与工具",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "delta": "GitHub Daily Trending #6，近周期新增 691 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+691 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/alibaba/open-code-review",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 182 天",
+          "score": 24,
+          "ageDays": 182,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+691 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 691,
+          "snapshotStarDelta": 811,
+          "totalStars": 52377
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-16T02:35:37Z",
+          "latestRelease": {
+            "name": "v1.13.10",
+            "tag": "v1.13.10",
+            "publishedAt": "2026-11-15T02:56:09Z",
+            "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.13.10"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-18T02:16:36Z",
+        "pushedAt": "2026-11-16T02:35:37Z",
+        "totalStars": 52377,
+        "language": "Go",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "univer",
+      "owner": "dream-num",
+      "category": "Agent 技能与工具",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "delta": "GitHub Daily Trending #1，近周期新增 988 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+988 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/dream-num/univer",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 1509 天",
+          "score": 24,
+          "ageDays": 1509,
+          "firstSeenAt": "2026-11-15",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+988 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 988,
+          "snapshotStarDelta": 1494,
+          "totalStars": 26578
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-11-16T06:26:04Z",
+          "latestRelease": {
+            "name": "🛠️ Release v1.5.0",
+            "tag": "v1.5.0",
+            "publishedAt": "2026-11-14T10:33:37Z",
+            "url": "https://github.com/dream-num/univer/releases/tag/v1.5.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2022-09-29T12:09:14Z",
+        "pushedAt": "2026-11-16T06:26:04Z",
+        "totalStars": 26578,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "ag-ui",
+      "owner": "ag-ui-protocol",
+      "category": "Agent 技能与工具",
+      "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "delta": "GitHub Daily Trending #2，近周期新增 355 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+355 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 558 天",
+          "score": 24,
+          "ageDays": 558,
+          "firstSeenAt": "2026-11-15",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+355 stars / today",
+          "score": 100,
+          "rankDaily": 2,
+          "rankWeekly": null,
+          "starsSince": 355,
+          "snapshotStarDelta": 680,
+          "totalStars": 18136
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-11-15T02:26:33Z",
+          "latestRelease": {
+            "name": "Release 2026-11-13",
+            "tag": "release/2026-11-13",
+            "publishedAt": "2026-11-13T21:01:20Z",
+            "url": "https://github.com/ag-ui-protocol/ag-ui/releases/tag/release/2026-11-13"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-05-07T12:49:37Z",
+        "pushedAt": "2026-11-15T02:26:33Z",
+        "totalStars": 18136,
+        "language": "TypeScript",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "owner": "ChromeDevTools",
+      "category": "Agent 技能与工具",
+      "description": "Chrome DevTools for coding agents",
+      "delta": "GitHub Daily Trending #5，近周期新增 717 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+717 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 431 天",
+          "score": 24,
+          "ageDays": 431,
+          "firstSeenAt": "2026-11-14",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+717 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 717,
+          "snapshotStarDelta": 736,
+          "totalStars": 57193
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 5 天有 Release",
+          "score": 72,
+          "material": true,
+          "pushedAt": "2026-11-16T05:21:35Z",
+          "latestRelease": {
+            "name": "chrome-devtools-mcp: v1.13.0",
+            "tag": "chrome-devtools-mcp-v1.13.0",
+            "publishedAt": "2026-11-11T12:40:09Z",
+            "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/chrome-devtools-mcp-v1.13.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2025-09-11T10:39:55Z",
+        "pushedAt": "2026-11-16T05:21:35Z",
+        "totalStars": 57193,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "LoopForge",
+      "owner": "Tencent",
+      "category": "Agent 技能与工具",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "delta": "GitHub Daily Trending #7，近周期新增 423 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+423 stars / today",
+      "heat": 82,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/Tencent/LoopForge",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 111 天",
+          "score": 24,
+          "ageDays": 111,
+          "firstSeenAt": "2026-11-15",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+423 stars / today",
+          "score": 99,
+          "rankDaily": 7,
+          "rankWeekly": null,
+          "starsSince": 423,
+          "snapshotStarDelta": 811,
+          "totalStars": 1820
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-11-16T06:32:13Z",
+          "latestRelease": {
+            "name": "LoopForge v0.3.8",
+            "tag": "v0.3.8",
+            "publishedAt": "2026-11-12T13:05:58Z",
+            "url": "https://github.com/Tencent/LoopForge/releases/tag/v0.3.8"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-07-28T03:51:01Z",
+        "pushedAt": "2026-11-16T06:32:13Z",
+        "totalStars": 1820,
+        "language": "Go",
+        "license": "NOASSERTION"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Frevana Multiplayer",
+      "maker": "Rohan Chaubey",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI that grows your business alongside your team",
+      "signal": "公开 Feed 于 2026-11-15 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/frevana-2",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 6 天",
+          "score": 62,
+          "ageDays": 6,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 7 位",
+          "score": 60,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-09T21:18:49-08:00",
+          "updatedAt": "2026-11-15T22:32:22-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-09T21:18:49-08:00",
+        "updatedAt": "2026-11-15T22:32:22-08:00",
+        "feedRank": 7
+      }
+    },
+    {
+      "name": "Spiik",
+      "maker": "Rony Fadel",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "AI note taker for meetings & lectures. No bot on your calls.",
+      "signal": "公开 Feed 于 2026-11-15 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 57,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/spiik",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 8 位",
+          "score": 57,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-07T03:57:13-08:00",
+          "updatedAt": "2026-11-15T22:29:21-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-07T03:57:13-08:00",
+        "updatedAt": "2026-11-15T22:29:21-08:00",
+        "feedRank": 8
+      }
+    },
+    {
+      "name": "Agentic Canvas",
+      "maker": "Avishay Cohen",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Free Agentic Design Canvas - A visual way to work with AI",
+      "signal": "公开 Feed 于 2026-11-15 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 65,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/agentgrid-io",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-26",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 9 位",
+          "score": 54,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-14T22:22:09-08:00",
+          "updatedAt": "2026-11-15T22:32:24-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-14T22:22:09-08:00",
+        "updatedAt": "2026-11-15T22:32:24-08:00",
+        "feedRank": 9
+      }
+    },
+    {
+      "name": "Pixel Office",
+      "maker": "Gol Sinyali",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Run a team of AI agents from a pixel-art office",
+      "signal": "公开 Feed 于 2026-11-15 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 60,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/pixel-office-3",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 10 位",
+          "score": 51,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-12T08:47:12-08:00",
+          "updatedAt": "2026-11-15T22:07:13-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-12T08:47:12-08:00",
+        "updatedAt": "2026-11-15T22:07:13-08:00",
+        "feedRank": 10
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "plannotator",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/backnotprop/plannotator/releases/tag/v0.28.65"
+    },
+    {
+      "name": "open-code-review",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/alibaba/open-code-review/releases/tag/v1.13.10"
+    },
+    {
+      "name": "univer",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/dream-num/univer/releases/tag/v1.5.0"
+    },
+    {
+      "name": "ag-ui",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/ag-ui-protocol/ag-ui/releases/tag/release/2026-11-13"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Agentic Canvas",
+          "url": "https://www.producthunt.com/products/agentgrid-io"
+        },
+        {
+          "label": "Pixel Office",
+          "url": "https://www.producthunt.com/products/pixel-office-3"
+        },
+        {
+          "label": "Frevana Multiplayer",
+          "url": "https://www.producthunt.com/products/frevana-2"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "plannotator",
+          "url": "https://github.com/backnotprop/plannotator"
+        },
+        {
+          "label": "open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "label": "univer",
+          "url": "https://github.com/dream-num/univer"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "plannotator",
+      "source": "GitHub",
+      "why": "+866 stars / today；成熟项目 · 323 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/backnotprop/plannotator"
+    },
+    {
+      "rank": 2,
+      "name": "open-code-review",
+      "source": "GitHub",
+      "why": "+691 stars / today；成熟项目 · 182 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/alibaba/open-code-review"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 plannotator 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/backnotprop/plannotator",
+      "linkLabel": "打开 plannotator"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-16T14:33:08+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-16/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
