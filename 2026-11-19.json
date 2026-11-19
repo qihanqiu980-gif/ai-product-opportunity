@@ -1,0 +1,840 @@
+{
+  "meta": {
+    "date": "2026-11-19",
+    "weekday": "星期四",
+    "edition": "LIVE · 20261119",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-19 15:31 CST",
+    "capturedAt": "2026-11-19T15:31:42+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 SkillEvaluator。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "appwrite",
+          "url": "https://github.com/appwrite/appwrite"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "3 个信号属于近 14 天新建或发布，4 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "appwrite",
+          "url": "https://github.com/appwrite/appwrite"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "appwrite",
+          "url": "https://github.com/appwrite/appwrite"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "3",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "4",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "SkillEvaluator 是当前增长最明显的公开信号。",
+      "evidence": "+312 stars / today",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "paper-orchestra",
+          "url": "https://github.com/google-research/paper-orchestra"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 87,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：GPT-6.2 Astra and Sol · PH 发布 1 天。",
+      "sources": [
+        {
+          "label": "GPT-6.2 Astra and Sol",
+          "url": "https://www.producthunt.com/products/openai"
+        },
+        {
+          "label": "Incredible Agents",
+          "url": "https://www.producthunt.com/products/incredible"
+        },
+        {
+          "label": "AssemblyAI-STT-3.7",
+          "url": "https://www.producthunt.com/products/assemblyai"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 88,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 4 个实质更新；最高信号为 SkillEvaluator · 近 1 天有 Release。",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 83,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+312 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：GPT-6.2 Astra and Sol · PH 发布 1 天。",
+      "变化信号：确认 4 个实质更新；最高信号为 SkillEvaluator · 近 1 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "SkillEvaluator",
+        "url": "https://github.com/NVIDIA/SkillEvaluator"
+      },
+      {
+        "label": "last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "label": "appwrite",
+        "url": "https://github.com/appwrite/appwrite"
+      },
+      {
+        "label": "n8n",
+        "url": "https://github.com/n8n-io/n8n"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "SkillEvaluator",
+      "owner": "NVIDIA",
+      "category": "Agent 技能与工具",
+      "description": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, security scanning, harness compatibility checks, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior. Ships reusable CI templates that bring every check to any repository.",
+      "delta": "GitHub Daily Trending #5，近周期新增 312 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+312 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 148 天",
+          "score": 24,
+          "ageDays": 148,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+312 stars / today",
+          "score": 100,
+          "rankDaily": 5,
+          "rankWeekly": null,
+          "starsSince": 312,
+          "snapshotStarDelta": null,
+          "totalStars": 3896
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-19T07:03:07Z",
+          "latestRelease": {
+            "name": "SkillEvaluator v1.0.1",
+            "tag": "v1.0.1",
+            "publishedAt": "2026-11-18T00:10:18Z",
+            "url": "https://github.com/NVIDIA/SkillEvaluator/releases/tag/v1.0.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-24T02:32:26Z",
+        "pushedAt": "2026-11-19T07:03:07Z",
+        "totalStars": 3896,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "last30days-skill",
+      "owner": "mvanhorn",
+      "category": "Agent 技能与工具",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "delta": "GitHub Daily Trending #3，近周期新增 1,059 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,059 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 299 天",
+          "score": 24,
+          "ageDays": 299,
+          "firstSeenAt": "2026-11-17",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,059 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": 11,
+          "starsSince": 1059,
+          "snapshotStarDelta": 904,
+          "totalStars": 70296
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-11-17T22:37:11Z",
+          "latestRelease": {
+            "name": "v4.3.2",
+            "tag": "v4.3.2",
+            "publishedAt": "2026-11-17T15:56:44Z",
+            "url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-23T20:37:37Z",
+        "pushedAt": "2026-11-17T22:37:11Z",
+        "totalStars": 70296,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "appwrite",
+      "owner": "appwrite",
+      "category": "Agent 技能与工具",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "delta": "GitHub Daily Trending #12，近周期新增 232 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+232 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/appwrite/appwrite",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 2781,
+          "firstSeenAt": "2026-11-19",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+232 stars / today",
+          "score": 82,
+          "rankDaily": 12,
+          "rankWeekly": null,
+          "starsSince": 232,
+          "snapshotStarDelta": null,
+          "totalStars": 58314
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天有 Release",
+          "score": 84,
+          "material": true,
+          "pushedAt": "2026-11-19T07:17:32Z",
+          "latestRelease": {
+            "name": "2.7.3",
+            "tag": "2.7.3",
+            "publishedAt": "2026-11-17T12:55:27Z",
+            "url": "https://github.com/appwrite/appwrite/releases/tag/2.7.3"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2019-04-08T16:36:25Z",
+        "pushedAt": "2026-11-19T07:17:32Z",
+        "totalStars": 58314,
+        "language": "TypeScript",
+        "license": "BSD-3-Clause"
+      }
+    },
+    {
+      "name": "n8n",
+      "owner": "n8n-io",
+      "category": "Agent 技能与工具",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "delta": "GitHub Daily Trending #17，近周期新增 325 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+325 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/n8n-io/n8n",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 2707,
+          "firstSeenAt": "2026-11-19",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+325 stars / today",
+          "score": 81,
+          "rankDaily": 17,
+          "rankWeekly": null,
+          "starsSince": 325,
+          "snapshotStarDelta": null,
+          "totalStars": 211260
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天有 Release",
+          "score": 88,
+          "material": true,
+          "pushedAt": "2026-11-19T07:31:37Z",
+          "latestRelease": {
+            "name": "n8n@2.48.5",
+            "tag": "n8n@2.48.5",
+            "publishedAt": "2026-11-18T08:50:51Z",
+            "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.5"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2019-06-22T09:24:21Z",
+        "pushedAt": "2026-11-19T07:31:37Z",
+        "totalStars": 211260,
+        "language": "TypeScript",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "paper-orchestra",
+      "owner": "google-research",
+      "category": "Agent 技能与工具",
+      "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "delta": "GitHub Daily Trending #8，近周期新增 1,524 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,524 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 201 天",
+          "score": 24,
+          "ageDays": 201,
+          "firstSeenAt": "2026-11-17",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,524 stars / today",
+          "score": 100,
+          "rankDaily": 8,
+          "rankWeekly": null,
+          "starsSince": 1524,
+          "snapshotStarDelta": 1181,
+          "totalStars": 4594
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 3 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-11-15T18:08:08Z",
+          "latestRelease": null
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-01T18:07:52Z",
+        "pushedAt": "2026-11-15T18:08:08Z",
+        "totalStars": 4594,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "stitch-skills",
+      "owner": "google-labs-code",
+      "category": "Agent 技能与工具",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "delta": "GitHub Daily Trending #9，近周期新增 365 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+365 stars / today",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 306 天",
+          "score": 24,
+          "ageDays": 306,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+365 stars / today",
+          "score": 93,
+          "rankDaily": 9,
+          "rankWeekly": 6,
+          "starsSince": 365,
+          "snapshotStarDelta": 294,
+          "totalStars": 10510
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-11-18T05:00:25Z",
+          "latestRelease": {
+            "name": "Stitch Skills Plugins Release",
+            "tag": "v1.0",
+            "publishedAt": "2026-05-18T18:02:32Z",
+            "url": "https://github.com/google-labs-code/stitch-skills/releases/tag/v1.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-16T17:17:17Z",
+        "pushedAt": "2026-11-18T05:00:25Z",
+        "totalStars": 10510,
+        "language": "TypeScript",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "GPT-6.2 Astra and Sol",
+      "maker": "Rohan Chaubey",
+      "category": "模型与推理",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Two new OpenAI models: frontier Astra and efficient Sol",
+      "signal": "公开 Feed 于 2026-11-18 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 76,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://www.producthunt.com/products/openai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-28",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-17T10:06:04-08:00",
+          "updatedAt": "2026-11-18T23:23:10-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-17T10:06:04-08:00",
+        "updatedAt": "2026-11-18T23:23:10-08:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Incredible Agents",
+      "maker": "Yesith Thomas",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Fast Voice AI that sees your screen and runs your agents",
+      "signal": "公开 Feed 于 2026-11-18 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 75,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/incredible",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-11-19",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 2 位",
+          "score": 75,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-17T14:02:24-08:00",
+          "updatedAt": "2026-11-18T23:09:03-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-17T14:02:24-08:00",
+        "updatedAt": "2026-11-18T23:09:03-08:00",
+        "feedRank": 2
+      }
+    },
+    {
+      "name": "AssemblyAI-STT-3.7",
+      "maker": "Harnoor Singh",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Speech-to-Text for live calls, voice agents, and recordings",
+      "signal": "公开 Feed 于 2026-11-18 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 72,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/assemblyai",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 1 天",
+          "score": 87,
+          "ageDays": 1,
+          "firstSeenAt": "2026-10-30",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-17T22:50:37-08:00",
+          "updatedAt": "2026-11-18T23:15:03-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-17T22:50:37-08:00",
+        "updatedAt": "2026-11-18T23:15:03-08:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Pitch Avatar HR Suite",
+      "maker": "Anna Sannikova",
+      "category": "AI 应用",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Onboarding, training & comms with conversational AI avatars",
+      "signal": "公开 Feed 于 2026-11-18 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 56,
+      "opportunity": "聚焦一个频繁发生、结果可核验的任务，而不是扩张成通用聊天入口。",
+      "url": "https://www.producthunt.com/products/pitchavatar",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 28 天",
+          "score": 37,
+          "ageDays": 28,
+          "firstSeenAt": "2026-11-19",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-10-22T03:27:29-07:00",
+          "updatedAt": "2026-11-18T23:02:35-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-10-22T03:27:29-07:00",
+        "updatedAt": "2026-11-18T23:02:35-08:00",
+        "feedRank": 5
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "SkillEvaluator",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/NVIDIA/SkillEvaluator/releases/tag/v1.0.1"
+    },
+    {
+      "name": "last30days-skill",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2"
+    },
+    {
+      "name": "appwrite",
+      "change": "近 2 天有 Release",
+      "url": "https://github.com/appwrite/appwrite/releases/tag/2.7.3"
+    },
+    {
+      "name": "n8n",
+      "change": "近 1 天有 Release",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.48.5"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "appwrite",
+          "url": "https://github.com/appwrite/appwrite"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "GPT-6.2 Astra and Sol",
+          "url": "https://www.producthunt.com/products/openai"
+        },
+        {
+          "label": "Incredible Agents",
+          "url": "https://www.producthunt.com/products/incredible"
+        },
+        {
+          "label": "AssemblyAI-STT-3.7",
+          "url": "https://www.producthunt.com/products/assemblyai"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "SkillEvaluator",
+          "url": "https://github.com/NVIDIA/SkillEvaluator"
+        },
+        {
+          "label": "n8n",
+          "url": "https://github.com/n8n-io/n8n"
+        },
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "SkillEvaluator",
+      "source": "GitHub",
+      "why": "+312 stars / today；成熟项目 · 148 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/NVIDIA/SkillEvaluator"
+    },
+    {
+      "rank": 2,
+      "name": "last30days-skill",
+      "source": "GitHub",
+      "why": "+1,059 stars / today；成熟项目 · 299 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 SkillEvaluator 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "linkLabel": "打开 SkillEvaluator"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-19T15:31:42+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-19/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
