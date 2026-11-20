@@ -1,0 +1,835 @@
+{
+  "meta": {
+    "date": "2026-11-20",
+    "weekday": "星期五",
+    "edition": "LIVE · 20261120",
+    "title": "AI 产品机会日报",
+    "subtitle": "从新鲜度、动量与实质变化识别可验证机会",
+    "generatedAt": "2026-11-20 15:21 CST",
+    "capturedAt": "2026-11-20T15:20:54+08:00",
+    "isDemo": false,
+    "collectionMode": "live",
+    "collectionLabel": "实时采集"
+  },
+  "brief": [
+    {
+      "label": "技术供给",
+      "text": "当前公开信号主要集中在“Agent 技能与工具”，最高动量来自 last30days-skill。",
+      "emphasis": "Agent 技能与工具",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        }
+      ]
+    },
+    {
+      "label": "三轴判断",
+      "text": "4 个信号属于近 14 天新建或发布，2 个确认存在实质变化；其余按动量或持续热门处理。",
+      "emphasis": "实质变化",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        }
+      ]
+    },
+    {
+      "label": "今日判断",
+      "text": "优先验证围绕“Agent 技能与工具”的窄场景产品，不把总 Star 数直接当成今日机会。",
+      "emphasis": "窄场景产品",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        }
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "label": "今日信号",
+      "value": "10",
+      "note": "6 GitHub · 4 产品",
+      "href": "#discoveries"
+    },
+    {
+      "label": "近 14 天新建 / 发布",
+      "value": "4",
+      "note": "GitHub 创建 · PH 发布",
+      "href": "#discoveries"
+    },
+    {
+      "label": "实质更新",
+      "value": "2",
+      "note": "Release / 明确发布",
+      "href": "#updates"
+    },
+    {
+      "label": "历史基线",
+      "value": "30/30",
+      "note": "本地每日快照",
+      "href": "#coverage"
+    }
+  ],
+  "trendSignals": [
+    {
+      "rank": 1,
+      "name": "动量上升",
+      "score": 100,
+      "summary": "firecrawl 是当前增长最明显的公开信号。",
+      "evidence": "+825 stars / today",
+      "sources": [
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        },
+        {
+          "label": "CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything"
+        },
+        {
+          "label": "Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "新建、发布与首次捕获",
+      "score": 77,
+      "summary": "把仓库创建、Product Hunt 发布与首次进入本地监控分开。",
+      "evidence": "当前最高新鲜度信号：Tabstack by Mozilla · PH 发布 3 天。",
+      "sources": [
+        {
+          "label": "Tabstack by Mozilla",
+          "url": "https://www.producthunt.com/products/tabstack"
+        },
+        {
+          "label": "Source",
+          "url": "https://www.producthunt.com/products/source-public-beta"
+        },
+        {
+          "label": "Spellar for Chrome",
+          "url": "https://www.producthunt.com/products/spellar"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "实质变化",
+      "score": 92,
+      "summary": "Release 与明确产品更新优先于普通代码推送。",
+      "evidence": "确认 2 个实质更新；最高信号为 last30days-skill · 近 0 天有 Release。",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        }
+      ]
+    }
+  ],
+  "opportunity": {
+    "eyebrow": "今日优先机会",
+    "title": "围绕Agent 技能与工具的可审计垂直工作流",
+    "thesis": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+    "score": 83,
+    "confidence": "中高置信",
+    "whyNow": [
+      "最高动量信号：+825 stars / today",
+      "新鲜度信号：当前最高新鲜度信号：Tabstack by Mozilla · PH 发布 3 天。",
+      "变化信号：确认 2 个实质更新；最高信号为 last30days-skill · 近 0 天有 Release。"
+    ],
+    "nextMove": "先选择一个每天重复发生、结果可核验的任务，用 7 天记录节省时间、失败率与人工接管次数。",
+    "sources": [
+      {
+        "label": "last30days-skill",
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      {
+        "label": "firecrawl",
+        "url": "https://github.com/firecrawl/firecrawl"
+      },
+      {
+        "label": "app-store-compliance",
+        "url": "https://github.com/mjmirza/app-store-compliance"
+      },
+      {
+        "label": "CLI-Anything",
+        "url": "https://github.com/HKUDS/CLI-Anything"
+      }
+    ]
+  },
+  "github": [
+    {
+      "name": "last30days-skill",
+      "owner": "mvanhorn",
+      "category": "Agent 技能与工具",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "delta": "GitHub Daily Trending #10，近周期新增 954 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+954 stars / today",
+      "heat": 85,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 300 天",
+          "score": 24,
+          "ageDays": 300,
+          "firstSeenAt": "2026-11-17",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+954 stars / today",
+          "score": 99,
+          "rankDaily": 10,
+          "rankWeekly": 5,
+          "starsSince": 954,
+          "snapshotStarDelta": 713,
+          "totalStars": 71009
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 0 天有 Release",
+          "score": 92,
+          "material": true,
+          "pushedAt": "2026-11-20T05:45:47Z",
+          "latestRelease": {
+            "name": "v4.4.0",
+            "tag": "v4.4.0",
+            "publishedAt": "2026-11-20T05:46:34Z",
+            "url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-01-23T20:37:37Z",
+        "pushedAt": "2026-11-20T05:45:47Z",
+        "totalStars": 71009,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "firecrawl",
+      "owner": "firecrawl",
+      "category": "Agent 技能与工具",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "delta": "GitHub Daily Trending #6，近周期新增 825 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+825 stars / today",
+      "heat": 84,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "status": "今日首次捕获",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 948,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+825 stars / today",
+          "score": 100,
+          "rankDaily": 6,
+          "rankWeekly": null,
+          "starsSince": 825,
+          "snapshotStarDelta": null,
+          "totalStars": 204542
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-11-20T03:28:33Z",
+          "latestRelease": {
+            "name": "Firecrawl v2.11.0",
+            "tag": "v2.11.0",
+            "publishedAt": "2026-06-19T15:09:30Z",
+            "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-04-15T21:02:29Z",
+        "pushedAt": "2026-11-20T03:28:33Z",
+        "totalStars": 204542,
+        "language": "TypeScript",
+        "license": "AGPL-3.0"
+      }
+    },
+    {
+      "name": "app-store-compliance",
+      "owner": "mjmirza",
+      "category": "Agent 技能与工具",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "delta": "GitHub Daily Trending #12，近周期新增 377 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+377 stars / today",
+      "heat": 80,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/mjmirza/app-store-compliance",
+      "status": "重要更新",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "今日首次捕获",
+          "score": 58,
+          "ageDays": 167,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+377 stars / today",
+          "score": 87,
+          "rankDaily": 12,
+          "rankWeekly": null,
+          "starsSince": 377,
+          "snapshotStarDelta": null,
+          "totalStars": 2143
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 4 天有 Release",
+          "score": 76,
+          "material": true,
+          "pushedAt": "2026-11-19T19:49:49Z",
+          "latestRelease": {
+            "name": "2.4.0, upload paths, iOS 13 floor, IPv6, debuggable and 64-bit ABI checks",
+            "tag": "v2.4.0",
+            "publishedAt": "2026-11-15T20:08:42Z",
+            "url": "https://github.com/mjmirza/app-store-compliance/releases/tag/v2.4.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-06-06T11:29:45Z",
+        "pushedAt": "2026-11-19T19:49:49Z",
+        "totalStars": 2143,
+        "language": "Shell",
+        "license": "NOASSERTION"
+      }
+    },
+    {
+      "name": "CLI-Anything",
+      "owner": "HKUDS",
+      "category": "Agent 技能与工具",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "delta": "GitHub Daily Trending #3，近周期新增 898 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+898 stars / today",
+      "heat": 79,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 257 天",
+          "score": 24,
+          "ageDays": 257,
+          "firstSeenAt": "2026-10-22",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+898 stars / today",
+          "score": 100,
+          "rankDaily": 3,
+          "rankWeekly": null,
+          "starsSince": 898,
+          "snapshotStarDelta": 768,
+          "totalStars": 60795
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日有代码推送",
+          "score": 58,
+          "material": false,
+          "pushedAt": "2026-11-20T07:06:48Z",
+          "latestRelease": {
+            "name": "v0.4.0",
+            "tag": "v0.4.0",
+            "publishedAt": "2026-06-25T15:17:49Z",
+            "url": "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-03-08T13:52:57Z",
+        "pushedAt": "2026-11-20T07:06:48Z",
+        "totalStars": 60795,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    },
+    {
+      "name": "Claude-BugHunter",
+      "owner": "elementalsouls",
+      "category": "Agent 技能与工具",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "delta": "GitHub Daily Trending #1，近周期新增 1,349 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+1,349 stars / today",
+      "heat": 76,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 199 天",
+          "score": 24,
+          "ageDays": 199,
+          "firstSeenAt": "2026-11-16",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+1,349 stars / today",
+          "score": 100,
+          "rankDaily": 1,
+          "rankWeekly": null,
+          "starsSince": 1349,
+          "snapshotStarDelta": null,
+          "totalStars": 12985
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 1 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-11-19T13:21:35Z",
+          "latestRelease": {
+            "name": "v2.1 — community skills · CI gate · security fixes",
+            "tag": "v2.1",
+            "publishedAt": "2026-06-05T16:15:13Z",
+            "url": "https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2026-05-05T11:22:32Z",
+        "pushedAt": "2026-11-19T13:21:35Z",
+        "totalStars": 12985,
+        "language": "Python",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "minimind",
+      "owner": "jingyaogong",
+      "category": "模型与推理",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "delta": "GitHub Daily Trending #4，近周期新增 238 stars",
+      "metricLabel": "GitHub Trending · Daily",
+      "metricValue": "+238 stars / today",
+      "heat": 76,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://github.com/jingyaogong/minimind",
+      "status": "热度异动",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "成熟项目 · 846 天",
+          "score": 24,
+          "ageDays": 846,
+          "firstSeenAt": "2026-11-18",
+          "firstSeenToday": false
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "+238 stars / today",
+          "score": 100,
+          "rankDaily": 4,
+          "rankWeekly": null,
+          "starsSince": 238,
+          "snapshotStarDelta": null,
+          "totalStars": 67217
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "近 2 天活跃",
+          "score": 48,
+          "material": false,
+          "pushedAt": "2026-11-18T15:09:40Z",
+          "latestRelease": {
+            "name": "MiniMind Docs",
+            "tag": "v2",
+            "publishedAt": "2025-10-21T14:37:05Z",
+            "url": "https://github.com/jingyaogong/minimind/releases/tag/v2"
+          }
+        }
+      },
+      "sourceMeta": {
+        "createdAt": "2024-07-27T04:34:12Z",
+        "pushedAt": "2026-11-18T15:09:40Z",
+        "totalStars": 67217,
+        "language": "Python",
+        "license": "Apache-2.0"
+      }
+    }
+  ],
+  "productHunt": [
+    {
+      "name": "Spellar for Chrome",
+      "maker": "Zino",
+      "category": "浏览器 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Free, no-bot meeting notes with memory, now in your browser",
+      "signal": "公开 Feed 于 2026-11-19 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 72,
+      "opportunity": "围绕单一高频网页流程增加权限边界、失败恢复与人工接管。",
+      "url": "https://www.producthunt.com/products/spellar",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 4 天",
+          "score": 72,
+          "ageDays": 4,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 1 位",
+          "score": 78,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-16T04:57:22-08:00",
+          "updatedAt": "2026-11-19T23:20:05-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-16T04:57:22-08:00",
+        "updatedAt": "2026-11-19T23:20:05-08:00",
+        "feedRank": 1
+      }
+    },
+    {
+      "name": "Stripo Email Widgets",
+      "maker": "Dmitry Kudrenko",
+      "category": "编码 Agent",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Put a game, quiz or survey in your next email. No coding",
+      "signal": "公开 Feed 于 2026-11-19 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 63,
+      "opportunity": "从代码生成继续深入自动检查、评审、测试与交付物生成。",
+      "url": "https://www.producthunt.com/products/stripo-email",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 9 天",
+          "score": 56,
+          "ageDays": 9,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 4 位",
+          "score": 69,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-11T00:31:59-08:00",
+          "updatedAt": "2026-11-19T23:13:59-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-11T00:31:59-08:00",
+        "updatedAt": "2026-11-19T23:13:59-08:00",
+        "feedRank": 4
+      }
+    },
+    {
+      "name": "Tabstack by Mozilla",
+      "maker": "fmerian",
+      "category": "模型与推理",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "Give your model the web without giving up your privacy",
+      "signal": "公开 Feed 于 2026-11-19 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 68,
+      "opportunity": "围绕成本、延迟、隐私和部署约束形成面向场景的模型路由。",
+      "url": "https://www.producthunt.com/products/tabstack",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 5 位",
+          "score": 66,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-16T13:57:39-08:00",
+          "updatedAt": "2026-11-19T23:06:16-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-16T13:57:39-08:00",
+        "updatedAt": "2026-11-19T23:06:16-08:00",
+        "feedRank": 5
+      }
+    },
+    {
+      "name": "Source",
+      "maker": "Mitch Wainer",
+      "category": "Agent 技能与工具",
+      "target": "关注新产品与 AI 工作流的早期用户",
+      "description": "The attribution data layer for your agents to drive pipeline",
+      "signal": "公开 Feed 于 2026-11-19 更新；Feed 不提供票数与精确日榜排名",
+      "heat": 66,
+      "opportunity": "把通用技能包装成可审计、可配置、可复用的垂直工作流。",
+      "url": "https://www.producthunt.com/products/source-public-beta",
+      "status": "近期发布",
+      "axes": {
+        "novelty": {
+          "label": "新鲜度",
+          "value": "PH 发布 3 天",
+          "score": 77,
+          "ageDays": 3,
+          "firstSeenAt": "2026-11-20",
+          "firstSeenToday": true
+        },
+        "momentum": {
+          "label": "动量",
+          "value": "公开 Feed 第 6 位",
+          "score": 63,
+          "metric": "feed_position",
+          "dataGap": "公开 Feed 不提供票数和精确日榜排名"
+        },
+        "change": {
+          "label": "实质变化",
+          "value": "今日 Feed 更新",
+          "score": 58,
+          "material": false,
+          "publishedAt": "2026-11-16T09:34:12-08:00",
+          "updatedAt": "2026-11-19T22:00:46-08:00"
+        }
+      },
+      "sourceMeta": {
+        "publishedAt": "2026-11-16T09:34:12-08:00",
+        "updatedAt": "2026-11-19T22:00:46-08:00",
+        "feedRank": 6
+      }
+    }
+  ],
+  "updates": [
+    {
+      "name": "last30days-skill",
+      "change": "近 0 天有 Release",
+      "url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0"
+    },
+    {
+      "name": "app-store-compliance",
+      "change": "近 4 天有 Release",
+      "url": "https://github.com/mjmirza/app-store-compliance/releases/tag/v2.4.0"
+    }
+  ],
+  "crossOpportunities": [
+    {
+      "ability": "高动量公开项目",
+      "demand": "用户希望快速采用，但需要明确失败边界",
+      "concept": "面向单一流程的Agent 技能与工具产品包",
+      "confidence": "中高置信",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        }
+      ]
+    },
+    {
+      "ability": "近期新建 / 发布与首次捕获信号",
+      "demand": "产品经理需要区分新项目与旧项目重新升温",
+      "concept": "带项目年龄、首次捕获和榜单变化的机会监控器",
+      "confidence": "中高",
+      "sources": [
+        {
+          "label": "Tabstack by Mozilla",
+          "url": "https://www.producthunt.com/products/tabstack"
+        },
+        {
+          "label": "Source",
+          "url": "https://www.producthunt.com/products/source-public-beta"
+        },
+        {
+          "label": "Spellar for Chrome",
+          "url": "https://www.producthunt.com/products/spellar"
+        }
+      ]
+    },
+    {
+      "ability": "Release 与产品 Feed 更新",
+      "demand": "团队只希望被真正重要的变化打扰",
+      "concept": "把普通 push 与实质产品更新分级的变更雷达",
+      "confidence": "中",
+      "sources": [
+        {
+          "label": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill"
+        },
+        {
+          "label": "app-store-compliance",
+          "url": "https://github.com/mjmirza/app-store-compliance"
+        },
+        {
+          "label": "firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "name": "last30days-skill",
+      "source": "GitHub",
+      "why": "+954 stars / today；成熟项目 · 300 天。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "rank": 2,
+      "name": "firecrawl",
+      "source": "GitHub",
+      "why": "+825 stars / today；今日首次捕获。",
+      "cost": "先阅读原始页面与快速开始说明，预计 20–60 分钟完成最小验证。",
+      "risk": "公开热度不等于稳定性；注意权限、依赖、数据与运行成本。",
+      "assumption": "目标项目能够暴露一个明确、可重复且可人工核验的工作流。",
+      "url": "https://github.com/firecrawl/firecrawl"
+    }
+  ],
+  "actions": [
+    {
+      "minutes": 5,
+      "task": "先看三轴而不是总热度",
+      "outcome": "记录项目年龄、动量和实质变化证据"
+    },
+    {
+      "minutes": 10,
+      "task": "打开 last30days-skill 的原始页面",
+      "outcome": "确认 README、Release 与实际能力边界",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "linkLabel": "打开 last30days-skill"
+    },
+    {
+      "minutes": 10,
+      "task": "选择一个可人工复核的窄流程",
+      "outcome": "写清成功条件、权限边界和失败处理"
+    },
+    {
+      "minutes": 5,
+      "task": "定义 7 天验证指标",
+      "outcome": "记录节省时间、成功率和人工接管次数"
+    }
+  ],
+  "coverage": {
+    "historyDays": 30,
+    "historySnapshots": 30,
+    "duplicatesExcluded": 0,
+    "status": "完整",
+    "note": "实时采集于 2026-11-20T15:20:54+08:00。GitHub Trending 为采集时点快照；Product Hunt 使用公开 Feed，不猜测缺失的票数和精确排名。当前已有 30 个此前日期快照。",
+    "snapshotPath": "snapshots/2026-11-20/snapshot.json",
+    "sources": [
+      {
+        "name": "GitHub Trending · Daily",
+        "status": "实时",
+        "url": "https://github.com/trending?since=daily"
+      },
+      {
+        "name": "GitHub Trending · Weekly",
+        "status": "实时",
+        "url": "https://github.com/trending?since=weekly"
+      },
+      {
+        "name": "Product Hunt · Public Feed",
+        "status": "实时 · 无票数排名",
+        "url": "https://www.producthunt.com/feed"
+      },
+      {
+        "name": "GitHub Repository / Release API",
+        "status": "实时",
+        "url": "https://api.github.com/"
+      }
+    ]
+  }
+}
